@@ -1,0 +1,218 @@
+/* Estilos h2*/
+.text-subtitle {
+  font-size: 5.36rem;
+  letter-spacing: -0.25rem;
+  margin-bottom: 3.73rem;
+  margin-left: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #8c8c8c;
+}
+
+/* Estilo nome span*/
+.nameSpan {
+  border-bottom: 0.25rem solid #4de29f;
+  color: #3b3;
+  font-weight: bold;
+}
+
+/* Estilo paragrafo*/
+.text_developer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  padding-right: 40rem;
+  letter-spacing: 0.4rem;
+  line-height: 1.5;
+  color: #3b3;
+}
+
+
+.spiral {
+  float: right;
+  margin-right: 50rem;
+  margin-top: -34rem;
+}
+
+.circle {
+  float: right;
+  margin-right: -4rem;
+  margin-top: -3rem;
+}
+
+.photo {
+  float: right;
+  margin-top: -39rem;
+  bottom: 7rem
+}
+
+.my-section .text-box a {  
+  border-bottom: 2px solid hsl(153, 71%, 59%);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.0rem;
+  font-weight: 600;
+  letter-spacing: 0.229rem;
+  line-height: 2.6rem;
+  padding-bottom: 0.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: #F7F7F7;
+}
+
+.my-section .text-box a:hover{
+  color: #8c8c8c;
+}
+
+/* Skills Section Styles */
+.section-skills {
+  padding: 20px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 180px;
+  margin-right: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribui os elementos igualmente ao longo do eixo principal */
+}
+
+.section-skills > div {
+  width: calc(
+    25% - 20px
+  ); /* Define a largura de cada elemento filho, menos a margem */
+  margin-bottom: 20px; /* Adiciona margem inferior entre as linhas */
+}
+
+.section-skills h3 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.section-skills p {
+  margin-bottom: 10px;
+  color: #3b3;
+}
+
+.section-skills i {
+  color: #b3b3b3;
+  font-size: 30px;
+}
+
+.projects{
+  margin-top: 180px;
+  margin-left: 200px;
+  display: flex;  
+  justify-content: space-between;
+ 
+}
+
+.projects h2 {  
+  font-size: 50px;
+  color: #3b3;
+  font-size: 4rem;  
+}
+
+.projects span {  
+    border-bottom: 0.25rem solid #4de29f;
+    color: #F7F7F7;  
+    font-weight: bold;
+  }
+
+.projects a {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0.229rem;
+  line-height: 2.6rem;
+  padding-bottom: 0.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-right: 280px;
+  color: #fff; 
+  border-bottom: 2px solid hsl(186, 71%, 59%);  
+  font-size: 20px;  
+}
+
+.projects a:hover{
+  color: #3b3;
+  border-bottom: 2px solid hsl(180, 20%, 99%);  
+}
+
+.card-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-right:180px;
+}
+.card {
+  background: url("../../assets/images/fundo-redes-sociais.jpg") no-repeat;
+  width: 25rem; /* Defina a largura do card */
+  margin-bottom: 20px; /* Espaçamento entre os cards */
+  border: 1px solid #ccc; /* Adicione uma borda para separar os cards */
+  border-radius: 5px; /* Adicione cantos arredondados */
+}
+
+.card img {
+  width: 25rem; /* Assegura que a imagem preencha completamente o espaço do card */
+  height: 18rem;
+  border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
+  border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+}
+
+.card h3 {
+  margin: 10px; /* Espaçamento interno entre o texto e a borda do card */
+  color: #101010;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.card h5 {
+  margin: 10px; /* Espaçamento interno entre o texto e a borda do card */
+  color: rgb(243, 10, 10);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.click-projects {
+  position: relative;
+  display: inline-block;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;  
+  padding-bottom: 1rem;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+}
+
+.project-text {
+  color: #4de29f;
+  border-bottom: 2px solid hsl(153,71%,59%);
+  font-size: 1.6rem;
+}
+
+
+.click-projects .project-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.click-projects:hover .project-text {
+  opacity: 1;
+}
+

@@ -1,0 +1,237 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  background-color: #0f1232;
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
+}
+
+/* Main Styles */
+main {
+  max-width: 58.5%;
+  margin: 1.8rem auto;
+  margin-bottom: 0;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.profiles a {
+  margin: 0.5rem;
+  width: 100%;
+  z-index: 1;
+  color: #3b3;
+}
+
+.profiles a:hover {
+  color: #8c8c8c;
+}
+
+/* Estilo para titulo nome no navegador*/
+.nameNav {
+  font-size: 2rem;
+  letter-spacing: -0.044rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__social-box {
+  display: flex;
+  align-items: center;
+  gap: 2.467rem;
+}
+
+/* hr */
+.div_one {
+  margin-top: 13rem;
+}
+
+/* Footer Styles */
+.company-footer h2 {
+  width: 80%;
+  margin-top: 5rem;
+  margin-left: 18rem;
+  color: #095f04;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.salut-footer {
+  width: 18%;
+  margin-left: 16rem;
+}
+.footer-contact {
+  background: url("../images/fundo-redes-sociais.jpg") no-repeat;
+  padding: 5em 0;
+  padding-bottom: 40px;
+  border-top: 5px solid #3381f3;
+  border-bottom: 5px solid #3381f3;
+}
+
+.form-footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15rem;
+  margin-right: 0;
+}
+
+.footer-text {
+  margin-top: 4.55rem;
+}
+
+.my-contact {
+  margin-left: 180px;
+  font-size: 5rem;
+}
+
+.my-contact span {
+  border-bottom: 0.25rem solid #ffff;
+  color: rgb(26, 68, 26);
+  font-weight: bold;
+}
+
+.description-project {
+  margin-top: 3rem;
+  margin-left: 180px;
+  margin-bottom: 3rem;
+  padding-right: 4rem;
+  letter-spacing: 0.25rem;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.form-contact {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 8%);
+  padding: 0.7rem 1.6rem 1.4rem 2.4rem;
+  border-radius: 2px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid hsl(0, 0%, 13%);
+  width: 80%;
+  display: block;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  margin-top: 5rem;
+  outline: none;
+  /*Remove a borda do input*/
+}
+
+.button-submit {
+  width: 80%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 13%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  float: inline-end;
+  text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  letter-spacing: 0.229rem;
+  line-height: 2.6rem;
+  padding-bottom: 0.01rem;
+}
+
+.social-network-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Distribui os elementos igualmente ao longo do eixo principal (horizontalmente) */
+  flex-wrap: wrap; /* Permite que os elementos sejam envolvidos em várias linhas */
+  margin-bottom: -1rem;
+}
+
+.social-network-profile nav {
+  display: flex;
+  list-style-type: none;
+  margin-top: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.social-network-profile nav a {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.name-profile h2 {
+  color: #202020;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.name-profile span {
+  border-bottom: 0.25rem solid #ffff;
+  color: rgb(26, 68, 26);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+a.name-profile {
+  margin-left: -20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+a.whatssap-profile,
+a.git-profile,
+a.mail-profile,
+a.linkedln-profile {
+  padding: 1rem;
+}
+
+.git-profile i,
+.whatssap-profile i,
+.mail-profile i,
+.linkedln-profile i,
+.git-start i,
+.linkedln-start i,
+.email-start i,
+.whatssap-start i {
+  font-size: 1.5rem;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: rgb(26, 68, 26);
+}
+
+.icons a:hover {
+  color: #8c8c8c;
+}
+
+/* Estilo hr */
+.div_two {
+  width: 60%; /* Defina a largura da linha */
+  margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
+  border-bottom: 1px solid hsl(0, 0%, 13%);
+}

@@ -1,0 +1,707 @@
+@media screen {
+}
+
+::-webkit-scrollbar {
+  background-color: #ffffffe3;
+  width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nameNav {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  main {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Estilos h2*/
+  .text-subtitle {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10rem;
+    line-height: 4rem;
+  }
+
+  h2.text-subtitle {
+    font-size: 3rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    margin-bottom: 21rem;
+  }
+
+  .text_developer {
+    padding-right: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: -15rem;
+    padding-right: 1rem;
+    color: #3b3;
+    line-height: 0.7rem;
+    margin-top: 2rem;
+  }
+
+  .spiral {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .photo {
+    margin-top: -6rem;
+    margin-right: 50px;
+    margin-bottom: 2rem;
+    bottom: 2rem;
+    width: 70%;
+    height: 100%;
+  }
+
+  .my-section .text-box a {
+    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
+    margin-top: 16rem;
+    width: 80%; /* Define a largura do elemento */
+    font-size: 0.8rem; /* Reduza o tamanho do título */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+  }
+
+  .my-section .text-box a:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+  }
+
+  .section-skills {
+    margin-top: 2rem;
+    margin-left: 10px; /* Ajustar a margem lateral para telas muito pequenas */
+    margin-right: 10px; /* Ajustar a margem lateral para telas muito pequenas */
+    justify-content: center; /* Centralizar os elementos */
+  }
+
+  .section-skills > div {
+    width: calc(
+      100% - 20px
+    ); /* Definir a largura de cada elemento filho para 100% para ocupar toda a largura */
+  }
+
+  .projects {
+    margin-top: 8rem;
+    margin-left: 10px; /* Ajuste a margem lateral para telas muito pequenas */
+    margin-right: 10px; /* Ajuste a margem lateral para telas muito pequenas */
+    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centralize os elementos horizontalmente */
+  }
+
+  .projects h2 {
+    font-size: 2.7rem; /* Reduza o tamanho do título */
+  }
+
+  .projects a {
+    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
+    width: 80%; /* Define a largura do elemento */
+    font-size: 0.8rem; /* Reduza o tamanho do título */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    border-bottom: none;
+  }
+
+  .projects a:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+  }
+
+  .card-gallery {
+    margin-left: 5px; /* Ajuste a margem lateral para telas muito pequenas */
+    margin-right: 5px; /* Ajuste a margem lateral para telas muito pequenas */
+  }
+
+  .card {
+    width: calc(
+      100% - 20px
+    ); /* Faça os cards ocuparem toda a largura disponível com margem */
+    margin-top: 10px;
+    margin-left: 10px; /* Ajuste a margem lateral */
+    margin-right: 10px; /* Ajuste a margem lateral */
+  }
+
+  .card img {
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
+    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+  }
+
+  .form-footer {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .social-network-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+    font-weight: bold;
+  }
+
+  .social-network-profile nav {
+    margin-top: 0.3rem;
+  }
+
+  .social-network-profile div {
+    margin-top: 2rem;
+  }
+
+  .name-profile span {
+    border-bottom: none;
+  }
+
+  .my-contact {
+    margin-top: -2rem;
+    margin-left: 45px; /* Ajuste a margem lateral para telas muito pequenas */
+    font-size: 2.7rem;
+    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centralize os elementos horizontalmente */
+  }
+
+  .description-project {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2.5rem;
+    letter-spacing: 0rem;
+    font-size: 1rem;
+    margin-left: 45px; /* Ajuste a margem lateral para telas muito pequenas */
+  }
+
+  .company-footer h2 {
+    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
+    margin-left: 0; /* Remova a margem esquerda */
+    text-align: center; /* Centralize o texto */
+    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+
+  .salut-footer {
+    width: 30%; /* Defina a largura como 80% para ajustar ao contêiner pai */
+    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
+    margin-left: 5rem; /* Remova a margem esquerda */
+    display: block; /* Transforme em bloco para centralizar horizontalmente */
+  }
+
+  .footer-text {
+    margin-top: 1.55rem;
+  }
+
+  .form-contact {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .button-submit button {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .div_two {
+    width: 90%; /* Defina a largura da linha */
+    margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
+    border-bottom: 1px solid hsl(0, 0%, 13%);
+  }
+
+  .icons a {
+    color: rgb(26, 68, 26);
+  }
+
+  .icons a:hover {
+    color: #8c8c8c;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 768px) {
+  main {
+    max-width: 95%;
+  }
+
+  .text-subtitle {
+    font-size: 5rem;
+    padding-right: 20rem;
+    letter-spacing: -0.2rem;
+    margin-left: 1rem;
+  }
+
+  .text_developer {
+    padding-right: 15rem;
+    font-size: 1.2rem;
+    color: #3b3;
+    margin-left: 1rem;
+  }
+
+  .photo {
+    margin-top: -45rem;
+    margin-right: -2rem;
+    bottom: 3rem;
+  }
+
+  .circle {
+    display: none;
+  }
+  /* hr */
+  .div_one {
+    margin-top: 5rem;
+  }
+
+  .section-skills > div {
+    width: calc(
+      50% - 50px
+    ); /* Define a largura de cada elemento filho, menos a margem */
+    margin-left: 0; /* Remove a margem esquerda */
+    margin-right: 0; /* Remove a margem direita */
+  }
+
+  .section-skills > div > div {
+    text-align: left; /* Alinha o texto para a esquerda */
+  }
+
+  .card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards */
+    margin-left: 10px; /* Reduzir a margem esquerda */
+    margin-right: 10px; /* Reduzir a margem direita */
+  }
+
+  .card {
+    width: calc(
+      90% - 20px
+    ); /* Define a largura do card para ocupar toda a largura da tela com margem */
+    margin-bottom: 20px; /* Espaçamento entre os cards */
+  }
+
+  .card img {
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
+    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+  }
+
+  .projects {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+  }
+
+  .projects h2 {
+    font-size: 3.7rem; /* Reduza o tamanho do título */
+    margin-left: -130px; /* Adicione margem entre os elementos */
+  }
+
+  .projects a {
+    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
+    width: 80%; /* Define a largura do elemento */
+    font-size: 0.8rem; /* Reduza o tamanho do título */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    border-bottom: none;
+    flex: 1;
+  }
+
+  .projects a:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+    border-bottom: none;
+  }
+
+  .form-footer {
+    grid-template-columns: 1fr;
+    gap: 7rem;
+  }
+  .social-network-profile {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: bold;
+  }
+
+  .social-network-profile div {
+    margin-top: 2rem;
+  }
+
+  .name-profile {
+    margin-top: -1.5rem;
+    margin-left: 3rem;
+  }
+
+  .name-profile span {
+    border-bottom: 0.25rem solid #ffff;
+  }
+
+  .my-contact {
+    margin-top: -2rem;
+    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+    text-align: center; /* Centraliza o texto */
+    font-size: 3.7rem;
+    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centralize os elementos horizontalmente */
+  }
+
+  .description-project {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold;
+  }
+
+  .company-footer h2 {
+    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
+    margin-top: 80px;
+    margin-left: 0; /* Remova a margem esquerda */
+    text-align: center; /* Centralize o texto */
+    font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+
+  .salut-footer {
+    width: 20%; /* Defina a largura como 80% para ajustar ao contêiner pai */
+    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
+    margin-left: 15rem; /* Remova a margem esquerda */
+    display: block; /* Transforme em bloco para centralizar horizontalmente */
+  }
+
+  .contact-form {
+    margin-top: -8rem;
+  }
+}
+
+.footer-text {
+  margin-top: 1.55rem;
+}
+
+.form-contact {
+  width: 80%;
+  margin-left: 5rem; /* Remova a margem esquerda */
+  font-weight: bold;
+  border-bottom: 0.2rem solid hsl(0, 0%, 13%);
+}
+
+.button-submit {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+}
+
+.div_two {
+  width: 90%; /* Defina a largura da linha */
+  margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
+  border-bottom: 1px solid hsl(0, 0%, 13%);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  main {
+    max-width: 95%;
+  }
+
+  .text-subtitle {
+    font-size: 5rem;
+    padding-right: 20rem;
+    letter-spacing: -0.2rem;
+    margin-left: 1rem;
+  }
+
+  .text_developer {
+    padding-right: 15rem;
+    font-size: 1.2rem;
+    color: #3b3;
+    margin-left: 1rem;
+  }
+
+  .photo {
+    margin-top: -45rem;
+    margin-right: -2rem;
+    bottom: 3rem;
+  }
+
+  .circle {
+    display: none;
+  }
+  /* hr */
+  .div_one {
+    margin-top: 5rem;
+  }
+
+  .section-skills > div {
+    width: calc(
+      50% - 50px
+    ); /* Define a largura de cada elemento filho, menos a margem */
+    margin-left: 0; /* Remove a margem esquerda */
+    margin-right: 0; /* Remove a margem direita */
+  }
+
+  .section-skills > div > div {
+    text-align: left; /* Alinha o texto para a esquerda */
+  }
+
+  .card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os cards */
+    margin-left: 10px; /* Reduzir a margem esquerda */
+    margin-right: 10px; /* Reduzir a margem direita */
+  }
+
+  .card {
+    width: calc(
+      90% - 20px
+    ); /* Define a largura do card para ocupar toda a largura da tela com margem */
+    margin-bottom: 20px; /* Espaçamento entre os cards */
+  }
+
+  .card img {
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
+    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+  }
+
+  .projects {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+  }
+
+  .projects h2 {
+    font-size: 3.7rem; /* Reduza o tamanho do título */
+    margin-left: -130px; /* Adicione margem entre os elementos */
+  }
+
+  .projects a {
+    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
+    width: 80%; /* Define a largura do elemento */
+    font-size: 0.8rem; /* Reduza o tamanho do título */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    border-bottom: none;
+    flex: 1;
+  }
+
+  .projects a:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+    border-bottom: none;
+  }
+
+  .form-footer {
+    grid-template-columns: 1fr;
+    gap: 7rem;
+  }
+  .social-network-profile {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: bold;
+  }
+
+  .social-network-profile div {
+    margin-top: 2rem;
+  }
+
+  .name-profile {
+    margin-top: -1.5rem;
+    margin-left: 3rem;
+  }
+
+  .name-profile span {
+    border-bottom: 0.25rem solid #ffff;
+  }
+
+  .my-contact {
+    margin-top: -2rem;
+    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+    text-align: center; /* Centraliza o texto */
+    font-size: 3.7rem;
+    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centralize os elementos horizontalmente */
+  }
+
+  .description-project {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold;
+  }
+
+  .company-footer h2 {
+    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
+    margin-top: 80px;
+    margin-left: 0; /* Remova a margem esquerda */
+    text-align: center; /* Centralize o texto */
+    font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+
+  .salut-footer {
+    width: 20%; /* Defina a largura como 80% para ajustar ao contêiner pai */
+    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
+    margin-left: 15rem; /* Remova a margem esquerda */
+    display: block; /* Transforme em bloco para centralizar horizontalmente */
+  }
+
+  .contact-form {
+    margin-top: -8rem;
+  }
+}
+
+.footer-text {
+  margin-top: 1.55rem;
+}
+
+.form-contact {
+  width: 70%;
+  margin-left: 5rem; /* Remova a margem esquerda */
+  font-weight: bold;
+  border-bottom: 0.2rem solid hsl(0, 0%, 13%);
+}
+
+.button-submit {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+}
+
+.div_two {
+  width: 90%; /* Defina a largura da linha */
+  margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
+  border-bottom: 1px solid hsl(0, 0%, 13%);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .photo {
+    margin-top: -650px;
+  }
+
+  .card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px; /* Ajuste a margem esquerda conforme necessário */
+    margin-right: 50px; /* Ajuste a margem direita conforme necessário */
+  }
+
+  .card {
+    width: calc(
+      50% - 20px
+    ); /* Ajuste a largura dos cards conforme necessário */
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    width: 100%; /* Garante que a imagem preencha completamente o espaço do card */
+    height: auto; /* Altura automática para manter a proporção */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .card h3 {
+    font-size: 18px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .card h5 {
+    font-size: 12px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px; /* Ajuste a margem esquerda conforme necessário */
+    margin-right: 50px; /* Ajuste a margem direita conforme necessário */
+  }
+
+  .card {
+    width: calc(
+      100% - 20px
+    ); /* Ajuste a largura dos cards conforme necessário */
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    width: 100%; /* Garante que a imagem preencha completamente o espaço do card */
+    height: auto; /* Altura automática para manter a proporção */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .card h3 {
+    font-size: 18px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .card h5 {
+    font-size: 12px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .projects {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+  }
+
+  .projects h2 {
+    font-size: 4.7rem; /* Reduza o tamanho do título */
+  }
+
+  .projects a {
+    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
+    width: 80%; /* Define a largura do elemento */
+    font-size: 1.8rem; /* Reduza o tamanho do título */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    border-bottom: none;
+    flex: 1;
+  }
+
+  .projects a:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+    border-bottom: none;
+  }
+}
