@@ -3,7 +3,7 @@
  <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45"> 
 
-[ ( Clique aqui e venha explorar => ```Looking at my portfolio!!!```) ](https://portfoliotech-rafarz76dev.vercel.app/)
+[ ( Clique aqui e venha explorar => ```A look at my portfolio!!!```) ](https://portfoliotech-rafarz76dev.vercel.app/)
 
 <br>
 
