@@ -27,7 +27,7 @@ Instruções do Desafio:
 - Bônus: conecte o formulário para enviar e armazenar a consulta do usuário (você pode usar uma planilha ou Airtable para salvar as consultas).
 - Bônus: adicione seus próprios detalhes (imagem, habilidades, projetos) para substituir os do design.
 
-- LinkPortfolio-FronEndMentor](https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x)
+- [LinkPortfolio-FronEndMentor](https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x)
 
 <div align="left">
 
