@@ -404,7 +404,7 @@
 
 .form-contact {
   width: 80%;
-
+ margin-left: 5rem; /* Remova a margem esquerda */
   font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
