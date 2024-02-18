@@ -210,7 +210,7 @@
   }
 
   contact-form {
-       margin-right: 5rem; /* Remova a margem esquerda */
+       font-size: 2rem; /* Remova a margem esquerda */
   }
 
   .button-submit button {
