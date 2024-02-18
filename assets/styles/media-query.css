@@ -519,6 +519,8 @@
   .form-footer {
     grid-template-columns: 1fr;
     gap: 7rem; 
+     justify-content: center; /* Centralize o conteúdo */
+    text-align: center; /* Centralize o texto dentro do formulário */
   }
   
   .social-network-profile {
@@ -543,81 +545,60 @@
     border-bottom: 0.25rem solid #ffff;
   }
 
-    .my-contact {
-    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
-    font-size: 3.5rem; /* Ajuste o tamanho do texto conforme necessário */
+   .my-contact {
+    margin-top: -2rem;
+    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+    text-align: center; /* Centraliza o texto */
+    font-size: 3.7rem;
+    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centralize os elementos horizontalmente */
   }
 
   .description-project {
-    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
-    padding-right: 2rem; /* Ajuste o preenchimento direito conforme necessário */
-    letter-spacing: 0.2rem; /* Ajuste o espaçamento entre letras conforme necessário */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold;
   }
 
-  .form-contact {
-    width: 70%; /* Ajuste a largura do formulário conforme necessário */
-    margin-top: 3rem; /* Ajuste a margem superior conforme necessário */
-  }
-
-  .button-submit {
-    width: 70%; /* Ajuste a largura do botão conforme necessário */
-    margin-top: 1.5rem; /* Ajuste a margem superior conforme necessário */
-    margin-bottom: 3rem; /* Ajuste a margem inferior conforme necessário */
-  }
-
-  .social-network-profile {
-    justify-content: center; /* Centralize os elementos das redes sociais */
-  }
-
-  .name-profile {
+  .company-footer h2 {
+    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
+    margin-top: 80px;
     margin-left: 0; /* Remova a margem esquerda */
+    text-align: center; /* Centralize o texto */
+    font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
   }
 
-  .icons a {
-    padding: 0.5rem; /* Reduza o preenchimento dos ícones */
-  }
-}  
-
-/* Estilos para iPad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
-  /* Ajuste do tamanho do texto e margens para telas maiores como o iPad Pro */
-  .my-contact {
-    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
-    font-size: 3.5rem; /* Ajuste o tamanho do texto conforme necessário */
-  }
-
-  .description-project {
-    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
-    padding-right: 2rem; /* Ajuste o preenchimento direito conforme necessário */
-    letter-spacing: 0.2rem; /* Ajuste o espaçamento entre letras conforme necessário */
-  }
-
-  .form-contact {
-    width: 70%; /* Ajuste a largura do formulário conforme necessário */
-    margin-top: 3rem; /* Ajuste a margem superior conforme necessário */
-  }
-
-  .button-submit {
-    width: 70%; /* Ajuste a largura do botão conforme necessário */
-    margin-top: 1.5rem; /* Ajuste a margem superior conforme necessário */
-    margin-bottom: 3rem; /* Ajuste a margem inferior conforme necessário */
-  }
-
-  .social-network-profile {
-    justify-content: center; /* Centralize os elementos das redes sociais */
-  }
-
-  .name-profile {
-    margin-left: 0; /* Remova a margem esquerda */
-  }
-
-  .icons a {
-    padding: 0.5rem; /* Reduza o preenchimento dos ícones */
+   .contact-form {
+    margin-top: -25rem;
+    font-weight: bold;
   }
 }
 
+.footer-text {
+  margin-top: 1.55rem;
+}
 
+.form-contact {
+  width: 70%;
+  margin-left: 5rem; /* Remova a margem esquerda */
+  font-weight: bold;
+  border-bottom: 0.2rem solid hsl(0, 0%, 13%);
+}
 
-  
+.button-submit {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+}
 
-
+.div_two {
+  width: 90%; /* Defina a largura da linha */
+  margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
+  border-bottom: 1px solid hsl(0, 0%, 13%);
+ }
+}  
