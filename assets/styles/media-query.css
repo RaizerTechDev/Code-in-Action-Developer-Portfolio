@@ -386,6 +386,8 @@
     font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
   } 
 
+  
+
   .contact-form {
     margin-top: -8rem;
   }
@@ -394,6 +396,14 @@
 .footer-text {
   margin-top: 1.55rem;
 }
+
+.salut-footer {
+    width: 15%; /* Defina a largura como 80% para ajustar ao contêiner pai */
+    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
+    margin-top: 20px; 
+    margin-left: 15rem; /* Remova a margem esquerda */
+    display: block; /* Transforme em bloco para centralizar horizontalmente */
+  }
 
 .form-contact {
   width: 80%;
