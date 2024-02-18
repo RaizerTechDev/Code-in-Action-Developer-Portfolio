@@ -671,12 +671,12 @@
   } 
   
   .my-contact {
-    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
+    margin-right: 10%; /* Ajuste a margem esquerda conforme necessário */
     font-size: 3.5rem; /* Ajuste o tamanho do texto conforme necessário */
   }
 
   .description-project {
-    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
+    margin-right: 10%; /* Ajuste a margem esquerda conforme necessário */
     padding-right: 2rem; /* Ajuste o preenchimento direito conforme necessário */
     letter-spacing: 0.2rem; /* Ajuste o espaçamento entre letras conforme necessário */
   }
