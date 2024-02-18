@@ -419,34 +419,29 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {
-  main {
-    max-width: 95%;
-  }
+    main {
+        max-width: 90%;
+    }
 
-  .text-subtitle {
-    font-size: 5rem;
-    padding-right: 20rem;
-    letter-spacing: -0.2rem;
-    margin-left: 1rem;
-  }
+    .text_developer {
+        padding-right: 27rem;
+    }
 
-  .text_developer {
-    padding-right: 15rem;
-    font-size: 1.2rem;
-    color: #3b3;
-    margin-left: 1rem;
-  }
+    .photo {
+        margin-top: -29rem;
+        bottom: 4rem;
+    }
 
-  .photo {
-    margin-top: -45rem;
-    margin-right: -2rem;
-    bottom: 3rem;
-  }
+    .spiral {
+        margin-right: 25rem;
+        margin-top: -20rem;
+    }
 
-  .circle {
-    display: none;
-  }
-  /* hr */
+    .circle {
+        display: none;
+    }
+
+    .  /* hr */
   .div_one {
     margin-top: 5rem;
   }
@@ -516,13 +511,50 @@
     border-bottom: none;
   }
 
-  .form-footer {
-    grid-template-columns: 1fr;
-    gap: 7rem;
-  }
+    .form-footer {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .text-subtitle {
+        font-size: 3rem;
+    }
+
+    .footer-text{
+        margin-top: 3.55rem;
+    }
+
+    .social-network-profile nav {
+        display: flex;
+        list-style-type: none;
+        margin-top: 2.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .social-network-profile nav a {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .text-box a {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
   
-  
-}
+    .projects a {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    
+    .clickProjects img {
+        transition: transform 0.3s ease-in-out;
+        border-top-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        overflow: hidden;
+        width: 95%;
+        height: 95%;
+    }
 
 
 @media screen and (max-width: 1440px) {  
