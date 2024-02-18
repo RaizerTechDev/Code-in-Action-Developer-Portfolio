@@ -516,6 +516,10 @@
     border-bottom: none;
   }
 
+  .footer-form{
+    margin-right: 2rem;
+  }
+
   .form-footer {
     grid-template-columns: 1fr;
     gap: 7rem;
@@ -684,10 +688,6 @@
   .form-contact {
     width: 80%;
     font-weight: bold;
-  }
-
-  .salut-footer{
-    display: none;
   }
 }
 
