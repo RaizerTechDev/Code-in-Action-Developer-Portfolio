@@ -129,8 +129,8 @@
   }
 
   .card-gallery {
-    margin-left: 5px; /* Ajuste a margem lateral para telas muito pequenas */
-    margin-right: 5px; /* Ajuste a margem lateral para telas muito pequenas */
+    margin-left: 10px; /* Ajuste a margem lateral para telas muito pequenas */
+    margin-right: 10px; /* Ajuste a margem lateral para telas muito pequenas */
   }
 
   .card {
@@ -291,7 +291,7 @@
     width: calc(
       90% - 20px
     ); /* Define a largura do card para ocupar toda a largura da tela com margem */
-    margin-bottom: 20px; /* Espaçamento entre os cards */
+    margin-bottom: 20px; /* Espaçamento entre os cards */   
   }
 
   .card img {
