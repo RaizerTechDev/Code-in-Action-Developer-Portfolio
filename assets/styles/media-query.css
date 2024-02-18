@@ -571,8 +571,9 @@
     font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
   }
 
-  .contact-form {
-    margin-top: -8rem;
+   .contact-form {
+    margin-top: -25rem;
+    font-weight: bold;
   }
 }
 
