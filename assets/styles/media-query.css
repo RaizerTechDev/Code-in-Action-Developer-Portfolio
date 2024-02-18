@@ -390,16 +390,18 @@
   }
 
   .contact-form {
-    margin-top: 3rem;
+    margin-top: -8rem;
   }
+}
 
 .footer-text {
   margin-top: 1.55rem;
 }
 
 .form-contact {
-  width: 90%;
- font-weight: bold;
+  width: 80%;
+  margin-left: 5rem; /* Remova a margem esquerda */
+  font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
 
