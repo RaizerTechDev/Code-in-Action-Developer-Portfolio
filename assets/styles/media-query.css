@@ -381,12 +381,8 @@
     font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
   }   
 
-  .salut-footer {
-    width: 15%; /* Defina a largura como 80% para ajustar ao contêiner pai */
-    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
-    margin-left: 15rem; /* Remova a margem esquerda */
-    display: block; /* Transforme em bloco para centralizar horizontalmente */
-    margin-left: 15rem; /* Remova a margem esquerda */
+    .salut-footer{
+    display: none;
   }
 
   .contact-form {
@@ -715,7 +711,7 @@
   }
   
    .company-footer {
-   margin-top: 2rem;
+   margin-top: 4rem;
   }
 
 
