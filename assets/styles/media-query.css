@@ -520,83 +520,8 @@
     grid-template-columns: 1fr;
     gap: 7rem;
   }
-  .social-network-profile {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    font-weight: bold;
-  }
-
-  .social-network-profile div {
-    margin-top: 2rem;
-  }
-
-  .name-profile {
-    margin-top: -1.5rem;
-    margin-left: 3rem;
-  }
-
-  .name-profile span {
-    border-bottom: 0.25rem solid #ffff;
-  }
-
-  .my-contact {
-    margin-top: -2rem;
-    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
-    text-align: center; /* Centraliza o texto */
-    font-size: 3.7rem;
-    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
-    align-items: center; /* Centralize os elementos horizontalmente */
-  }
-
-  .description-project {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-right: 2.5rem;
-    letter-spacing: 0.2rem;
-    font-size: 1rem;
-    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
-    text-align: center; /* Centraliza o texto */
-    font-weight: bold;
-  }
-
-  .company-footer h2 {
-    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
-    margin-top: 80px;
-    margin-left: 0; /* Remova a margem esquerda */
-    text-align: center; /* Centralize o texto */
-    font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
-  }
-
-  .contact-form {
-    margin-top: -8rem;
-  }
-}
-
-.footer-text {
-  margin-top: 1.55rem;
-}
-
-.form-contact {
-  width: 70%;
-  margin-left: 5rem; /* Remova a margem esquerda */
-  font-weight: bold;
-  border-bottom: 0.2rem solid hsl(0, 0%, 13%);
-}
-
-.button-submit {
-  font-size: 1.1rem;
-  font-weight: bold;
-  text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-}
-
-.div_two {
-  width: 90%; /* Defina a largura da linha */
-  margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
-  border-bottom: 1px solid hsl(0, 0%, 13%);
- }
+  
+  
 }
 
 
@@ -666,11 +591,7 @@
     color: #3b3;
     text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
     border-bottom: none;
-  }
-  
-  .footer-form{
-    margin-left: 2rem;
-  }
+  } 
 
   .form-footer {
     grid-template-columns: 1fr;
