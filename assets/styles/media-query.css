@@ -334,7 +334,7 @@
 
   .form-footer {
     grid-template-columns: 1fr;
-    gap: 7rem;
+    gap: 0.7rem;
   }
   .social-network-profile {
     width: 90%;
@@ -403,8 +403,8 @@
 }
 
 .form-contact {
-  width: 70%;
-  margin-left: 5rem; /* Remova a margem esquerda */
+  width: 80%;
+
   font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
