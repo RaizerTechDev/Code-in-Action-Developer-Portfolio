@@ -602,7 +602,8 @@
 }  
 
 /* Estilos para iPad Pro */
-@media only screen and (max-width: 1366px) { 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  /* Ajuste do tamanho do texto e margens para telas maiores como o iPad Pro */
   .my-contact {
     margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
     font-size: 3.5rem; /* Ajuste o tamanho do texto conforme necessário */
