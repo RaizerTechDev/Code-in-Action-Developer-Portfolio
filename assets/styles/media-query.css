@@ -518,8 +518,7 @@
 
   .form-footer {
     grid-template-columns: 1fr;
-    gap: 7rem;
-    margin-left: 5rem;
+    gap: 7rem; 
   }
   
   .social-network-profile {
@@ -673,6 +672,7 @@
   .form-footer {
     grid-template-columns: 1fr;
     gap: 0.5rem;
+   margin-left: 5rem;
   }
   
   .footer-text {
