@@ -631,6 +631,9 @@
   .card h5 {
     font-size: 12px; /* Ajuste o tamanho do texto conforme necessário */
   }
+
+  .salut-footer{
+    display: none;
 }
 
 @media screen and (max-width: 1440px) {  
@@ -713,6 +716,10 @@
   .form-contact {
     width: 80%;
     font-weight: bold;
+  }
+
+    .salut-footer{
+    display: none;
   }
 }
 
