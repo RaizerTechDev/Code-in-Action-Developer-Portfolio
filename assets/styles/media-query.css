@@ -8,7 +8,7 @@
   border-bottom-right-radius: 0px;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 579px) {
   header {
     display: flex;
     flex-direction: column;
@@ -209,11 +209,6 @@
     margin-top: 1.55rem;
   }
 
-  contact-form {
-    widht: 70%;
-       
-  }
-
   .button-submit button {
     font-size: 1rem;
     font-weight: bold;
@@ -395,16 +390,15 @@
   }
 
   .contact-form {
-    margin-top: -8rem;
+    margin-top: 2rem;
   }
-}
 
 .footer-text {
   margin-top: 1.55rem;
 }
 
 .form-contact {
-  width: 100%;
+  width: 80%;
  font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
