@@ -139,6 +139,10 @@ header nav {
   /*Remove a borda do input*/
 }
 
+::placeholder {
+  color: #095f04;
+}
+
 .button-submit {
   width: 80%;
   font-size: 1.1rem;
