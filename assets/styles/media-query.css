@@ -389,7 +389,7 @@
   }
 
   .contact-form {
-    margin-top: 2rem;
+    margin-top: -8rem;
     font-weight: bold;
   }
 }
@@ -632,6 +632,10 @@
     font-size: 12px; /* Ajuste o tamanho do texto conforme necessário */
   }
 
+ .company-footer {
+   margin-top: 5rem;
+  }
+
   .salut-footer{
     display: none;
 }
@@ -712,11 +716,6 @@
   .footer-text {
     margin-top: 1.55rem;
   }
-  
-   .company-footer {
-   margin-top: 12rem;
-  }
-
 
   .contact-form {
    margin-top: 5rem;
