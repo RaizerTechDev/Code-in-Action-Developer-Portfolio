@@ -390,7 +390,7 @@
   .salut-footer {
     width: 15%; /* Defina a largura como 80% para ajustar ao contêiner pai */
     margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
-    margin-left: 30rem; /* Remova a margem esquerda */
+    margin-left: 15rem; /* Remova a margem esquerda */
     display: block; /* Transforme em bloco para centralizar horizontalmente */
     margin-left: 15rem; /* Remova a margem esquerda */
   }
@@ -705,6 +705,10 @@
     color: #3b3;
     text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
     border-bottom: none;
+  }
+
+  .salut {
+     margin-left: 30rem; /* Remova a margem esquerda */
   }
 
   .form-footer {
