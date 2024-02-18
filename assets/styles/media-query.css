@@ -8,7 +8,7 @@
   border-bottom-right-radius: 0px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 479px) {
   header {
     display: flex;
     flex-direction: column;
