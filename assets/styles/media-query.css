@@ -390,7 +390,7 @@
   }
 
   .contact-form {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
 .footer-text {
@@ -398,7 +398,7 @@
 }
 
 .form-contact {
-  width: 80%;
+  width: 90%;
  font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
