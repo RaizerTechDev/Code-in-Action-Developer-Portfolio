@@ -151,7 +151,7 @@
 
   .form-footer {
     grid-template-columns: 1fr;
-    gap: 0.7rem;
+    gap: 0.9rem;
   }
   .social-network-profile {
     display: flex;
@@ -211,6 +211,7 @@
 
   .form-contact {
     width: 80%;
+    margin-left: 2rem; /* Remova a margem esquerda */   
     font-weight: bold;
   }
 
@@ -389,7 +390,7 @@
   .salut-footer {
     width: 15%; /* Defina a largura como 80% para ajustar ao contêiner pai */
     margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
-    margin-left: 2rem; /* Remova a margem esquerda */
+    margin-left: 30rem; /* Remova a margem esquerda */
     display: block; /* Transforme em bloco para centralizar horizontalmente */
     margin-left: 15rem; /* Remova a margem esquerda */
   }
