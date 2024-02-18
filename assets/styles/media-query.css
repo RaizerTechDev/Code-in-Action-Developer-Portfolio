@@ -619,7 +619,7 @@
 
  .card {
     width: calc(
-      50%  - 0
+      30%  - 0
     ); /* Ajuste a largura dos cards conforme necessário */
     margin-bottom: 20px;
   }
