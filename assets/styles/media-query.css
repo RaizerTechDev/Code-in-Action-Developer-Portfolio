@@ -601,6 +601,110 @@
  }
 }  
 
+/* Estilos para iPad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) { {  
+  .section-skills > div {
+    width: calc(
+      100% - 50px
+    ); /* Define a largura de cada elemento filho, menos a margem */
+    margin-left: 0; /* Remove a margem esquerda */
+    margin-right: 0; /* Remove a margem direita */
+  }
+  card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px; /* Ajuste a margem esquerda conforme necessário */
+    margin-right: 50px; /* Ajuste a margem direita conforme necessário */
+  }
 
+ .card {
+    width: calc(
+      50%  - 0
+    ); /* Ajuste a largura dos cards conforme necessário */
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    width: 100%; /* Garante que a imagem preencha completamente o espaço do card */
+    height: auto; /* Altura automática para manter a proporção */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .card h3 {
+    font-size: 18px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .card h5 {
+    font-size: 12px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .projects {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+  }
+
+  .projects h2 {
+    font-size: 4.7rem; /* Reduza o tamanho do título */
+  }
+
+  .projects a {
+    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
+    width: 80%; /* Define a largura do elemento */
+    font-size: 1.8rem; /* Reduza o tamanho do título */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    border-bottom: none;
+    flex: 1;
+  }
+
+  .projects a:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+    border-bottom: none;
+  } 
+  
+  .my-contact {
+    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
+    font-size: 3.5rem; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .description-project {
+    margin-left: 10%; /* Ajuste a margem esquerda conforme necessário */
+    padding-right: 2rem; /* Ajuste o preenchimento direito conforme necessário */
+    letter-spacing: 0.2rem; /* Ajuste o espaçamento entre letras conforme necessário */
+  }
+
+  .form-contact {
+    width: 70%; /* Ajuste a largura do formulário conforme necessário */
+    margin-top: 3rem; /* Ajuste a margem superior conforme necessário */
+  }
+
+  .button-submit {
+    width: 70%; /* Ajuste a largura do botão conforme necessário */
+    margin-top: 1.5rem; /* Ajuste a margem superior conforme necessário */
+    margin-bottom: 3rem; /* Ajuste a margem inferior conforme necessário */
+  }
+
+  .social-network-profile {
+    justify-content: center; /* Centralize os elementos das redes sociais */
+  }
+
+  .name-profile {
+    margin-left: 0; /* Remova a margem esquerda */
+  }
+
+  .icons a {
+    padding: 0.5rem; /* Reduza o preenchimento dos ícones */
+  }
 }
+
+  
+
 
