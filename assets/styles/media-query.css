@@ -711,4 +711,89 @@
     text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
     border-bottom: none;
   }
+
+  .form-footer {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .social-network-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+    font-weight: bold;
+  }
+
+  .social-network-profile nav {
+    margin-top: 0.3rem;
+  }
+
+  .social-network-profile div {
+    margin-top: 2rem;
+  }
+
+  .name-profile span {
+    border-bottom: none;
+  }
+
+  .my-contact {
+    margin-top: -2rem;
+    margin-left: 45px; /* Ajuste a margem lateral para telas muito pequenas */
+    font-size: 2.7rem;
+    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centralize os elementos horizontalmente */
+  }
+
+  .description-project {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2.5rem;
+    letter-spacing: 0rem;
+    font-size: 1rem;
+    margin-left: 45px; /* Ajuste a margem lateral para telas muito pequenas */
+  }
+
+  .company-footer h2 {
+    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
+    margin-left: 0; /* Remova a margem esquerda */
+    text-align: center; /* Centralize o texto */
+    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+
+  .salut-footer {
+    width: 30%; /* Defina a largura como 80% para ajustar ao contêiner pai */
+    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
+    margin-left: 5rem; /* Remova a margem esquerda */
+    display: block; /* Transforme em bloco para centralizar horizontalmente */
+  }
+
+  .footer-text {
+    margin-top: 1.55rem;
+  }
+
+  .form-contact {
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .button-submit button {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .div_two {
+    width: 90%; /* Defina a largura da linha */
+    margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
+    border-bottom: 1px solid hsl(0, 0%, 13%);
+  }
+
+  .icons a {
+    color: rgb(26, 68, 26);
+  }
+
+  .icons a:hover {
+    color: #8c8c8c;
+  }
+}
 }
