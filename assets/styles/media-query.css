@@ -519,6 +519,7 @@
   .form-footer {
     grid-template-columns: 1fr;
     gap: 7rem;
+    margin-left: 5rem;
   }
   
   .social-network-profile {
@@ -619,7 +620,7 @@
 
  .card {
     width: calc(
-      30%  - 0
+      50%  - 0
     ); /* Ajuste a largura dos cards conforme necessário */
     margin-bottom: 20px;
   }
