@@ -201,7 +201,7 @@
   .salut-footer {
     width: 30%; /* Defina a largura como 80% para ajustar ao contêiner pai */
     margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
-    margin-left: 5rem; /* Remova a margem esquerda */
+    margin-left: -5rem; /* Remova a margem esquerda */
     display: block; /* Transforme em bloco para centralizar horizontalmente */
   }
 
