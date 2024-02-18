@@ -210,7 +210,8 @@
   }
 
   contact-form {
-       font-size: 2rem; /* Remova a margem esquerda */
+    widht: 100%;
+       
   }
 
   .button-submit button {
