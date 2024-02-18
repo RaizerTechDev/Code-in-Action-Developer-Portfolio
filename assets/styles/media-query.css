@@ -653,9 +653,9 @@
     margin-right: 50px; /* Ajuste a margem direita conforme necessário */
   }
 
-  .card {
+ .card {
     width: calc(
-      100% - 20px
+      50%  - 0
     ); /* Ajuste a largura dos cards conforme necessário */
     margin-bottom: 20px;
   }
