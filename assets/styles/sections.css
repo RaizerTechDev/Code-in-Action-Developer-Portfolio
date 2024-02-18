@@ -149,14 +149,14 @@
 }
 .card {
   background: url("../../assets/images/fundo-redes-sociais.jpg") no-repeat;
-  width: 20rem; /* Defina a largura do card */
+  width: 25rem; /* Defina a largura do card */
   margin-bottom: 20px; /* Espaçamento entre os cards */
   border: 1px solid #ccc; /* Adicione uma borda para separar os cards */
   border-radius: 5px; /* Adicione cantos arredondados */
 }
 
 .card img {
-  width: 20rem; /* Assegura que a imagem preencha completamente o espaço do card */
+  width: 25rem; /* Assegura que a imagem preencha completamente o espaço do card */
   height: 18rem;
   border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
   border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
