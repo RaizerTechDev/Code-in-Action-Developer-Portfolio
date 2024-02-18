@@ -209,12 +209,6 @@
     margin-top: 1.55rem;
   }
 
-  .form-contact {
-    width: 100%;
-    margin-left: -5rem; /* Remova a margem esquerda */   
-    font-weight: bold;
-  }
-
   .button-submit button {
     font-size: 1rem;
     font-weight: bold;
