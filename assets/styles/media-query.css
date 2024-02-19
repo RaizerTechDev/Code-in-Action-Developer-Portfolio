@@ -611,7 +611,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
  .contact-form input {
-    width: 70%;
+  
     font-weight: bold; 
     margin-left: -10;     
   }
