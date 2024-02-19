@@ -100,7 +100,7 @@ header nav {
 }
 
 .my-contact {
-  margin-left: -20px;
+  margin-left: 180px;
   font-size: 5rem;
 }
 
@@ -134,7 +134,7 @@ header nav {
   display: block;
   transition: all 300ms ease-in-out;
   -webkit-transition: all 300ms ease-in-out;
-  margin-top: 5rem;
+  margin-top: 25rem;
   margin-left: 0;
   outline: none;
   /*Remove a borda do input*/
