@@ -598,9 +598,25 @@
   }
 }
 
-@media screen and (max-width: 1440px) {
-  .contact-form input {
-    width: 100%
-    font-weight: bold; 
-    margin-left: 0; 
+/* Estilos para telas maiores ou iguais a 1366 pixels */
+@media screen and (min-width: 1366px) {
+  .company-footer h2 {
+    margin-left: 5%; /* Ajustando a margem esquerda para ocupar 5% do espaço */
+  }
+
+  .salut-footer {
+    margin-left: 4%; /* Ajustando a margem esquerda para ocupar 4% do espaço */
+  }
+
+  .footer-text {
+    margin-top: 2rem; /* Ajustando a margem superior para 2rem */
+  }
+
+  .my-contact {
+    margin-left: 5%; /* Ajustando a margem esquerda para ocupar 5% do espaço */
+  }
+
+  .description-project {
+    margin-left: 5%; /* Ajustando a margem esquerda para ocupar 5% do espaço */
+  }
 }
