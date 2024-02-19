@@ -575,10 +575,10 @@
   }
 
  .contact-form input {
-    width: 70%;  
-    margin-top: -25rem;
+    width: 100%;  
+   
     margin-left: 0rem;  
-    border-bottom: 0.2rem solid hsl(0, 0%, 13%);
+   
     font-weight: bold;
   }
 
