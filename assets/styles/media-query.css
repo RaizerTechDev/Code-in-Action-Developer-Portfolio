@@ -395,22 +395,22 @@
   }
 
  .contact-form input {
-    width: 100%;   
-    
+    width: 100%;  
+    margin-top: -25rem;   
     margin-left: 0rem;  
     border-bottom: 0.2rem solid hsl(0, 0%, 13%);
-    font-weight: bold; 
-  }
+    font-weight: bold;
+}
 
  .footer-text {
   margin-top: 1.55rem;
-}
+ }
   
  .button-submit {
   font-size: 1.1rem;
   font-weight: bold;
   text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-}
+ }
 
  .div_two {
   width: 90%; /* Defina a largura da linha */
