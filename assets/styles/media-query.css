@@ -584,14 +584,14 @@
     font-weight: bold;
   }
 
-  .footer-text {
-    margin-top: 1.55rem;
-    margin-left: 0; /* Alinhe à esquerda removendo a margem esquerda */
-  }
+
+.footer-text {
+  margin-top: 1.55rem;
+}
 
 .form-contact {
   width: 70%;
-  margin-left: 2rem; /* Remova a margem esquerda */
+  margin-left: 5rem; /* Remova a margem esquerda */
   font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
@@ -608,11 +608,3 @@
   border-bottom: 1px solid hsl(0, 0%, 13%);
  }
 }  
-
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
- .contact-form input {
-    width: 40%
-    font-weight: bold; 
-    margin-right: -10px;     
-  }
-}
