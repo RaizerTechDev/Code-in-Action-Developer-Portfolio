@@ -599,11 +599,72 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1366px) {
- .contact-form input {
-    width: 100%
-    font-weight: bold; 
-    margin-left: 0;     
+@media screen and (max-width: 1440px) {
+  .section-skills > div {
+    width: calc(
+      100% - 50px
+    ); /* Define a largura de cada elemento filho, menos a margem */
+    margin-left: 0; /* Remove a margem esquerda */
+    margin-right: 0; /* Remove a margem direita */
+  }
+
+  card-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px; /* Ajuste a margem esquerda conforme necessário */
+    margin-right: 50px; /* Ajuste a margem direita conforme necessário */
+  }
+
+  .card {
+    width: calc(100% - 0); /* Ajuste a largura dos cards conforme necessário */
+    margin-bottom: 20px;
+  }
+
+  .card img {
+    width: 100%; /* Garante que a imagem preencha completamente o espaço do card */
+    height: auto; /* Altura automática para manter a proporção */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .card h3 {
+    font-size: 18px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .card h5 {
+    font-size: 12px; /* Ajuste o tamanho do texto conforme necessário */
+  }
+
+  .projects {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+  }
+
+  .projects h2 {
+    font-size: 4.7rem; /* Reduza o tamanho do título */
+  }
+
+  .projects a {
+    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
+    width: 80%; /* Define a largura do elemento */
+    font-size: 1.8rem; /* Reduza o tamanho do título */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    border-bottom: none;
+    flex: 1;
+  }
+
+  .projects a:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+    border-bottom: none;
   }
 }
+
 
