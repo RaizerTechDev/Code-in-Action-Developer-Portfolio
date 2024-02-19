@@ -609,10 +609,10 @@
  }
 }  
 
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
  .contact-form input {
     width: 100%;
     font-weight: bold; 
-    margin-left: 0rem;     
+    margin-left: -10rem;     
   }
 }
