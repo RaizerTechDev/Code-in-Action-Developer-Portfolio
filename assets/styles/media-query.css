@@ -211,6 +211,7 @@
 
   .contact-form input {
     width: 100%;
+    margin-top: -25rem; 
     font-weight: bold;
     margin-left: 0rem;
   }
