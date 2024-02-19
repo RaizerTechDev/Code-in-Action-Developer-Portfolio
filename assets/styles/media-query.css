@@ -574,18 +574,20 @@
     font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
   }
 
- .contact-form input {
-    width: 100%;  
-    margin-top: -25rem;   
-    margin-left: 0rem;  
-    border-bottom: 0.2rem solid hsl(0, 0%, 13%);
-    font-weight: bold;
+.contact-form {
+    margin-top: -8rem;
   }
 
-  .footer-text {
-    margin-top: 1.55rem;
-    margin-left: 0; /* Alinhe à esquerda removendo a margem esquerda */
-  }
+.footer-text {
+  margin-top: 1.55rem;
+}
+
+.form-contact {
+  width: 70%;
+  margin-left: 5rem; /* Remova a margem esquerda */
+  font-weight: bold;
+  border-bottom: 0.2rem solid hsl(0, 0%, 13%);
+}
 
 .button-submit {
   font-size: 1.1rem;
