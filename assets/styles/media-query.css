@@ -600,23 +600,36 @@
 
 /* Estilos para telas maiores ou iguais a 1366 pixels */
 @media screen and (min-width: 1366px) {
-  .company-footer h2 {
-    margin-left: 5%; /* Ajustando a margem esquerda para ocupar 5% do espaço */
+    main {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+    .form-footer {
+    grid-template-columns: 1fr;
+    gap: 7rem;
+    justify-content: center; /* Centralize o conteúdo */
+    text-align: center; /* Centralize o texto dentro do formulário */
+  }
+    .footer-text {
+    justify-content: space-between; /* Alinha os elementos espaçados igualmente */
+  }
+
+  .company-footer {
+    margin-right: 0; /* Remove o espaço entre os elementos */
   }
 
   .salut-footer {
-    margin-left: 4%; /* Ajustando a margem esquerda para ocupar 4% do espaço */
+    margin-left: 0; /* Remove o espaço entre os elementos */
   }
 
-  .footer-text {
-    margin-top: 2rem; /* Ajustando a margem superior para 2rem */
-  }
-
-  .my-contact {
-    margin-left: 5%; /* Ajustando a margem esquerda para ocupar 5% do espaço */
-  }
-
+  .my-contact,
   .description-project {
-    margin-left: 5%; /* Ajustando a margem esquerda para ocupar 5% do espaço */
+    flex-basis: 45%; /* Define a largura dos elementos */
+  }
+
+  .form-footer {
+    grid-template-columns: 1fr; /* Altera o layout do formulário para uma única coluna */
+    gap: 0; /* Remove o espaço entre os elementos do formulário */
   }
 }
