@@ -579,11 +579,12 @@
     font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
   }
 
-   .contact-form {
+  .contact-form input {
+    width: 100%;    
+    margin-left: 0rem;  
     margin-top: -25rem;
     font-weight: bold;
   }
-}
 
   .footer-text {
     margin-top: 1.55rem;
@@ -609,11 +610,3 @@
   border-bottom: 1px solid hsl(0, 0%, 13%);
  }
 }  
-
-@media screen and (max-width: 1366px) {
-
-   .contact-form input {
-    width: 100%;
-    font-weight: bold; 
-    margin-left: 0rem;     
-  }
