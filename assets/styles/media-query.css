@@ -396,7 +396,7 @@
 
  .contact-form input {
     width: 100%;   
-    margin-top: -2rem;
+    margin-top: -5rem;
     margin-left: 0rem;  
     border-bottom: 0.2rem solid hsl(0, 0%, 13%);
     font-weight: bold; 
@@ -576,7 +576,7 @@
 
  .contact-form input {
     width: 100%;   
-    margin-top: -25rem;
+    margin-top: -2rem;
     margin-left: 0rem;  
    border-bottom: 0.2rem solid hsl(0, 0%, 13%);
     font-weight: bold; 
