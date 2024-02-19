@@ -406,7 +406,7 @@
 
  .form-contact {
   width: 100%;
-  margin-left: 2rem; /* Remova a margem esquerda */
+  margin-left: 5rem; /* Remova a margem esquerda */
   font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
@@ -608,3 +608,11 @@
   border-bottom: 1px solid hsl(0, 0%, 13%);
  }
 }  
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+ .contact-form input {
+    width: 100%;
+    font-weight: bold; 
+    margin-left: 0rem;     
+  }
+}
