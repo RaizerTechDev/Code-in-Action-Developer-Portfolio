@@ -599,7 +599,7 @@
 }
 
 /* Estilos para telas maiores ou iguais a 1366 pixels */
-@media screen and (min-width: 1366px) {
+@media screen and (max-width: 1366px) {
     main {
     max-width: 90%;
     margin: 0 auto;
