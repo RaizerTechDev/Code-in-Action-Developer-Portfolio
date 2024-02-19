@@ -609,3 +609,11 @@
   border-bottom: 1px solid hsl(0, 0%, 13%);
  }
 }  
+
+@media screen and (max-width: 1366px) {
+
+   .contact-form input {
+    width: 100%;
+    font-weight: bold; 
+    margin-left: 0rem;     
+  }
