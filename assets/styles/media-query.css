@@ -584,11 +584,6 @@
     margin-left: 0; /* Alinhe à esquerda removendo a margem esquerda */
   }
 
-
-.footer-text {
-  margin-top: 1.55rem;
-}
-
 .button-submit {
   font-size: 1.1rem;
   font-weight: bold;
