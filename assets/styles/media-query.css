@@ -613,6 +613,6 @@
  .contact-form input {
     width: 40%
     font-weight: bold; 
-    margin-right: -10;     
+    margin-right: -10px;     
   }
 }
