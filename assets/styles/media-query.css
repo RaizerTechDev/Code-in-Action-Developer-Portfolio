@@ -591,7 +591,7 @@
 
 .form-contact {
   width: 70%;
-  margin-left: 5rem; /* Remova a margem esquerda */
+  margin-left: 2rem; /* Remova a margem esquerda */
   font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
