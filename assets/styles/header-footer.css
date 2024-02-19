@@ -135,6 +135,7 @@ header nav {
   transition: all 300ms ease-in-out;
   -webkit-transition: all 300ms ease-in-out;
   margin-top: 5rem;
+  margin-left: 0;
   outline: none;
   /*Remove a borda do input*/
 }
