@@ -597,39 +597,3 @@
     border-bottom: 1px solid hsl(0, 0%, 13%);
   }
 }
-
-/* Estilos para telas maiores ou iguais a 1366 pixels */
-@media screen  and min-width: 1024px)and (max-width: 1366px) {
-    main {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-    .form-footer {
-    grid-template-columns: 1fr;
-    gap: 7rem;
-    justify-content: center; /* Centralize o conteúdo */
-    text-align: center; /* Centralize o texto dentro do formulário */
-  }
-    .footer-text {
-    justify-content: space-between; /* Alinha os elementos espaçados igualmente */
-  }
-
-  .company-footer {
-    margin-right: 0; /* Remove o espaço entre os elementos */
-  }
-
-  .salut-footer {
-    margin-left: 0; /* Remove o espaço entre os elementos */
-  }
-
-  .my-contact,
-  .description-project {
-    flex-basis: 45%; /* Define a largura dos elementos */
-  }
-
-  .form-footer {
-    grid-template-columns: 1fr; /* Altera o layout do formulário para uma única coluna */
-    gap: 0; /* Remove o espaço entre os elementos do formulário */
-  }
-}
