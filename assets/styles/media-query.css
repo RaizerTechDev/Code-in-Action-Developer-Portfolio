@@ -394,7 +394,7 @@
     display: block; /* Transforme em bloco para centralizar horizontalmente */ 
   }
 
-  .contact-form {
+ .contact-form {
     margin-top: -5rem;
     font-weight: bold;
   }
@@ -406,7 +406,7 @@
 
  .form-contact {
   width: 100%;
-  margin-left: 5rem; /* Remova a margem esquerda */
+  margin-left: 2rem; /* Remova a margem esquerda */
   font-weight: bold;
   border-bottom: 0.2rem solid hsl(0, 0%, 13%);
 }
