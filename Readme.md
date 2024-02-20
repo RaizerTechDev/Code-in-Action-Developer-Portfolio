@@ -1,8 +1,6 @@
 # MODULO PROJETO FRONT-END HTML FINAL
 
-# MODULO PROJETO FRONT-END HTML FINAL
-
- <div align="center">
+<div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45"> 
 
 [ ( Clique aqui e venha explorar => ```A look at my portfolio!!!``` ) ](https://portfoliotech-rafarz76dev.netlify.app/ )
@@ -13,7 +11,7 @@
   
 <img src= "https://media.giphy.com/media/3zSF3Gnr7cxMbi6WoP/giphy.gif" align="center" height="55" width="55"> [Demonstração-Portfolio_RafaRz76Dev] <img src= "https://media.giphy.com/media/E5DzZsofmgxc9wjbhX/giphy.gif" align="center" height="35" width="35">
 
-<img height="480em" src= "assets/images/demonstracao-portfolio.png"  align="center"> 
+<img height="480em" src= "assets/images/demonstracao-portfolio-readme.gif"  align="center"> 
 
 
 ***
