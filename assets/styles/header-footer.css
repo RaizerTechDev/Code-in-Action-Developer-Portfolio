@@ -232,5 +232,5 @@ a.linkedln-profile {
 .block__divider--two {
   width: 135%; /* Define a largura como 135% */
   border-bottom: 1px solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior de 1 pixel sólido na cor hsl(0, 0%, 13%) */
-  margin-left: 820px; /* Adiciona margem esquerda de 420 pixels */
+  margin-left: 620px; /* Adiciona margem esquerda de 420 pixels */
 }
