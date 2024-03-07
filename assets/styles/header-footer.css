@@ -1,243 +1,236 @@
-/* Reset CSS */
+/* Reset CSS para garantir consistência nas margens e tamanhos de caixas */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /* Zera a margem */
+  padding: 0; /* Zera o preenchimento */
+  box-sizing: border-box; /* Garante que a largura e a altura incluam a borda e o preenchimento, não apenas o conteúdo */
 }
 
-/* Global Styles */
+/* Estilos globais para o corpo da página */
 body {
-  background-color: #0f1232;
-  margin: 0;
-  padding: 0;
+  background-color: #0f1232; /* Define a cor de fundo */
+  margin: 0; /* Zera a margem */
+  padding: 0; /* Zera o preenchimento */
   font-family: "DM Sans", sans-serif; /* Define a família de fontes */
 }
 
-/* Main Styles */
+/* Estilos principais para a seção principal da página */
 main {
-  max-width: 58.5%;
-  margin: 1.8rem auto;
-  margin-bottom: 0;
+  max-width: 58.5%; /* Define a largura máxima da seção principal */
+  margin: 1.8rem auto; /* Define margens superior e inferior de 1.8rem e margem lateral automática */
+  margin-bottom: 0; /* Remove a margem inferior padrão */
 }
 
-/* Header Styles */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5rem;
+/* Estilos para o cabeçalho da página */
+.name-header {
+  display: flex; /* Define o modelo de layout como flexível, permitindo o uso de flexbox */
+  align-items: center; /* Alinha os itens ao longo do eixo transversal (vertical) ao centro */
+  justify-content: space-between; /* Distribui o espaço restante ao redor dos itens, proporcionando espaço igual à esquerda e à direita dos itens */
+  margin-bottom: 5rem; /* Define a margem inferior de 5rem */
 }
 
-header nav {
+/* Estilos para os perfis sociais no cabeçalho */
+.profiles {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 1rem;
+  padding: 1rem; /* Define o preenchimento de 1rem */
 }
 
 .profiles a {
-  margin: 0.5rem;
-  width: 100%;
-  z-index: 1;
-  color: #3b3;
+  margin: 0.5rem; /* Define a margem de 0.5rem */
+  width: 100%; /* Define a largura como 100% */
+  z-index: 1; /* Define o índice z como 1 */
+  color: #3b3; /* Define a cor do texto como #3b3 */
 }
 
 .profiles a:hover {
-  color: #8c8c8c;
+  color: #8c8c8c; /* Define a cor do texto quando houver foco como #8c8c8c */
 }
 
-/* Estilo para titulo nome no navegador*/
-.nameNav {
-  font-size: 2rem;
-  letter-spacing: -0.044rem;
-  text-decoration: none;
-  color: #fff;
-}
-
-.header__social-box {
-  display: flex;
-  align-items: center;
-  gap: 2.467rem;
+/* Estilo para o título do nome no navegador */
+.name-header__title {
+  font-size: 2rem; /* Define o tamanho da fonte como 2rem */
+  letter-spacing: -0.044rem; /* Define o espaçamento entre as letras como -0.044rem */
+  text-decoration: none; /* Remove a decoração do texto */
+  color: #fff; /* Define a cor do texto como #fff */
 }
 
 /* hr */
-.div_one {
-  margin-top: 13rem;
+.block__divider--one {
+  margin-top: 8rem; /* Define a margem superior como 8rem */
 }
-
 
 /* Footer Styles */
-.company-footer h2 {
-  width: 80%;
-  margin-top: 5rem;
-  margin-left: 18rem;
-  color: #095f04;
-  font-weight: bold;
-  font-size: 2.5rem;
-}
-
-.salut-footer {
-  width: 18%;
-  margin-left: 16rem;
-}
 .footer-contact {
-  background: url("../images/fundo-redes-sociais.jpg") no-repeat;
-  padding: 5em 0;
-  padding-bottom: 40px;
-  border-top: 5px solid #3381f3;
-  border-bottom: 5px solid #3381f3;
+  background: url("../images/fundo-redes-sociais.jpg") no-repeat; /* Define uma imagem de fundo para o rodapé sem repetição */
+  padding: 5em 0; /* Adiciona preenchimento superior e inferior de 5 vezes a altura da fonte atual */
+  padding-bottom: 40px; /* Adiciona preenchimento inferior adicional de 40 pixels */
+  border-top: 5px solid #3381f3; /* Adiciona uma borda superior de 5 pixels sólidos na cor #3381f3 */
+  border-bottom: 5px solid #3381f3; /* Adiciona uma borda inferior de 5 pixels sólidos na cor #3381f3 */
 }
 
-.form-footer {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15rem;
-  margin-right: 0;
+.footer__content {
+  width: 100%; /* Define a largura como 100% */
+  display: grid; /* Define o modelo de layout como grid */
+  grid-template-columns: 1fr 1fr; /* Divide o conteúdo em duas colunas com largura igual */
+  gap: 15rem; /* Define o espaçamento entre as colunas como 15 vezes a altura da fonte atual */
+  margin-right: 0; /* Remove a margem direita */
 }
 
-.footer-text {
-  margin-top: 4.55rem;
+.footer__text {
+  margin-top: 4.55rem; /* Adiciona margem superior de 4.55 vezes a altura da fonte atual */
 }
 
-.my-contact {
-  margin-left: 180px;
-  font-size: 5rem;
+.footer__contact--info {
+  margin-left: 180px; /* Adiciona margem esquerda de 180 pixels */
+  font-size: 5rem; /* Define o tamanho da fonte como 5 vezes a altura da fonte atual */
 }
 
-.my-contact span {
-  border-bottom: 0.25rem solid #ffff;
-  color: rgb(26, 68, 26);
-  font-weight: bold;
+.footer__contact--info span {
+  border-bottom: 0.25rem solid #ffff; /* Adiciona uma borda inferior de 0.25 vezes a altura da fonte atual na cor #ffff */
+  color: rgb(26, 68, 26); /* Define a cor do texto como RGB(26, 68, 26) */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
 }
 
-.description-project {
-  margin-top: 3rem;
-  margin-left: 180px;
-  margin-bottom: 3rem;
-  padding-right: 4rem;
-  letter-spacing: 0.25rem;
-  line-height: 2;
-  font-weight: bold;
+.footer__description {
+  margin-top: 3rem; /* Adiciona margem superior de 3 vezes a altura da fonte atual */
+  margin-left: 180px; /* Adiciona margem esquerda de 180 pixels */
+  margin-bottom: 3rem; /* Adiciona margem inferior de 3 vezes a altura da fonte atual */
+  padding-right: 4rem; /* Adiciona preenchimento à direita de 4 vezes a altura da fonte atual */
+  letter-spacing: 0.55rem; /* Adiciona espaçamento entre caracteres de 0.55 vezes a altura da fonte atual */
+  line-height: 2; /* Define a altura da linha como o dobro da altura da fonte atual */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
 }
 
-.form-contact {
-  font-weight: 600;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  color: hsl(0, 0%, 8%);
-  padding: 0.7rem 1.6rem 1.4rem 2.4rem;
-  border-radius: 2px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 2px solid hsl(0, 0%, 13%);
-  width: 80%;
-  display: block;
-  transition: all 300ms ease-in-out;
-  -webkit-transition: all 300ms ease-in-out;
-  margin-top: 5rem;
-  outline: none;
+.top__page__footer h2 {
+  width: 80%; /* Define a largura como 80% */
+  margin-top: 10rem; /* Adiciona margem superior de 10 vezes a altura da fonte atual */
+  margin-left: 18rem; /* Adiciona margem esquerda de 18 pixels */
+  color: #095f04; /* Define a cor do texto como #095f04 */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  font-size: 2.5rem; /* Define o tamanho da fonte como 2.5 vezes a altura da fonte atual */
+}
+
+.salut__footer {
+  width: 18%; /* Define a largura como 18% */
+  margin-left: 16rem; /* Adiciona margem esquerda de 16 pixels */
+}
+
+.form__contact {
+  font-weight: 600; /* Define a espessura da fonte como 600 (semi-negrito) */
+  font-size: 1.1rem; /* Define o tamanho da fonte como 1.1 vezes a altura da fonte atual */
+  text-transform: uppercase; /* Converte o texto para maiúsculas */
+  color: hsl(0, 0%, 8%); /* Define a cor do texto como hsl(0, 0%, 8%) */
+  padding: 0.7rem 1.6rem 1.4rem 2.4rem; /* Adiciona preenchimento com os valores especificados */
+  border-radius: 2px; /* Define o raio da borda como 2 pixels */
+  background-color: transparent; /* Define o fundo como transparente */
+  border: none; /* Remove a borda */
+  border-bottom: 2px solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior de 2 pixels sólidos na cor hsl(0, 0%, 13%) */
+  width: 80%; /* Define a largura como 80% */
+  display: block; /* Define o elemento como bloco */
+  transition: all 300ms ease-in-out; /* Adiciona uma transição de 300 milissegundos com efeito de entrada e saída para todas as propriedades */
+  -webkit-transition: all 300ms ease-in-out; /* Adiciona uma transição de 300 milissegundos com efeito de entrada e saída para todas as propriedades (para navegadores WebKit) */
+  margin-top: 5rem; /* Adiciona margem superior de 5 vezes a altura da fonte atual */
+  margin-left: 0; /* Remove a margem esquerda */
+  outline: none; /* Remove o contorno ao receber foco */
   /*Remove a borda do input*/
 }
 
-::placeholder {
-  color: #095f04;
+.form__contact::placeholder {
+  color: #095f04; /* Define a cor do texto de espaço reservado como #095f04 */
 }
 
-.button-submit {
-  width: 80%;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: hsl(0, 0%, 13%);
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  float: inline-end;
-  text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-  letter-spacing: 0.229rem;
-  line-height: 2.6rem;
-  padding-bottom: 0.01rem;
+.footer__submit--button {
+  width: 80%; /* Define a largura como 80% */
+  font-size: 1.1rem; /* Define o tamanho da fonte como 1.1 vezes a altura da fonte atual */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  color: hsl(0, 0%, 13%); /* Define a cor do texto como hsl(0, 0%, 13%) */
+  border: none; /* Remove a borda */
+  background-color: transparent; /* Define o fundo como transparente */
+  cursor: pointer; /* Altera o cursor para indicar um link */
+  float: inline-end; /* Move o elemento para a extremidade inline oposta */
+  text-decoration: underline 5px solid #3b3; /* Adiciona uma linha de sublinhado de 5 pixels sólidos na cor #3b3 */
+  margin-top: 2rem; /* Adiciona margem superior de 2 vezes a altura da fonte atual */
+  margin-bottom: 5rem; /* Adiciona margem inferior de 5 vezes a altura da fonte atual */
+  letter-spacing: 0.229rem; /* Adiciona espaçamento entre caracteres de 0.229 vezes a altura da fonte atual */
+  line-height: 2.6rem; /* Define a altura da linha como 2.6 vezes a altura da fonte atual */
+  padding-bottom: 0.01rem; /* Adiciona preenchimento inferior de 0.01 vezes a altura da fonte atual */
 }
 
-.social-network-profile {
-  display: flex;
-  align-items: center;
+.footer__submit--button:hover {
+  color: #3381f3; /* Altera a cor do texto ao passar o mouse para #3381f3 */
+}
+
+.footer__button--animation {
+  width: 60px; /* Define a largura como 60 pixels */
+}
+
+.social-profile {
+  display: flex; /* Define o modelo de layout como flexível */
+  align-items: center; /* Alinha os itens ao longo do eixo transversal (vertical) ao centro */
   justify-content: space-around; /* Distribui os elementos igualmente ao longo do eixo principal (horizontalmente) */
   flex-wrap: wrap; /* Permite que os elementos sejam envolvidos em várias linhas */
-  margin-bottom: -1rem;
+  margin-bottom: -1rem; /* Adiciona margem inferior de -1 vezes a altura da fonte atual */
+  margin-left: -1000px; /* Adiciona margem esquerda de -1000 pixels */
 }
 
-.social-network-profile nav {
-  display: flex;
-  list-style-type: none;
-  margin-top: 2.2rem;
-  margin-bottom: 2rem;
+.social-profile nav {
+  display: flex; /* Define o modelo de layout como flexível */
+  list-style-type: none; /* Remove os marcadores de lista */
+  margin-top: 2.2rem; /* Adiciona margem superior de 2.2 vezes a altura da fonte atual */
+  margin-bottom: 2rem; /* Adiciona margem inferior de 2 vezes a altura da fonte atual */
+  color: rgb(26, 68, 26); /* Define a cor do texto como RGB(26, 68, 26) */
+  margin-left: 170px; /* Adiciona margem esquerda de 170 pixels */
 }
 
-.social-network-profile nav a {
-  width: 2.4rem;
-  height: 2.4rem;
+.social-profile nav a {
+  width: 2.4rem; /* Define a largura como 2.4 pixels */
+  height: 2.4rem; /* Define a altura como 2.4 pixels */
 }
 
-.name-profile h2 {
-  color: #202020;
-  font-weight: bold;
-  font-size: 3rem;
+.profile-name__title {
+  color: #202020; /* Define a cor do texto como #202020 */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  font-size: 1.8rem; /* Define o tamanho da fonte como 1.8 vezes a altura da fonte atual */
+  margin-left: 330px; /* Adiciona margem esquerda de 330 pixels */
 }
 
-.name-profile span {
-  border-bottom: 0.25rem solid #ffff;
-  color: rgb(26, 68, 26);
-  font-weight: bold;
-  font-size: 1.8rem;
+.profile-name__subtitle {
+  border-bottom: 0.25rem solid #ffff; /* Adiciona uma borda inferior de 0.25 vezes a altura da fonte atual na cor #ffff */
+  color: rgb(26, 68, 26); /* Define a cor do texto como RGB(26, 68, 26) */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  font-size: 1.8rem; /* Define o tamanho da fonte como 1.8 vezes a altura da fonte atual */
 }
 
-a.name-profile {
-  margin-left: -20px;
-  font-size: 1.8rem;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 0;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}
-
-a.whatssap-profile,
 a.git-profile,
+a.linkedln-profile,
 a.mail-profile,
 a.linkedln-profile {
-  padding: 1rem;
+  padding: 1rem; /* Adiciona preenchimento de 1 vez a altura da fonte atual */
 }
 
-.git-profile i,
-.whatssap-profile i,
-.mail-profile i,
-.linkedln-profile i,
-.git-start i,
-.linkedln-start i,
-.email-start i,
-.whatssap-start i {
-  font-size: 1.5rem;
+.git-profile,
+.linkedln-profile,
+.mail-profilel,
+.whatssap-profile {
+  font-size: 1.5rem; /* Define o tamanho da fonte como 1.5 vezes a altura da fonte atual */
 }
 
 .icons a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: rgb(26, 68, 26);
+  display: flex; /* Define o modelo de layout como flexível */
+  align-items: center; /* Alinha os itens ao longo do eixo transversal (vertical) ao centro */
+  justify-content: center; /* Alinha os itens ao longo do eixo principal (horizontalmente) ao centro */
+  text-decoration: none; /* Remove a decoração de texto */
+  color: rgb(26, 68, 26); /* Define a cor do texto como RGB(26, 68, 26) */
 }
 
 .icons a:hover {
-  color: #8c8c8c;
+  color: #8c8c8c; /* Altera a cor do texto ao passar o mouse para #8c8c8c */
 }
 
 /* Estilo hr */
-.div_two {
-  width: 60%; /* Defina a largura da linha */
-  margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
-  border-bottom: 1px solid hsl(0, 0%, 13%);
+.block__divider--two {
+  width: 135%; /* Define a largura como 135% */
+  border-bottom: 1px solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior de 1 pixel sólido na cor hsl(0, 0%, 13%) */
+  margin-left: 420px; /* Adiciona margem esquerda de 420 pixels */
 }
-

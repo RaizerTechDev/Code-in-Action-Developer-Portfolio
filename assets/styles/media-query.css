@@ -1,599 +1,703 @@
-@media screen {
-}
-
-::-webkit-scrollbar {
-  background-color: #ffffffe3;
-  width: 0px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 0px;
-}
-
+/* Estilos para telas pequenas (até 579px) */
 @media screen and (max-width: 579px) {
+  /* Ajustes para o cabeçalho */
   header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* Usa flexbox para layout flexível */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
   }
 
-  .nameNav {
-    margin-top: 2rem;
-    font-size: 1.6rem;
-    font-weight: bold;
+  /* Estilos para o título do cabeçalho */
+  .name-header__title {
+    margin-top: 2rem; /* Margem superior de 2rem */
+    font-size: 1.6rem; /* Tamanho da fonte de 1.6rem */
+    font-weight: bold; /* Define a fonte como negrito */
   }
 
+  /* Estilos para a seção principal */
   main {
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 90%; /* Largura máxima de 90% */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
   }
 
-  /* Estilos h2*/
-  .text-subtitle {
-    font-weight: 500;
-    display: block;
-    margin-bottom: 10rem;
-    line-height: 4rem;
+  /* Estilos para o subtítulo da caixa de texto */
+  .text-box__subtitle {
+    font-weight: 500; /* Define o peso da fonte como 500 */
+    display: block; /* Mostra o elemento como bloco */
+    margin-bottom: 10rem; /* Margem inferior de 10rem */
+    line-height: 4rem; /* Altura da linha de 4rem */
   }
 
-  h2.text-subtitle {
-    font-size: 3rem;
-    letter-spacing: 0.05rem;
-    font-weight: 500;
-    margin-bottom: 21rem;
+  /* Estilos específicos para h2 do subtítulo da caixa de texto */
+  h2.text-box__subtitle {
+    font-size: 3rem; /* Tamanho da fonte de 3rem */
+    letter-spacing: 0.05rem; /* Espaçamento entre as letras de 0.05rem */
+    font-weight: 500; /* Define o peso da fonte como 500 */
+    margin-bottom: 21rem; /* Margem inferior de 21rem */
   }
 
-  .text_developer {
-    padding-right: 1rem;
-    font-size: 0.8rem;
-    letter-spacing: 0.2rem;
-    margin-bottom: -15rem;
-    padding-right: 1rem;
-    color: #3b3;
-    line-height: 0.7rem;
-    margin-top: 2rem;
+  /* Estilos para o desenvolvedor na caixa de texto */
+  .text-box__developer {
+    padding-right: 1rem; /* Preenchimento à direita de 1rem */
+    font-size: 0.8rem; /* Tamanho da fonte de 0.8rem */
+    letter-spacing: 0.2rem; /* Espaçamento entre as letras de 0.2rem */
+    margin-bottom: -15rem; /* Margem inferior de -15rem (pode ser ajustado) */
+    color: #3b3; /* Cor do texto verde escuro */
+    line-height: 0.7rem; /* Altura da linha de 0.7rem */
+    margin-top: 2rem; /* Margem superior de 2rem */
   }
 
-  .spiral {
-    display: none;
+  /* /* Estilos para o círculo e o espiral na caixa de texto (oculto) */
+  .text-box__circle,
+  .text-box__spiral {
+    display: none; /* Oculta o elemento */
   }
 
-  .circle {
-    display: none;
+  /* Estilos para a foto na caixa de texto */
+  .text-box__photo {
+    margin-top: -6rem; /* Margem superior de -6rem (pode ser ajustado) */
+    margin-right: 50px; /* Margem direita de 50px */
+    margin-bottom: 2rem; /* Margem inferior de 2rem */
+    bottom: 2rem; /* Posiciona o elemento 2rem a partir da parte inferior */
+    width: 70%; /* Largura de 70% */
+    height: 100%; /* Altura de 100% */
   }
 
-  .photo {
-    margin-top: -6rem;
-    margin-right: 50px;
-    margin-bottom: 2rem;
-    bottom: 2rem;
-    width: 70%;
-    height: 100%;
-  }
-
-  .my-section .text-box a {
-    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+  /* Estilos para o contato na caixa de texto */
+  .text-box__contact {
+    display: block; /* Transforma o link em bloco para ocupar toda a largura disponível */
     text-align: center; /* Centraliza o texto */
-    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
-    margin-top: 16rem;
-    width: 80%; /* Define a largura do elemento */
-    font-size: 0.8rem; /* Reduza o tamanho do título */
-    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-    border-bottom: none;
-    margin-bottom: 0.5rem;
-    line-height: 1.5rem;
+    margin: 20px auto; /* Margens automáticas */
+    margin-top: 18rem; /* Margem superior de 18rem */
+    width: 80%; /* Largura de 80% */
+    font-size: 0.8rem; /* Tamanho da fonte de 0.8rem */
+    border-bottom: none; /* Remove a borda inferior */
+    margin-bottom: 0.5rem; /* Margem inferior de 0.5rem */
+    line-height: 1.5rem; /* Altura da linha de 1.5rem */
+    text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde */
   }
 
-  .my-section .text-box a:hover {
-    color: #3b3;
-    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+  /* Efeito de hover para o contato na caixa de texto */
+  .text-box__contact:hover {
+    color: #fff; /* Cor do texto branca no hover */
+    text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde */
   }
 
-  .section-skills {
-    margin-top: 2rem;
-    margin-left: 10px; /* Ajustar a margem lateral para telas muito pequenas */
-    margin-right: 10px; /* Ajustar a margem lateral para telas muito pequenas */
-    justify-content: center; /* Centralizar os elementos */
+  /* Estilos para a seção de habilidades na metodologia */
+  .methodology__skills {
+    margin-top: 2rem; /* Margem superior de 2rem */
+    margin-left: 10px; /* Margem esquerda de 10px para telas muito pequenas */
+    margin-right: 10px; /* Margem direita de 10px para telas muito pequenas */
+    justify-content: center; /* Centraliza os elementos no eixo principal */
   }
 
-  .section-skills > div {
+  /* Estilos para seção de habilidades na metodologia */
+  .methodology__skills > div {
     width: calc(
       100% - 20px
-    ); /* Definir a largura de cada elemento filho para 100% para ocupar toda a largura */
+    ); /* Largura de cada elemento filho de 100% - 20px */
   }
 
-  .projects {
-    margin-top: 8rem;
-    margin-left: 10px; /* Ajuste a margem lateral para telas muito pequenas */
-    margin-right: 10px; /* Ajuste a margem lateral para telas muito pequenas */
-    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
-    align-items: center; /* Centralize os elementos horizontalmente */
+  /* Estilos para h2 dentro da metodologia */
+  .methodology h2 {
+    font-size: 3.7rem; /* Tamanho da fonte de 3.7rem */
   }
 
-  .projects h2 {
-    font-size: 2.7rem; /* Reduza o tamanho do título */
+  /* Estilos para o projeto na metodologia */
+  .methodology-project--rifle {
+    margin-top: 4rem; /* Margem superior de 4rem */
+    margin-left: 10px; /* Margem esquerda de 10px para telas muito pequenas */
+    margin-right: 10px; /* Margem direita de 10px para telas muito pequenas */
+    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
   }
 
-  .projects a {
-    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+  /* Estilos para o título do projeto na metodologia */
+  .methodology-project--title {
+    font-size: 3.7rem; /* Tamanho da fonte de 3.7rem */
+  }
+
+  /* Estilos para o subtitulo do projeto na metodologia */
+  .methodology-project--subtitle {
+    border-bottom: 0.25rem solid #4de29f; /* Borda inferior de 0.25rem sólida em verde */
+    color: #f7f7f7; /* Cor do texto branca */
+    font-weight: bold; /* Define a fonte como negrito */
+  }
+
+  /* Estilos para o contato na metodologia */
+  .methodology-contact {
+    display: block; /* Transforma o link em bloco para ocupar toda a largura disponível */
     text-align: center; /* Centraliza o texto */
-    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
-    width: 80%; /* Define a largura do elemento */
-    font-size: 0.8rem; /* Reduza o tamanho do título */
-    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-    border-bottom: none;
+    margin: 20px auto; /* Margens automáticas */
+    width: 80%; /* Largura de 80% */
+    font-size: 1.4rem; /* Tamanho da fonte de 1.4rem */
+    text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde */
+    border-bottom: none; /* Remove a borda inferior */
   }
 
-  .projects a:hover {
-    color: #3b3;
-    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
+  /* Efeito de hover para o contato na metodologia */
+  .methodology-contact:hover {
+    color: #3b3; /* Cor do texto verde escuro no hover */
+    text-decoration: underline 5px solid #ffffff; /* Sublinha o texto com uma borda branca */
   }
 
-  .card-gallery {
-    margin-left: 10px; /* Ajuste a margem lateral para telas muito pequenas */
-    margin-right: 10px; /* Ajuste a margem lateral para telas muito pequenas */
+  /* Estilos para a seção de projetos na galeria de cartões */
+  .card-gallery__project--section {
+    margin-left: 10px; /* Margem esquerda de 10px para telas muito pequenas */
+    margin-right: 10px; /* Margem direita de 10px para telas muito pequenas */
   }
 
-  .card {
-    width: calc(
-      100% - 20px
-    ); /* Faça os cards ocuparem toda a largura disponível com margem */
-    margin-top: 10px;
-    margin-left: 10px; /* Ajuste a margem lateral */
-    margin-right: 10px; /* Ajuste a margem lateral */
+  /* Estilos para o card do projeto na galeria de cartões */
+  .methodology-project__card {
+    width: calc(100% - 20px); /* Largura de cada card de 100% - 20px */
+    margin-top: 10px; /* Margem superior de 10px */
+    margin-left: 10px; /* Margem esquerda de 10px */
+    margin-right: 10px; /* Margem direita de 10px */
   }
 
-  .card img {
-    width: 100%; /* Define a largura da imagem como 100% */
-    height: auto; /* Mantém a proporção original da imagem */
-    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
-    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+  /* Estilos para a imagem da seção */
+  .section__image {
+    width: 100%; /* Largura de 100% */
+    height: auto; /* Altura automática mantendo a proporção original */
+    border-top-left-radius: 5px; /* Cantos arredondados na parte superior esquerda */
+    border-top-right-radius: 5px; /* Cantos arredondados na parte superior direita */
   }
 
-  .form-footer {
-    grid-template-columns: 1fr;
-    gap: 0.7rem;
-  }
-  .social-network-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: none;
-    font-weight: bold;
+  /* Estilos para o conteúdo do rodapé */
+  .footer__content {
+    grid-template-columns: 1fr; /* Uma coluna no grid */
+    gap: 0.7rem; /* Espaçamento de 0.7rem entre os elementos do grid */
   }
 
-  .social-network-profile nav {
-    margin-top: 0.3rem;
+  /* Estilos para informações de contato no rodapé */
+  .footer__contact--info {
+    margin-top: -2rem; /* Margem superior de -2rem */
+    margin-left: 45px; /* Margem esquerda de 45px para telas muito pequenas */
+    font-size: 2.7rem; /* Tamanho da fonte de 2.7rem */
+    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
   }
 
-  .social-network-profile div {
-    margin-top: 2rem;
+  /* Estilos para a descrição no rodapé */
+  .footer__description {
+    margin-top: 1rem; /* Margem superior de 1rem */
+    margin-bottom: 1rem; /* Margem inferior de 1rem */
+    padding-right: 2.5rem; /* Preenchimento à direita de 2.5rem */
+    letter-spacing: 0rem; /* Espaçamento entre letras de 0rem */
+    font-size: 1rem; /* Tamanho da fonte de 1rem */
+    margin-left: 45px; /* Margem esquerda de 45px para telas muito pequenas */
   }
 
-  .name-profile span {
-    border-bottom: none;
+  /* Estilos para o título h2 */
+  .top__page__footer h2 {
+    width: 100%; /* Largura de 100% */
+    margin-top: 1rem; /* Margem superior de 1rem */
+    margin-left: 0; /* Remove a margem esquerda */
+    text-align: center; /* Centraliza o texto */
+    font-size: 2rem; /* Tamanho da fonte de 2rem */
   }
 
-  .my-contact {
-    margin-top: -2rem;
-    margin-left: 45px; /* Ajuste a margem lateral para telas muito pequenas */
-    font-size: 2.7rem;
-    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
-    align-items: center; /* Centralize os elementos horizontalmente */
+  /* Estilos para a saudação no rodapé */
+  .salut__footer {
+    width: 30%; /* Largura de 30% */
+    margin: 1rem auto; /* Margens automáticas superior e inferior, centraliza horizontalmente */
+    margin-left: 5rem; /* Margem esquerda de 5rem para telas muito pequenas */
+    display: block; /* Transforma em bloco para centralizar horizontalmente */
   }
 
-  .description-project {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-right: 2.5rem;
-    letter-spacing: 0rem;
-    font-size: 1rem;
-    margin-left: 45px; /* Ajuste a margem lateral para telas muito pequenas */
-  }
-
-  .company-footer h2 {
-    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
-    margin-left: 0; /* Remova a margem esquerda */
-    text-align: center; /* Centralize o texto */
-    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
-  }
-
-  .salut-footer {
-    width: 30%; /* Defina a largura como 80% para ajustar ao contêiner pai */
-    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
-    margin-left: 2rem; /* Remova a margem esquerda */
-    display: block; /* Transforme em bloco para centralizar horizontalmente */
-  }
-
+  /* Estilos para .footer-text */
   .footer-text {
-    margin-top: 1.55rem;
+    margin-top: 1.55rem; /* Margem superior de 1.55rem */
   }
 
-  .contact-form input {
-    width: 100%;  
-    font-weight: bold;
-    margin-left: 0rem;
+  /* Estilos para redes sociais */
+  .social-profile {
+    display: flex; /* Usa flexbox para layout flexível */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    border-bottom: none; /* Remove a borda inferior */
+    font-weight: bold; /* Define a fonte como negrito */
+    margin-left: -30px; /* Margem esquerda de -30px */
+    margin-top: -30px; /* Margem superior de -30px */
   }
 
-  .button-submit button {
-    font-size: 1rem;
-    font-weight: bold;
+  /* Estilos para a navegação em redes sociais  */
+  .social-profile nav {
+    margin-top: 0.3rem; /* Margem superior de 0.3rem */
+    margin-left: 4px; /* Margem esquerda de 4px */
   }
 
-  .div_two {
-    width: 90%; /* Defina a largura da linha */
-    margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
-    border-bottom: 1px solid hsl(0, 0%, 13%);
+  /* Estilos para a divisão entre elementos no perfil social */
+  .social-profile div {
+    margin-top: 2rem; /* Margem superior de 2rem */
   }
 
-  .icons a {
+  /* Estilos para o título em redes sociais */
+  .profile-name__title {
+    margin-left: 4px; /* Margem esquerda de 4px */
+  }
+
+  /* Estilos para subtitulo em redes sociais */
+  .profile-name__subtitle {
+    border-bottom: none; /* Remove a borda inferior */
     color: rgb(26, 68, 26);
+    font-weight: bold;
   }
 
+  /* Estilos para o input do formulário de contato */
+  .contact-form input {
+    width: 100%; /* Largura de 100% */
+    font-weight: bold; /* Define a fonte como negrito */
+    margin-left: 0rem; /* Margem esquerda de 0rem */
+  }
+
+  /* Estilos para o botão de envio no rodapé */
+  .footer__submit--button {
+    font-size: 1rem; /* Tamanho da fonte de 1rem */
+    font-weight: bold; /* Define a fonte como negrito */
+  }
+
+  /* Efeito de hover para o botão de envio no rodapé */
+  .footer__submit--button:hover {
+    color: #3381f3; /* Cor do texto azul no hover */
+  }
+
+  /* Estilos para a animação do botão no rodapé */
+  .footer__button--animation {
+    width: 60px; /* Largura de 60px */
+  }
+
+  /* Estilos para a linha divisória hr */
+  .block__divider--two {
+    width: 90%; /* Largura de 90% */
+    margin: 0 auto; /* Margens automáticas nos lados esquerdo e direito */
+    border-bottom: 1px solid hsl(0, 0%, 13%); /* Borda inferior de 1px sólida em tom de cinza */
+  }
+
+  /* Estilos para links na seção de ícones */
+  .icons a {
+    color: rgb(26, 68, 26); /* Cor do texto em verde escuro */
+  }
+
+  /* Efeito de hover para links na seção de ícones */
   .icons a:hover {
-    color: #8c8c8c;
+    color: #8c8c8c; /* Cor do texto em cinza escuro no hover */
   }
 }
 
+/* Estilos para dispositivos entre 580px e 768px de largura de tela */
 @media screen and (min-width: 580px) and (max-width: 768px) {
+  /* Estilos para a seção principal */
   main {
-    max-width: 95%;
+    max-width: 95%; /* Define a largura máxima para 95% da largura da tela */
   }
 
-  .text-subtitle {
-    font-size: 5rem;
-    padding-right: 20rem;
-    letter-spacing: -0.2rem;
-    margin-left: 1rem;
+  /* Estilos para o subtítulo da caixa de texto */
+  .text-box__subtitle {
+    font-size: 5rem; /* Tamanho da fonte de 5rem */
+    padding-right: 20rem; /* Preenchimento à direita de 20rem */
+    letter-spacing: -0.2rem; /* Espaçamento entre letras de -0.2rem */
+    margin-left: 1rem; /* Margem à esquerda de 1rem */
   }
 
-  .text_developer {
-    padding-right: 15rem;
-    font-size: 1.2rem;
-    color: #3b3;
-    margin-left: 1rem;
+  /* Estilos para o desenvolvedor na caixa de texto */
+  .text-box__developer {
+    padding-right: 15rem; /* Preenchimento à direita de 15rem */
+    font-size: 1.2rem; /* Tamanho da fonte de 1.2rem */
+    color: #3b3; /* Cor verde escuro */
+    margin-left: 1rem; /* Margem à esquerda de 1rem */
   }
 
-  .photo {
-    margin-top: -45rem;
-    margin-right: -2rem;
-    bottom: 3rem;
+  /* Estilos para a foto na caixa de texto */
+  .text-box__photo {
+    margin-top: -45rem; /* Margem superior de -45rem */
+    margin-right: -2rem; /* Margem direita de -2rem */
+    bottom: 3rem; /* Espaçamento inferior de 3rem */
   }
 
-  .circle {
-    display: none;
-  }
-  /* hr */
-  .div_one {
-    margin-top: 5rem;
+  /* Estilos para o círculo na caixa de texto (oculto) */
+  .text-box__circle {
+    display: none; /* Oculta o elemento */
   }
 
-  .section-skills > div {
-    width: calc(
-      100% - 50px
-    ); /* Define a largura de cada elemento filho, menos a margem */
+  /* Estilos para a espiral na caixa de texto (oculta) */
+  .text-box__spiral {
+    display: none; /* Oculta o elemento */
+  }
+
+  /* Estilos para o contato na caixa de texto */
+  .text-box__contact {
+    margin-top: 32px; /* Margem superior de 32px */
+  }
+
+  /* Efeito de hover para o contato na caixa de texto */
+  .text-box__contact:hover {
+    color: #fff; /* Cor do texto branca no hover */
+    border-bottom: 2px solid #3b3; /* Borda inferior de 2px sólida verde no hover */
+  }
+
+  /* Estilos para a linha divisória hr */
+  .block__divider--one {
+    margin-top: 5rem; /* Margem superior de 5rem */
+  }
+
+  /* Estilos para a seção de habilidades na metodologia */
+  .methodology__skills > div {
+    width: calc(100% - 50px); /* Largura de cada elemento filho - 50px */
     margin-left: 0; /* Remove a margem esquerda */
     margin-right: 0; /* Remove a margem direita */
   }
 
-  .section-skills > div > div {
-    text-align: left; /* Alinha o texto para a esquerda */
+  /* Alinha o texto à esquerda na seção de habilidades */
+  .methodology__skills > div > div {
+    text-align: left; /* Alinha o texto à esquerda */
   }
 
-  .card-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Centraliza os cards */
-    margin-left: 10px; /* Reduzir a margem esquerda */
-    margin-right: 10px; /* Reduzir a margem direita */
+  /* Estilos para o título da habilidade */
+  .skill__title {
+    font-size: 40px; /* Tamanho da fonte de 40px */
   }
 
-  .card {
-    width: calc(
-      90% - 20px
-    ); /* Define a largura do card para ocupar toda a largura da tela com margem */
-    margin-bottom: 20px; /* Espaçamento entre os cards */
+  /* Estilos para a experiência da habilidade */
+  .skill__experience {
+    font-size: 20px; /* Tamanho da fonte de 20px */
   }
 
-  .card img {
-    width: 100%; /* Define a largura da imagem como 100% */
-    height: auto; /* Mantém a proporção original da imagem */
-    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
-    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+  /* Estilos para o ícone da habilidade */
+  .skill__icon {
+    font-size: 30px; /* Tamanho da fonte de 30px */
   }
 
-  .projects {
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+  /* Estilos para o projeto na metodologia */
+  .methodology-project--rifle {
+    margin-top: 8rem; /* Margem superior de 8rem */
+    margin-left: 10px; /* Margem esquerda de 10px para telas pequenas */
+    margin-right: 10px; /* Margem direita de 10px para telas pequenas */
+    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
   }
 
-  .projects h2 {
-    font-size: 3.7rem; /* Reduza o tamanho do título */
-    margin-left: -130px; /* Adicione margem entre os elementos */
+  /* Estilos para o título do projeto na metodologia */
+  .methodology-project--title {
+    font-size: 3.7rem; /* Tamanho da fonte de 3.7rem */
   }
 
-  .projects a {
-    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+  /* Estilos para o contato na metodologia */
+  .methodology-contact {
+    display: block; /* Transforma o link em bloco para ocupar toda a largura disponível */
     text-align: center; /* Centraliza o texto */
     margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
-    width: 80%; /* Define a largura do elemento */
-    font-size: 0.8rem; /* Reduza o tamanho do título */
-    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-    border-bottom: none;
-    flex: 1;
+    width: 80%; /* Largura de 80% */
+    font-size: 1.8rem; /* Tamanho da fonte de 1.8rem */
+    text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde de 5px */
+    border-bottom: none; /* Remove a borda inferior */
   }
 
-  .projects a:hover {
-    color: #3b3;
-    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
-    border-bottom: none;
+  /* Efeito de hover para o contato na metodologia */
+  .methodology-contact:hover {
+    color: #3b3; /* Cor do texto verde escuro no hover */
+    text-decoration: underline 5px solid #ffffff; /* Sublinha o texto com uma borda branca de 5px */
   }
 
-  .form-footer {
-    grid-template-columns: 1fr;
-    gap: 0.7rem;
-  }
-  .social-network-profile {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    font-weight: bold;
+  /* Estilos para a seção de projetos na galeria de cartões */
+  .card-gallery__project--section {
+    display: flex; /* Usa flexbox para layout flexível */
+    flex-wrap: wrap; /* Permite a quebra de linha para os cartões */
+    justify-content: center; /* Centraliza os cartões */
+    margin-left: 10px; /* Margem esquerda de 10px para telas pequenas */
+    margin-right: 10px; /* Margem direita de 10px para telas pequenas */
   }
 
-  .social-network-profile div {
-    margin-top: 2rem;
+  /* Estilos para o cartão do projeto na galeria de cartões */
+  .methodology-project__card {
+    width: calc(90% - 20px); /* Largura de 90% com margem de 20px */
+    margin-bottom: 20px; /* Espaçamento inferior de 20px entre os cartões */
   }
 
-  .name-profile {
-    margin-top: -1.5rem;
-    margin-left: 3rem;
+  /* Estilos para a imagem da seção */
+  .section__image {
+    width: 100%; /* Largura de 100% */
+    height: auto; /* Altura automática para manter a proporção original da imagem */
+    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior esquerda */
+    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior direita */
   }
 
-  .name-profile span {
-    border-bottom: 0.25rem solid #ffff;
+  /* Estilos para o conteúdo do rodapé */
+  .footer__content {
+    grid-template-columns: 1fr; /* Uma coluna no layout de grade */
+    gap: 0.7rem; /* Espaçamento entre os elementos de 0.7rem */
   }
 
-  .my-contact {
-    margin-top: -2rem;
-    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+  /* Estilos para o texto no rodapé */
+  .footer__text {
+    margin-top: 1.55rem; /* Margem superior de 1.55rem */
+    margin-right: 150px; /* Margem direita de 150px para telas pequenas */
+  }
+
+  /* Estilos para as informações de contato no rodapé */
+  .footer__contact--info {
+    margin-top: -2rem; /* Margem superior de -2rem */
+    margin-left: 80px; /* Margem esquerda de 80px para telas pequenas */
     text-align: center; /* Centraliza o texto */
-    font-size: 3.7rem;
-    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
-    align-items: center; /* Centralize os elementos horizontalmente */
+    font-size: 3.5rem; /* Tamanho da fonte de 3.5rem */
+    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
+    align-items: center; /* Centraliza os elementos horizontalmente */
   }
 
-  .description-project {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-right: 2.5rem;
-    letter-spacing: 0.2rem;
-    font-size: 1rem;
-    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
-    text-align: center; /* Centraliza o texto */
-    font-weight: bold;
+  /* Estilos para a descrição no rodapé */
+  .footer__description {
+    margin-top: 2rem; /* Margem superior de 2rem */
+    margin-bottom: 1rem; /* Margem inferior de 1rem */
+    padding-right: 2.5rem; /* Preenchimento à direita de 2.5rem */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras de 0.2rem */
+    font-size: 1.2rem; /* Tamanho da fonte de 1.2rem */
+    font-weight: bold; /* Peso da fonte em negrito */
   }
 
-  .company-footer h2 {
-    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
-    margin-top: 80px;
-    margin-left: 0; /* Remova a margem esquerda */
-    text-align: center; /* Centralize o texto */
-    font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
+  /* Estilos para o título na parte superior do rodapé */
+  .top__page__footer h2 {
+    width: 60%; /* Largura de 60% para ocupar toda a largura do contêiner pai */
+    margin-top: 80px; /* Margem superior de 80px */
+    margin-left: 180px; /* Margem esquerda de 180px para telas pequenas */
+    font-size: 2.7rem; /* Tamanho da fonte de 2.7rem */
   }
 
-  .salut-footer {
-    width: 15%; /* Defina a largura como 80% para ajustar ao contêiner pai */
-    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
-    margin-left: 15rem; /* Remova a margem esquerda */
-    display: block; /* Transforme em bloco para centralizar horizontalmente */
+  /* Estilos para a saudação no rodapé */
+  .salut__footer {
+    width: 20%; /* Largura de 20% para ajustar ao contêiner pai */
+    margin: 1rem auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
+    margin-left: 15rem; /* Margem esquerda de 15rem para telas pequenas */
+    display: block; /* Transforma em bloco para centralizar horizontalmente */
   }
 
+  /* Estilos para o botão de envio no rodapé */
+  .footer__submit--button {
+    font-size: 1.1rem; /* Tamanho da fonte de 1.1rem */
+    font-weight: bold; /* Peso da fonte em negrito */
+    text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde de 5px */
+  }
+
+  /* Efeito de hover para o botão de envio no rodapé */
+  .footer__submit--button:hover {
+    color: #3381f3; /* Cor do texto azul no hover */
+  }
+
+  /* Estilos para a animação do botão no rodapé */
+  .footer__button--animation {
+    width: 60px; /* Largura de 60px */
+  }
+
+  /* Estilos para o input do formulário de contato */
   .contact-form input {
-    width: 100%;  
-    margin-left: 0rem;
-    border-bottom: 0.2rem solid hsl(0, 0%, 13%);
+    width: 100%; /* Largura de 100% */
+    margin-left: 0rem; /* Margem esquerda de 0rem */
+    border-bottom: 0.2rem solid hsl(0, 0%, 13%); /* Borda inferior de 0.2rem sólida em tom de cinza */
+    font-weight: bold; /* Peso da fonte em negrito */
+  }
+
+  /* Estilos para o perfil social */
+  .social-profile {
+    width: 90%; /* Largura de 90% */
+    display: flex; /* Usa flexbox para layout flexível */
+    justify-content: space-between; /* Distribui o espaço uniformemente entre os elementos */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    font-weight: bold; /* Peso da fonte em negrito */
+    margin-left: -30px; /* Margem esquerda de -30px para telas pequenas */
+    margin-top: -30px; /* Margem superior de -30px para telas pequenas */
+  }
+
+  /* Estilos para a navegação no perfil social */
+  .social-profile nav {
+    margin-top: 1.5rem; /* Margem superior de 1.5rem */
+    margin-right: -60px; /* Margem esquerda de -60px */
+  }
+
+  /* Estilos para a divisão entre elementos no perfil social */
+  .social-profile div {
+    margin-top: 2rem; /* Margem superior de 2rem */
+  }
+
+  /* Estilos para o título do nome no perfil social */
+  .profile-name__title {
+    margin-top: -2rem; /* Margem superior de -2rem */
+    margin-left: 50px; /* Margem esquerda de 50px */
+  }
+
+  /* Estilos para o subtítulo do nome no perfil social (sem borda inferior) */
+  .profile-name__subtitle {
+    border-bottom: none; /* Remove a borda inferior */
+    color: rgb(26, 68, 26);
     font-weight: bold;
   }
 
-  .footer-text {
-    margin-top: 1.55rem;
-  }
-
-  .button-submit {
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-  }
-
-  .div_two {
-    width: 90%; /* Defina a largura da linha */
-    margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
-    border-bottom: 1px solid hsl(0, 0%, 13%);
+  /* Estilos para a linha divisória hr */
+  .block__divider--two {
+    width: 90%; /* Largura de 90% */
+    margin: 0 auto; /* Margens*/
   }
 }
 
+/* Estilos para dispositivos entre 992px e 1024px de largura de tela */
 @media screen and (min-width: 992px) and (max-width: 1024px) {
+  /* Estilos para a seção principal */
   main {
-    max-width: 95%;
+    max-width: 95%; /* Define a largura máxima para 95% da largura da tela */
   }
 
+  /* Estilos para o subtítulo da caixa de texto */
   .text-subtitle {
-    font-size: 5rem;
-    padding-right: 20rem;
-    letter-spacing: -0.2rem;
-    margin-left: 1rem;
+    font-size: 5rem; /* Tamanho da fonte de 5rem */
+    padding-right: 20rem; /* Preenchimento à direita de 20rem */
+    letter-spacing: -0.2rem; /* Espaçamento entre letras de -0.2rem */
+    margin-left: 1rem; /* Margem à esquerda de 1rem */
   }
 
+  /* Estilos para o desenvolvedor na caixa de texto */
   .text_developer {
-    padding-right: 15rem;
-    font-size: 1.2rem;
-    color: #3b3;
-    margin-left: 1rem;
+    padding-right: 15rem; /* Preenchimento à direita de 15rem */
+    font-size: 1.2rem; /* Tamanho da fonte de 1.2rem */
+    color: #3b3; /* Cor verde escuro */
+    margin-left: 1rem; /* Margem à esquerda de 1rem */
   }
 
+  /* Estilos para a foto na caixa de texto */
   .photo {
-    margin-top: -45rem;
-    margin-right: -2rem;
-    bottom: 3rem;
+    margin-top: -45rem; /* Margem superior de -45rem */
+    margin-right: -2rem; /* Margem direita de -2rem */
+    bottom: 3rem; /* Espaçamento inferior de 3rem */
   }
 
+  /* Estilos para o círculo na caixa de texto (oculto) */
   .circle {
-    display: none;
-  }
-  /* hr */
-  .div_one {
-    margin-top: 5rem;
+    display: none; /* Oculta o elemento */
   }
 
-  .section-skills > div {
-    width: calc(
-      50% - 50px
-    ); /* Define a largura de cada elemento filho, menos a margem */
+  /* Estilos para a linha divisória hr */
+  .block__divider--one {
+    margin-top: 5rem; /* Margem superior de 5rem */
+  }
+
+  /* Estilos para a seção de habilidades na metodologia */
+  .methodology__skills > div {
+    width: calc(50% - 50px); /* Largura de cada elemento filho - 50px */
     margin-left: 0; /* Remove a margem esquerda */
     margin-right: 0; /* Remove a margem direita */
   }
 
-  .section-skills > div > div {
-    text-align: left; /* Alinha o texto para a esquerda */
+  /* Alinha o texto à esquerda na seção de habilidades */
+  .methodology__skills > div > div {
+    text-align: left; /* Alinha o texto à esquerda */
   }
 
-  .card-gallery {
-    display: flex;
-    flex-wrap: wrap;
+  /* Estilos para a seção de projetos na galeria de cartões */
+  .card-gallery__project--section {
+    display: flex; /* Usa flexbox para layout flexível */
+    flex-wrap: wrap; /* Permite a quebra de linha para os cartões */
     justify-content: center; /* Centraliza os cards */
     margin-left: 10px; /* Reduzir a margem esquerda */
     margin-right: 10px; /* Reduzir a margem direita */
   }
 
-  .card {
-    width: calc(
-      90% - 20px
-    ); /* Define a largura do card para ocupar toda a largura da tela com margem */
+  /* Estilos para os cards do projeto na metodologia */
+  .methodology-project__card {
+    width: calc(90% - 20px); /* Largura do card - 20px */
     margin-bottom: 20px; /* Espaçamento entre os cards */
   }
 
-  .card img {
+  /* Estilos para a imagem na seção */
+  .section__image {
     width: 100%; /* Define a largura da imagem como 100% */
     height: auto; /* Mantém a proporção original da imagem */
     border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
     border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
   }
 
-  .projects {
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 10px; /* Ajuste o preenchimento conforme necessário */
+  /* Estilos para o conteúdo do rodapé */
+  .footer__content {
+    grid-template-columns: 1fr; /* Uma coluna na grade */
+    gap: 7rem; /* Espaçamento entre as colunas */
   }
 
-  .projects h2 {
-    font-size: 3.7rem; /* Reduza o tamanho do título */
-    margin-left: -120px; /* Adicione margem entre os elementos */
+  /* Estilos para o texto do rodapé */
+  .footer-text {
+    margin-top: 1.55rem; /* Margem superior de 1.55rem */
   }
 
-  .projects a {
-    display: block; /* Transforma o link em um bloco para ocupar toda a largura disponível */
+  /* Estilos para as informações de contato no rodapé */
+  .footer__contact--info {
+    margin-top: -2rem; /* Margem superior de -2rem */
+    margin-left: 0px; /* Ajuste a margem lateral para telas muito pequenas */
     text-align: center; /* Centraliza o texto */
-    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
-    width: 80%; /* Define a largura do elemento */
-    font-size: 0.8rem; /* Reduza o tamanho do título */
-    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
-    border-bottom: none;
-    flex: 1;
-  }
-
-  .projects a:hover {
-    color: #3b3;
-    text-decoration: underline 5px solid #ffffff; /* Esta linha sublinha o texto */
-    border-bottom: none;
-  }
-
-  .form-footer {
-    grid-template-columns: 1fr;
-    gap: 7rem;
-    justify-content: center; /* Centralize o conteúdo */
-    text-align: center; /* Centralize o texto dentro do formulário */
-  }
-
-  .social-network-profile {
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    font-weight: bold;
-  }
-
-  .social-network-profile div {
-    margin-top: 2rem;
-  }
-
-  name-profile {
-    margin-top: -1.5rem;
-    margin-left: 3rem;
-  }
-
-  .name-profile span {
-    border-bottom: 0.25rem solid #ffff;
-  }
-
-  .my-contact {
-    margin-top: -2rem;
-    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
-    text-align: center; /* Centraliza o texto */
-    font-size: 3.7rem;
-    flex-direction: column; /* Altere a direção do flexbox para empilhar os elementos verticalmente */
+    font-size: 4.7rem; /* Tamanho da fonte de 4.7rem */
+    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
     align-items: center; /* Centralize os elementos horizontalmente */
   }
 
-  .description-project {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-right: 2.5rem;
-    letter-spacing: 0.2rem;
-    font-size: 1rem;
+  /* Estilos para a descrição no rodapé */
+  .footer__description {
+    margin-top: 1rem; /* Margem superior de 1rem */
+    margin-bottom: 1rem; /* Margem inferior de 1rem */
+    padding-right: 2.5rem; /* Preenchimento à direita de 2.5rem */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras de 0.2rem */
+    font-size: 4.5rem; /* Tamanho da fonte de 4.5rem */
     margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
     text-align: center; /* Centraliza o texto */
-    font-weight: bold;
+    font-weight: bold; /* Peso da fonte em negrito */
   }
 
-  .company-footer h2 {
-    width: 100%; /* Defina a largura como 100% para ocupar toda a largura do contêiner pai */
-    margin-top: 80px;
-    margin-left: 0; /* Remova a margem esquerda */
-    text-align: center; /* Centralize o texto */
-    font-size: 2.7rem; /* Ajuste o tamanho da fonte conforme necessário */
+  /* Estilos para o título h2 no topo do rodapé */
+  .top__page__footer h2 {
+    width: 60%; /* Largura de 60% para ocupar toda a largura do contêiner pai */
+    margin-top: 80px; /* Margem superior de 80px */
+    margin-left: 150px; /* Remove a margem esquerda */
+    font-size: 2.7rem; /* Tamanho da fonte de 2.7rem */
   }
 
+  /* Estilos para a saudação no rodapé */
+  .salut__footer {
+    width: 20%; /* Largura de 20% para ajustar ao contêiner pai */
+    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
+    margin-left: 15rem; /* Remove a margem esquerda */
+    display: block; /* Transforma em bloco para centralizar horizontalmente */
+  }
+
+  /* Estilos para o input no formulário de contato */
   .contact-form input {
-    width: 100%;
-    margin-top: -25rem;
-    margin-left: 0rem;
-    border-bottom: 0.2rem solid hsl(0, 0%, 13%);
-    font-weight: bold;
+    width: 100%; /* Largura de 100% */
+    margin-top: -25rem; /* Margem superior de -25rem */
+    margin-left: 0rem; /* Margem esquerda de 0rem */
+    border-bottom: 0.2rem solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior sólida */
+    font-weight: bold; /* Peso da fonte em negrito */
   }
 
-  .footer-text {
-    margin-top: 1.55rem;
-  }
-
+  /* Estilos para o botão de envio no formulário */
   .button-submit {
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto */
+    font-size: 1.1rem; /* Tamanho da fonte de 1.1rem */
+    font-weight: bold; /* Peso da fonte em negrito */
+    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto com uma borda verde */
   }
 
-  .div_two {
-    width: 90%; /* Defina a largura da linha */
-    margin: 0 auto; /* Aplica margens automáticas nos lados esquerdo e direito */
-    border-bottom: 1px solid hsl(0, 0%, 13%);
+  /* Estilos para o perfil social */
+  .social-profile {
+    width: 100%; /* Largura de 100% */
+    display: flex; /* Usa flexbox para layout flexível */
+    justify-content: space-between; /* Distribui o espaço uniformemente entre os elementos */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
+    font-weight: bold; /* Peso da fonte em negrito */
+  }
+
+  /* Estilos para os elementos dentro do perfil social */
+  .social-profile div {
+    margin-top: 2rem; /* Margem superior de 2rem */
+  }
+
+  /* Estilos para a segunda linha divisória hr */
+  .block__divider--two {
+    width: 90%; /* Largura de 90% */
+    margin: 0 auto; /* Margens automáticas nos lados esquerdo e direito */
+    border-bottom: 1px solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior sólida */
   }
 }

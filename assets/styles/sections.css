@@ -1,219 +1,226 @@
-/* Estilos h2*/
-.text-subtitle {
-  font-size: 5.36rem;
-  letter-spacing: -0.25rem;
-  margin-bottom: 3.73rem;
-  margin-left: 3rem;
-  line-height: 1;
-  font-weight: 700;
-  color: #8c8c8c;
+/* Estilos h2 */
+.text-box__subtitle {
+  font-size: 5.36rem; /* Define o tamanho da fonte */
+  letter-spacing: -0.25rem; /* Define o espaçamento entre as letras */
+  margin-bottom: 3.73rem; /* Define a margem inferior */
+  margin-left: 3rem; /* Define a margem esquerda */
+  line-height: 1; /* Define a altura da linha */
+  font-weight: 700; /* Define o peso da fonte */
+  color: #8c8c8c; /* Define a cor do texto */
 }
 
-/* Estilo nome span*/
-.nameSpan {
-  border-bottom: 0.25rem solid #4de29f;
-  color: #3b3;
-  font-weight: bold;
+/* Estilo nome span */
+.text-box__name {
+  border-bottom: 0.25rem solid #4de29f; /* Define uma borda na parte inferior */
+  color: #3b3; /* Define a cor do texto */
+  font-weight: bold; /* Define o peso da fonte */
 }
 
-/* Estilo paragrafo*/
-.text_developer {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 3rem;
-  padding-right: 40rem;
-  letter-spacing: 0.4rem;
-  line-height: 1.5;
-  color: #3b3;
+/* Estilo parágrafo */
+.text-box__developer {
+  margin-top: 3rem; /* Define a margem superior */
+  margin-bottom: 3rem; /* Define a margem inferior */
+  margin-left: 3rem; /* Define a margem esquerda */
+  padding-right: 40rem; /* Define o preenchimento à direita */
+  letter-spacing: 0.4rem; /* Define o espaçamento entre as letras */
+  line-height: 1.5; /* Define a altura da linha */
+  color: #3b3; /* Define a cor do texto */
 }
 
-
-.spiral {
-  float: right;
-  margin-right: 50rem;
-  margin-top: -34rem;
+/* Outras classes */
+.text-box__circle {
+  float: right; /* Define o alinhamento à direita */
+  margin-right: -4rem; /* Define a margem direita */
+  margin-top: -3rem; /* Define a margem superior */
 }
 
-.circle {
-  float: right;
-  margin-right: -4rem;
-  margin-top: -3rem;
+.text-box__photo {
+  float: right; /* Define o alinhamento à direita */
+  margin-top: -39rem; /* Define a margem superior */
+  bottom: 7rem; /* Define a posição inferior */
 }
 
-.photo {
-  float: right;
-  margin-top: -39rem;
-  bottom: 7rem
+.text-box__spiral {
+  float: right; /* Define o alinhamento à direita */
+  margin-right: 50rem; /* Define a margem direita */
+  margin-top: -34rem; /* Define a margem superior */
 }
 
-.my-section .text-box a {  
-  border-bottom: 2px solid hsl(153, 71%, 59%);
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1.0rem;
-  font-weight: 600;
-  letter-spacing: 0.229rem;
-  line-height: 2.6rem;
-  padding-bottom: 0.1rem;
-  cursor: pointer;
-  font-weight: bold;
-  color: #F7F7F7;
+.text-box__contact {
+  border-bottom: 2px solid hsl(153, 71%, 59%); /* Define uma borda na parte inferior */
+  display: inline-block; /* Define como um bloco em linha */
+  text-decoration: none; /* Remove a decoração de texto */
+  font-size: 1rem; /* Define o tamanho da fonte */
+  font-weight: 600; /* Define o peso da fonte */
+  letter-spacing: 0.229rem; /* Define o espaçamento entre as letras */
+  line-height: 2.6rem; /* Define a altura da linha */
+  padding-bottom: 0.1rem; /* Define o preenchimento na parte inferior */
+  cursor: pointer; /* Define o cursor do mouse */
+  color: #f7f7f7; /* Define a cor do texto */
+  margin-left: 30px; /* Define a margem esquerda */
 }
 
-.my-section .text-box a:hover{
-  color: #8c8c8c;
+.text-box__contact:hover {
+  color: #8c8c8c; /* Define a cor do texto ao passar o mouse */
 }
 
 /* Skills Section Styles */
-.section-skills {
-  padding: 20px;
-  text-align: center;
-  margin-top: 80px;
-  margin-left: 180px;
-  margin-right: 180px;
-  display: flex;
-  flex-wrap: wrap;
+.methodology__skills {
+  padding: 20px; /* Define o preenchimento */
+  text-align: center; /* Define o alinhamento do texto */
+  margin-top: 80px; /* Define a margem superior */
+  margin-left: 180px; /* Define a margem esquerda */
+  margin-right: 180px; /* Define a margem direita */
+  display: flex; /* Usa o modelo de layout flexível */
+  flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas */
   justify-content: space-between; /* Distribui os elementos igualmente ao longo do eixo principal */
 }
 
-.section-skills > div {
-  width: calc(
-    25% - 20px
-  ); /* Define a largura de cada elemento filho, menos a margem */
+.methodology__skills > div {
+  width: calc(25% - 20px); /* Define a largura de cada elemento filho, menos a margem */
   margin-bottom: 20px; /* Adiciona margem inferior entre as linhas */
 }
 
-.section-skills h3 {
-  margin-bottom: 10px;
-  color: #fff;
-  font-size: 40px;
+/* Outras classes */
+.methodology h2 {
+  margin-top: 100px; /* Define a margem superior */
+  color: #3b3; /* Define a cor do texto */
+  font-size: 4rem; /* Define o tamanho da fonte */
+  text-align: center; /* Define o alinhamento do texto */
+  font-weight: bold; /* Define o peso da fonte */
 }
 
-.section-skills p {
-  margin-bottom: 10px;
-  color: #3b3;
+.methodology span {
+  border-bottom: 0.25rem solid #4de29f; /* Define uma borda na parte inferior */
+  color: #f7f7f7; /* Define a cor do texto */
+  font-weight: bold; /* Define o peso da fonte */
 }
 
-.section-skills i {
-  color: #b3b3b3;
-  font-size: 30px;
+/* Estilos de habilidades */
+.skill__title {
+  margin-bottom: 10px; /* Define a margem inferior */
+  color: #fff; /* Define a cor do texto */
+  font-size: 40px; /* Define o tamanho da fonte */
 }
 
-.projects{
-  margin-top: 180px;
-  margin-left: 200px;
-  display: flex;  
-  justify-content: space-between;
- 
+.skill__experience {
+  margin-bottom: 10px; /* Define a margem inferior */
+  color: #3b3; /* Define a cor do texto */
 }
 
-.projects h2 {  
-  font-size: 50px;
-  color: #3b3;
-  font-size: 4rem;  
+.skill__icon {
+  color: #b3b3b3; /* Define a cor do ícone */
+  font-size: 30px; /* Define o tamanho da fonte */
 }
 
-.projects span {  
-    border-bottom: 0.25rem solid #4de29f;
-    color: #F7F7F7;  
-    font-weight: bold;
-  }
-
-.projects a {
-  display: inline-block;
-  text-decoration: none;
-  letter-spacing: 0.229rem;
-  line-height: 2.6rem;
-  padding-bottom: 0.1rem;
-  cursor: pointer;
-  font-weight: bold;
-  margin-top: 50px;
-  margin-right: 280px;
-  color: #fff; 
-  border-bottom: 2px solid hsl(186, 71%, 59%);  
-  font-size: 20px;  
+/* Estilos de projetos de metodologia */
+.methodology-project--rifle {
+  margin-top: 180px; /* Define a margem superior */
+  margin-left: 200px; /* Define a margem esquerda */
+  display: flex; /* Usa o modelo de layout flexível */
+  justify-content: space-between; /* Distribui os elementos igualmente ao longo do eixo principal */
 }
 
-.projects a:hover{
-  color: #3b3;
-  border-bottom: 2px solid hsl(180, 20%, 99%);  
+.methodology-project--title {
+  font-size: 50px; /* Define o tamanho da fonte */
+  color: #3b3; /* Define a cor do texto */
+  font-size: 4rem; /* Define o tamanho da fonte novamente (parece ser redundante) */
+  text-align: center; /* Define o alinhamento do texto */
 }
 
-.card-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-left: 180px;
-  margin-right:180px;
-}
-.card {
-  background: url("../../assets/images/fundo-redes-sociais.jpg") no-repeat;
-  width: 20rem; /* Defina a largura do card */
-  margin-bottom: 20px; /* Espaçamento entre os cards */
-  border: 1px solid #ccc; /* Adicione uma borda para separar os cards */
-  border-radius: 5px; /* Adicione cantos arredondados */
+.methodology-project--subtitle {
+  border-bottom: 0.25rem solid #4de29f; /* Define uma borda na parte inferior */
+  color: #f7f7f7; /* Define a cor do texto */
+  font-weight: bold; /* Define o peso da fonte */
 }
 
-.card img {
-  width: 20rem; /* Assegura que a imagem preencha completamente o espaço do card */
-  height: 18rem;
-  border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
-  border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+/* Contato da metodologia */
+.methodology-contact {
+  display: inline-block; /* Define como um bloco em linha */
+  text-decoration: none; /* Remove a decoração de texto */
+  letter-spacing: 0.229rem; /* Define o espaçamento entre as letras */
+  line-height: 2.6rem; /* Define a altura da linha */
+  padding-bottom: 0.1rem; /* Define o preenchimento na parte inferior */
+  cursor: pointer; /* Define o cursor do mouse */
+  font-weight: bold; /* Define o peso da fonte */
+  margin-top: 50px; /* Define a margem superior */
+  margin-right: 280px; /* Define a margem direita */
+  color: #fff; /* Define a cor do texto */
+  border-bottom: 2px solid hsl(186, 71%, 59%); /* Define uma borda na parte inferior */
+  font-size: 25px; /* Define o tamanho da fonte */
 }
 
-.card h3 {
-  margin: 10px; /* Espaçamento interno entre o texto e a borda do card */
-  color: #101010;
-  font-size: 23px;
-  font-weight: bold;
+.methodology-contact:hover {
+  color: #3b3; /* Define a cor do texto ao passar o mouse */
+  border-bottom: 2px solid hsl(180, 20%, 99%); /* Define uma borda na parte inferior ao passar o mouse */
 }
 
-.card h5 {
-  margin: 10px; /* Espaçamento interno entre o texto e a borda do card */
-  color: rgb(243, 10, 10);
-  font-size: 15px;
-  font-weight: bold;
+/* Seção de galeria de cards */
+.card-gallery__project--section {
+  display: flex; /* Usa o modelo de layout flexível */
+  flex-wrap: wrap; /* Permite que os elementos sejam quebrados em várias linhas */
+  justify-content: space-between; /* Distribui os elementos igualmente ao longo do eixo principal */
+  margin-top: 20px; /* Define a margem superior */
+  margin-left: 180px; /* Define a margem esquerda */
+  margin-right: 180px; /* Define a margem direita */
 }
 
-.click-projects {
-  position: relative;
-  display: inline-block;
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1rem;
-  font-weight: 700;  
-  padding-bottom: 1rem;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  transition: all 300ms ease-in-out;
-  -webkit-transition: all 300ms ease-in-out;
+.methodology-project__card {
+  background: url("../../assets/images/fundo-redes-sociais.jpg") no-repeat; /* Define a imagem de fundo sem repetição */
+  width: 20rem; /* Define a largura do cartão */
+  margin-bottom: 20px; /* Adiciona margem inferior entre os cartões */
+  border: 1px solid #ccc; /* Adiciona uma borda para separar os cartões */
+  border-radius: 5px; /* Adiciona cantos arredondados */
 }
 
-.project-text {
-  color: #4de29f;
-  border-bottom: 2px solid hsl(153,71%,59%);
-  font-size: 1.6rem;
+.section__image {
+  width: 19.8rem; /* Assegura que a imagem preencha completamente o espaço do cartão */
+  height: 18rem; /* Define a altura da imagem */
+  border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior esquerda */
+  border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior direita */
 }
 
-
-.click-projects .project-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+.methodology--project_title {
+  margin: 10px; /* Espaçamento interno entre o texto e a borda do cartão */
+  color: #101010; /* Define a cor do texto */
+  font-size: 18px; /* Define o tamanho da fonte */
+  font-weight: bold; /* Define o peso da fonte */
 }
 
-.click-projects:hover .project-text {
-  opacity: 1;
+.methodology--project_skills {
+  margin: 10px; /* Espaçamento interno entre o texto e a borda do cartão */
+  color: rgb(243, 10, 10); /* Define a cor do texto */
+  font-size: 15px; /* Define o tamanho da fonte */
+  font-weight: bold; /* Define o peso da fonte */
 }
 
+.methodology__project--link {
+  position: relative; /* Define a posição relativa */
+  display: inline-block; /* Define como um bloco em linha */
+  text-decoration: none; /* Remove a decoração de texto */
+  text-transform: uppercase; /* Converte o texto para maiúsculas */
+  font-size: 1rem; /* Define o tamanho da fonte */
+  font-weight: 700; /* Define o peso da fonte */
+  padding-bottom: 1rem; /* Define o preenchimento na parte inferior */
+  border: none; /* Remove a borda */
+  cursor: pointer; /* Define o cursor do mouse */
+  font-family: inherit; /* Usa a fonte herdada */
+  transition: all 300ms ease-in-out; /* Adiciona uma transição suave */
+  -webkit-transition: all 300ms ease-in-out; /* Adiciona uma transição suave no Webkit */
+}
 
+.project-link--large {
+  border-bottom: 2px solid hsl(153, 71%, 59%); /* Define uma borda na parte inferior */
+  font-size: 1.2rem; /* Define o tamanho da fonte */
+}
+
+.methodology__project--link .project-link--large {
+  position: absolute; /* Define a posição absoluta */
+  top: 50%; /* Define a posição verticalmente no meio */
+  left: 50%; /* Define a posição horizontalmente no meio */
+  transform: translate(-50%, -50%); /* Move para o centro */
+  background-color: rgba(0, 0, 0, 0.4); /* Define Cor de fundo */
+}
+.methodology__project--link:hover .project-link--large {
+  opacity: 1; /* Define a propriedade de opacidade para 1. */
+}

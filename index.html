@@ -1,334 +1,397 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Creation of my Portfolio to present the main projects and skills acquired." />
 
-    <!-- Inclui os estilos CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/styles/header-footer.css" />
-    <link rel="stylesheet" href="./assets/styles/sections.css" />
-    <link rel="stylesheet" href="./assets/styles/media-query.css" />
+	<!-- icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet" />
+
+	<!-- styles -->
+	<link rel="stylesheet" href="./assets/styles/header-footer.css" />
+	<link rel="stylesheet" href="./assets/styles/sections.css" />
+	<link rel="stylesheet" href="./assets/styles/media-query.css" />
 
 
-    <link rel="shortcut icon" href="./assets/images/CartãoApresentação_1.gif" type="image/x-icon">
+	<!-- scripts -->
+	<script src="./assets/js/formulario.js" defer></script>
 
-    <title>PORTFOLIO-RAFARZ76DEV</title>
+	<!-- favicon -->
+	<link rel="shortcut icon"
+		href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGMyOGFtOXNrcmdra3kyZzZlb3dqNG5jejViZHF3a2gzMW45eTQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/oaXjH6sK8gRoBWAM4b/giphy.gif"
+		type="image/x-icon" />
 
+	<title>PORTFOLIO-RAFARZ76DEV</title>
 </head>
 
+ <!-- Container principal -->
 <body>
-    <div class="body-text">
-        <main>
-            <!--HEADER (Cabeçalho da página) -->
-            <header class="name-header">
-                <h1 class="nameNav">rafaelraizer</h1>
-                <nav class="profiles">
-                    <a href="https://github.com/RafaRz76Dev/portfolio-rafarz76dev" target="_blank" title="GitHub"><i
-                            class="fa-brands fa-square-github fa-lg"></i></a>
-                    <a href="mailto:rafarz76dev@gmail.com" target="_blank" rel="external" title="E-mail" ><i class="fa-solid fa-envelope fa-lg"></i></a>
-                    <a href="https://www.linkedin.com/in/rafael-raizer/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></i></a>
-                    <a href="https://api.whatsapp.com/send/?phone=47999327137" target="_blank" rel="external" title="Whatsapp"><i class=" fa-brands fa-whatsapp fa-lg"></i></a>
-                    </a>
-                </nav>
-            </header>
+	<div class="body__text">
+		<main>
+			<!-- HEADER (Cabeçalho da página) -->
+			<header class="name-header">
+				<!-- Título principal -->
+				<h1 class="name-header__title">rafaelraizer</h1>
+				<!-- Navegação para perfis sociais -->
+				<nav class="profiles">
+					<a href="https://github.com/RafaRz76Dev/portfolio-rafarz76dev" target="_blank" title="GitHub"><i
+							class="fa-brands fa-square-github fa-lg"></i></a>
+					<a href="mailto:rafarz76dev@gmail.com" target="_blank" rel="external" title="E-mail"><i
+							class="fa-solid fa-envelope fa-lg"></i></a>
+					<a href="https://www.linkedin.com/in/rafael-raizer/" target="_blank" title="Linkedin"><i
+							class="fa-brands fa-linkedin fa-lg"></i></i></a>
+					<a href="https://api.whatsapp.com/send/?phone=47999327137" target="_blank" rel="external"
+						title="Whatsapp"><i class=" fa-brands fa-whatsapp fa-lg"></i></a>
+				</nav>
+			</header>
 
-            <!--SECTION (Construir a seção) -->
-            <section class="my-section">
-                <div class="text-box">
-                    <h2 class="text-subtitle">Nice to meet you!
-                        <br>
-                        I'm <span class="nameSpan">Rafael Raizer</span>.
-                    </h2>
+			<!-- SECTION (Construir a seção) -->
+			<section class="me">
+				<div class="text__box">
+					<!-- Subtítulo e apresentação pessoal -->
+					<h2 class="text-box__subtitle">Nice to meet you!
+						<br>
+						I'm <span class="text-box__name">Rafael Raizer</span>.
+					</h2>
 
-                    <p class="text_developer">I'm a front-end developer with a passion for creating exceptional projects
-                        to delight users.
-                    </p>
+					<!-- Descrição da profissão -->
+					<p class="text-box__developer">I'm a front-end developer with a passion for creating exceptional
+						projects
+						to delight users.
+					</p>
 
-                    <img class="photo" src="https://github.com/RafaRz76Dev.png" alt="photo" width="460" height="750" />
-                    <img class="circle" src="assets/images/pattern-circle.svg" alt="circle" />
-                    <img class="spiral" src="assets/images/pattern-rings.svg" alt="spiral" />
+					<!-- Foto e elementos gráficos -->
+					<img class="text-box__photo" src="https://github.com/RafaRz76Dev.png" alt="photo" width="460"
+						height="750" />
+					<img class="text-box__circle" src="assets/images/pattern-circle.svg" alt="circle" />
 
-                    <a href="https://api.whatsapp.com/send/?phone=47999327137" target="_blank" rel="external"
-                    title="Whatsapp">CONTACT ME</a>
-                </div>
-            </section>
-            <hr class="div_one">
-        </main>
-    </div>
+					<img class="text-box__spiral" src="assets/images/pattern-rings.svg" alt="spiral" />
 
-    <div class="section-skills">
+					<!-- Link de contato -->
+					<a href="https://api.whatsapp.com/send/?phone=47999327137" target="_blank" rel="external"
+						title="Whatsapp" class="text-box__contact">CONTACT ME</a>
+				</div>
+			</section>
 
-        <div class="skills">
-            <div>
-                <i class="fa-brands fa-html5 fa-lg"></i>
-                <div>
-                    <h3>HTML</h3>
-                    <p>3 Years Experience</p>
-                </div>
-            </div>
-        </div>
+			<!-- Linha divisória -->
+			<hr class="block__divider--one">
+		</main>
+	</div>
 
-        <div>
-            <div>
-                <i class="fa-brands fa-css3 fa-lg"></i>
-                <div>
-                    <h3>CSS</h3>
-                    <p>3 Years Experience</p>
-                </div>
-            </div>
-        </div>
+	<!-- Seção de habilidades -->
+	<section class="methodology">
+		<h2>SKILLS<span> SECTION</span></h2>
 
-        <div>
-            <div>
-                <i class="fa-brands fa-js fa-lg"></i>
-                <div>
-                    <h3>JS</h3>
-                    <p>3 Years Experience</p>
-                </div>
-            </div>
-        </div>
+		<!-- Lista de habilidades -->
+		<div class="methodology__skills">
+			<div class="skills">
+				<div class="skill">
+					<i class="skill__icon fa-brands fa-html5 fa-lg"></i>
+					<div class="skill__info">
+						<h3 class="skill__title">HTML</h3>
+						<p class="skill__experience">2 Years Experience</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<i class="skill__icon fa-brands fa-css3 fa-lg"></i>
+					<div>
+						<h3 class="skill__title">CSS</h3>
+						<p class="skill__experience">2 Years Experience</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<i class="skill__icon fa-brands fa-js fa-lg"></i>
+					<div>
+						<h3 class="skill__title">JS</h3>
+						<p class="skill__experience">2 Years Experience</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<i class="skill__icon fa-brands fa-python fa-lg"></i>
+					<div>
+						<h3 class="skill__title">PYTHON</h3>
+						<p class="skill__experience">2 Years Experience</p>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<i class="skill__icon fa-brands fa-react fa-lg"></i>
+					<div>
+						<h3 class="skill__title">REACT</h3>
+						<p class="skill__experience">1.5 Years Experience</p>>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<i class="skill__icon fa-brands fa-angular fa-lg"></i>
+					<div>
+						<h3 class="skill__title">ANGULAR</h3>
+						<p class="skill__experience">1.5 Years Experience</p>>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<i class="skill__icon fa-brands fa-vuejs fa-lg"></i>
+					<div>
+						<h3 class="skill__title">VUE.JS</h3>
+						<p class="skill__experience">1.5 Years Experience</p>>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div>
+					<img src="./assets/images/typescript.png" sizes="16x16">
+					<div>
+						<h3 class="skill__title">TYPESCRIPT</h3>
+						<p class="skill__experience">1.5 Years Experience</p>>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <div>
-            <div>
-                <i class="fa-brands fa-python fa-lg"></i>
-                <div>
-                    <h3>PYTHON</h3>
-                    <p>2 Years Experience</p>
-                </div>
-            </div>
-        </div>
+	<!-- Projeto na metodologia Rifle -->
+	<div class="methodology-project--rifle">
+		<h2 class="methodology-project--title">MY<span class="methodology-project--subtitle"> PROJECTS</span></h2>
+		<a class="methodology-contact" href="mailto:rafarz76dev@gmail.com" target="_blank" rel="external"
+			title="Contact Me">Contact Me</a>
+	</div>
+	<br>
 
-        <div>
-            <div>
-                <i class="fa-brands fa-react fa-lg"></i>
-                <div>
-                    <h3>REACT</h3>
-                    <p>1.5 Year Experience</p>
-                </div>
-            </div>
-        </div>
+	<!-- Seção cards de projetos -->
+	<section class="card-gallery__project--section">
+		<div class="methodology-project__card">
+			<a href="https://formulario-cadastro-dev.netlify.app/" class="methodology__project--link">
+				<img src="./assets/images/developer-registration.png" alt="developer-registration"
+					class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title">FORMULARIO/STACKX - <span>CADASTRODEV </span></h3>
+			<h5 class="methodology--project_skills">
+				<span> HTML |</span>
+				<span> CSS |</span>
+				<span> JAVASCRIPT</span>
+			</h5>
+		</div>
 
-        <div>
-            <div>
-                <i class="fa-brands fa-angular fa-lg"></i>
-                <div>
-                    <h3>ANGULAR</h3>
-                    <p>1.5 Year Experience</p>
-                </div>
-            </div>
-        </div>
+		<div class="methodology-project__card">
+			<a href="https://blog-rafa76tech.netlify.app/" class="methodology__project--link">
+				<img src="./assets/images/blog.gif" alt="blog" class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title"> BLOG - <span>RAFA76TECH</span></h3>
+			<h5 class="methodology--project_skills">
+				<span> HTML |</span>
+				<span> CSS |</span>
+				<span> JAVASCRIPT</span>
+			</h5>
+		</div>
 
-        <div>
-            <div>
-                <i class="fa-brands fa-vuejs fa-lg"></i>
-                <div>
-                    <h3>VUE.JS</h3>
-                    <p>1.5 Year Experience</p>
-                </div>
-            </div>
-        </div>
+		<div class="methodology-project__card">
+			<a href="https://rafarz76dev-calculadoralabs.netlify.app/" class="methodology__project--link">
+				<img src="./assets/images/calcLab_stackX.png" alt="calculator" class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title"> PROJETO - <span>CALCULADORA </span></h3>
+			<h5 class="methodology--project_skills">
+				<span> HTML |</span>
+				<span> CSS |</span>
+				<span> JAVASCRIPT</span>
+			</h5>
+		</div>
 
-        <div>
-            <div>
-                <img src="./assets/images/typescript.png" sizes="16x16">
-                <div>
-                    <h3>TYPESCRIPT</h3>
-                    <p>1 Year Experience</p>
-                </div>
-            </div>
-        </div>
-    </div>
+		<div class="methodology-project__card">
+			<a href="https://github.com/RafaRz76Dev/projeto-chatbotOpenai.04-stackX" class="methodology__project--link">
+				<img src="./assets/images//projetochatbot-04.gif" alt="chatbot-openai" class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title"> CHATBOT.04 - <span>CHATGPT-OPENAI</span></h3>
+			<h5 class="methodology--project_skills">
+				<span> PYTHON |</span>
+				<span> HTML |</span>
+				<span> CSS |</span>
+				<span> JAVASCRIPT</span>
+			</h5>
+		</div>
 
-    </section>
+		<div class="methodology-project__card">
+			<a href="https://rafarz76dev-makeyourburger.netlify.app/" class="methodology__project--link">
+				<img src="./assets/images/burgerplace-Home.png" alt="burger" class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title"> PROJETO/STACKX - <span>MAKE YOUR BURGER</span></h3>
+			<h5 class="methodology--project_skills">
+				<span> HTML |</span>
+				<span> JAVASCRIPT |</span>
+				<span> VUE.JS |</span>
+				<span> JSONSERVER</span>
 
-    <div class="projects">
-        <h2>MY<span> PROJECTS</span></h2>
-        <a href="mailto:rafarz76dev@gmail.com" target="_blank" rel="external" title="E-mail"> CONTACT-ME</a>
-    </div>
-    <br>
+			</h5>
+		</div>
+		<div class="methodology-project__card">
+			<a href="https://rafarz76dev-spiderverse.vercel.app/" class="methodology__project--link">
+				<img src="./assets/images/Spider-verse 2.png" alt="spider-verse" class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title"> PROJETO DIO - <span>SPIDERVERSE </span></h3>
+			<h5 class="methodology--project_skills">
+				<span> TYPESCRIPT |</span>
+				<span> REACT |</span>
+				<span> NEXTJS</span>
+			</h5>
+		</div>
 
-    <section class="card-gallery">
-        <div class="card">
-            <a href="https://blog-rafa76tech.netlify.app/" class="click-projects">
-                <img src="./assets/images/blog.gif" alt="blog" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> BLOG - <span>RAFA76TECH</span></h3>
-            <h5>
-                <span> HTML</span>
-                <span> CSS</span>
-                <span> JAVASCRIPT</span>
-            </h5>
-        </div>
+		<div class="methodology-project__card">
+			<a href="https://rafarz76dev-02-desafiostackx-web-3-0-angular.vercel.app/"
+				class="methodology__project--link">
+				<img src="./assets/images/lista-tecnologias.png" alt="tech-list" class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title"> PROJETO/WEB-3.0 - <span>TECHNOLOGY LIST </span></h3>
+			<h5 class="methodology--project_skills">
+				<span> HTML |</span>
+				<span> ANGULAR |</span>
+				<span> TYPESCRIPT</span>
+			</h5>
+		</div>
+		<div class="methodology-project__card">
+			<a href="https://rafaraz76dev-stackxcadastro-react.netlify.app/" class="methodology__project--link">
+				<img src="./assets/images/Projeto_React_ListaCadastro_Stack.png" alt="registration-list"
+					class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title"> LISTACADASTRO - <span>STACKX</span></h3>
+			<h5 class="methodology--project_skills">
+				<span> HTML |</span>
+				<span> CSS |</span>
+				<span> TYPESCRIPT</span>
+			</h5>
+		</div>
 
-        <div class="card">
-            <a href="https://rafarz76dev-calculadoralabs.netlify.app/" class="click-projects">
-                <img src="./assets/images/calcLab_stackX.png" alt="calculator" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> PROJETO - <span>CALCULADORA </span></h3>
-            <h5>
-                <span> HTML</span>
-                <span> CSS</span>
-                <span> JAVASCRIPT</span>
-            </h5>
-        </div>
+		<div class="methodology-project__card">
+			<a href="https://formulario-cadastro-dev.netlify.app/" class="methodology__project--link">
+				<img src="./assets/images/Cad_BookShop_Front.png" alt="cad-bookshop" class="section__image" />
+				<div class="project-link--large">VIEW PROJECT</div>
+			</a>
+			<h3 class="methodology--project_title">PROJECT - <span>REGISTER-BOOKS </span></h3>
+			<h5 class="methodology--project_skills">
+				<span> HTML |</span>
+				<span> CSS |</span>
+				<span> JAVASCRIPT |</span>
+				<span> REACT</span>
+			</h5>
+		</div>
+	</section>
 
-        <div class="card">
-            <a href="https://github.com/RafaRz76Dev/projeto-chatbotOpenai.04-stackX" class="click-projects">
-                <img src="./assets/images//projetochatbot-04.gif" alt="chatbot-openai" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> CHATBOT.04 - <span>CHATGPT-OPENAI</span></h3>
-            <h5>
-                <span> PYTHON</span>
-                <span> HTML</span>
-                <span> CSS</span>
-                <span> JAVASCRIPT</span>
-            </h5>
-        </div>
+	<!-- Início da seção de rodapé -->
+	<footer class="footer-contact">
+		</div>
 
-        <div class="card">
-            <a href="https://rafarz76dev-makeyourburger.netlify.app/" class="click-projects">
-                <img src="./assets/images/burgerplace-Home.png" alt="burger" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> PROJETO/STACKX - <span>MAKE YOUR BURGER</span></h3>
-            <h5>
-                <span> HTML</span>
-                <span> JAVASCRIPT</span>
-                <span> VUE.JS</span>
-                <span> JSONSERVER</span>
+		<!-- Início do Formulário de contato -->
+		<form class="footer__form">
+			<form autocomplete="off">
+				<!-- Início do conteúdo do rodapé -->
+				<footer class="footer__content">
+					<!-- Texto informativo do rodapé -->
+					<div class="footer__text">
+						<!-- Título de contato -->
+						<h2 class="footer__contact--info">MY<span> CONTACT</span></h2>
+						<p class="footer__description">I'd love to hear your feedback on my portfolio!
+							Please fill in the form, and I’ll get back to you as soon as possible.</p>
 
-            </h5>
-        </div>
-        <div class="card">
-            <a href="https://rafarz76dev-spiderverse.vercel.app/" class="click-projects">
-                <img src="./assets/images/Spider-verse 2.png" alt="spider-verse" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> PROJETO DIO - <span>SPIDERVERSE </span></h3>
-            <h5>
-                <span> TYPESCRIPT</span>
-                <span> REACT</span>
-                <span> NEXTJS</span>
-            </h5>
-        </div>
+						<!-- Link para a parte superior da página -->
+						<a class="top__page__footer" href="index.html">
+							<h2>Top-Page<i class="fa-solid fa-house"></i></h2>
+						</a>
+						<!-- Link de retorno para a página inicial -->
+						<a href="index.html">
+							
+							<!-- Imagem Saudação  -->
+							<img class="salut__footer" src="assets/images/saudacao.gif" alt="salut">
+						</a>
+					</div>
 
-        <div class="card">
-            <a href="https://rafarz76dev-02-desafiostackx-web-3-0-angular.vercel.app/" class="click-projects">
-                <img src="./assets/images/lista-tecnologias.png" alt="tech-list" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> PROJETO/WEB-3.0 - <span>TECHNOLOGY LIST </span></h3>
-            <h5>
-                <span> HTML</span>
-                <span> ANGULAR</span>
-                <span> TYPESCRIPT</span>
-            </h5>
-        </div>
-        <div class="card">
-            <a href="https://rafaraz76dev-stackxcadastro-react.netlify.app/" class="click-projects">
-                <img src="./assets/images/Projeto_React_ListaCadastro_Stack.png" alt="registration-list" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> LISTACADASTRO - <span>STACKX</span></h3>
-            <h5>
-                <span> HTML</span>
-                <span> CSS</span>
-                <span> TYPESCRIPT</span>
-            </h5>
-        </div>
-        <div class="card">
-            <a href="https://formulario-cadastro-dev.netlify.app/" class="click-projects">
-                <img src="./assets/images/developer-registration.png" alt="developer-registration" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3>FORMULARIO/STACKX - <span>CADASTRODEV </span></h3>
-            <h5>
-                <span> HTML</span>
-                <span> CSS</span>
-                <span> JAVASCRIPT</span>
-            </h5>
-        </div>
-          <div class="card">
-            <a href="https://rafarz76dev-cadbookshop-react.netlify.app/" class="click-projects">
-                <img src="./assets/images/Cad_BookShop_Front.png" alt="cad-bookshop" />
-                <div class="project-text">VIEW PROJECT</div>
-            </a>
-            <h3> PROJECT - <span>REGISTER-BOOKS </span></h3>
-            <h5>
-                <span> HTML</span>
-                <span> CSS</span>
-                <span> JAVASCRIPT</span>
-                <span> REACT</span>
-            </h5>
-        </div>     
-    </section>
-   
-    <footer class="footer-contact">
-        </div>
-        <form class="footer-form">
-            <form id="form" method="POST" autocomplete="off">
-                <footer class="form-footer">
-                    <div class="footer-text">
-                        <h2 class="my-contact">MY<span> CONTACT</span></h2>
-                        <p class="description-project">I'd love to hear your feedback on my portfolio!  
-                            Please fill in the form, and I’ll get back to you as soon as possible.</p>
+					<!-- Campos do formulário -->
+					<div class="contact-form">
+						<input class="form__contact" type="text" name="name" id="name" placeholder="NAME" js_data_name
+							required />
+						<br />
+						<input class="form__contact" type="email" name="email" id="email" placeholder="EMAIL"
+							js_data_email required />
+						<br />
+						<input class="form__contact" type="text" name="message" id="message" placeholder="MESSAGE"
+							js_data_message required />
+						<br><br>
 
-                        <a class="company-footer" href="index.html">
-                            <h2>Top-House<i class="fa-solid fa-house"></i></h2>
-                        </a>
-                        <a href="index.html">
-                            <img class="salut-footer" src="assets/images/saudacao.gif" alt="salut">
-                        </a>
-                    </div>
+						<!-- <input type="text" id="data" name="data" readonly>
+						<br/><br>
+  
+						<label for="hora">Hora:</label>
+						<input type="text" id="hora" name="hora" readonly><br><br>
 
+						<input type="datetime-local" id="datetime" name="date/time" js_data_datetime required />					
+						<br /><br /> -->
 
-                    <div class="contact-form">
-                        <input class="form-contact" type="text" required placeholder="Name" id="name" name="name">
-                                           
-                        <input class="form-contact" type="Email" required placeholder="E-mail" id="email" name="replyto">
-                                            
-                        <input class="form-contact" type="text" required placeholder="Message" id="message"
-                            name="message">                                  
+						<!-- Botão de envio do formulário -->
+						<button class="footer__submit--button" type="submit" title="Click to send message"
+							js_data_form_button>
+							SEND MESSAGE
+						</button>
+			</form>
 
-                        <button class="button-submit">SEND MESSAGE </button>           
+			</div>
 
-                <div>
-                    <hr class="div_two">
-                </div>
+			<div>
+				<!-- Linha divisória -->
+				<hr class="block__divider--two">
+			</div>
 
-                <div class="social-network-profile">
-                    <div>
-                        <h2 class="name-profile">RafaRz<span>76Dev</span></h2>
-                    </div>
+			<!-- Início do perfil social -->
+			<div class="social-profile">
+				  <!-- Nome do perfil -->
+				<div>
+					<h2 class="profile-name__title">RafaRz<span class="profile-name__subtitle">76Dev</span></h2>
+				</div>
 
-                    <!-- TAGS ANCORA-->
-                    <nav class="icons">
-                        <a class="git-profile" href="https://github.com/RafaRz76Dev/portfolio-rafarz76dev" target="_blank" title="GitHub"><i
-                                class="fa-brands fa-github fa-lg"></i></a>
+				<!-- TAGS ANCORA-->
+				   <!-- Links para redes sociais -->
+				<nav class="icons">
+					<a class="git-profile" href="https://github.com/RafaRz76Dev/portfolio-rafarz76dev" target="_blank"
+						title="GitHub"><i class="fa-brands fa-github fa-lg"></i></a>
 
-                        <a class="linkedln-profile" href="https://www.linkedin.com/in/rafael-raizer" target="_blank" title="Linkedin"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                        <a class="mail-profile" href="mailto:rafarz76dev@gmail.com" target="_blank" rel="external"
-                            title="E-mail">
-                            <i class="fa-solid fa-envelope fa-lg"></i>
-                        </a>
-                        <a class="whatssap-profile " href="https://api.whatsapp.com/send/?phone=47999327137" target="_blank" rel="external"
-                            title="Whatsapp">
-                            <i class="fa-brands fa-whatsapp fa-lg"></i>
-                        </a>
-                    </nav>
-                </div>
-            </form>
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/bootstrap.min.js"></script>
-            <script src="assets/js/formulario.js"></script>
-    </footer>
+					<a class="linkedln-profile" href="https://www.linkedin.com/in/rafael-raizer" target="_blank"
+						title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+					<a class="mail-profile" href="mailto:rafarz76dev@gmail.com" target="_blank" rel="external"
+						title="E-mail">
+						<i class="fa-solid fa-envelope fa-lg"></i>
+					</a>
+					<a class="whatssap-profile " href="https://api.whatsapp.com/send/?phone=47999327137" target="_blank"
+						rel="external" title="Whatsapp">
+						<i class="fa-brands fa-whatsapp fa-lg"></i>
+					</a>					 
+				</nav>  <!-- Fim dos links de redes sociais -->
+			</div>
+
+		</form> <!-- Fim do formulário -->
+	</form> <!-- Fim do formulário de contato -->
+	</footer> <!-- Fim da seção de rodapé -->
 
 </body>
-
 </html>
