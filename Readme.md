@@ -17,9 +17,14 @@
 
 <img height="480em" src="./assets/images/demonstracao-portfolio-readme.gif"  align="center"> 
 
-<br>
 
 ***
+
+<br>
+
+
+
+<div align="left">
 
 ### Objetivo
 
