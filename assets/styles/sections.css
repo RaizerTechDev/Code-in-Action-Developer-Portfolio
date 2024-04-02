@@ -77,7 +77,9 @@
 }
 
 .methodology__skills > div {
-  width: calc(25% - 20px); /* Define a largura de cada elemento filho, menos a margem */
+  width: calc(
+    25% - 20px
+  ); /* Define a largura de cada elemento filho, menos a margem */
   margin-bottom: 20px; /* Adiciona margem inferior entre as linhas */
 }
 
@@ -211,7 +213,7 @@
 
 .project-link--large {
   border-bottom: 2px solid hsl(153, 71%, 59%); /* Define uma borda na parte inferior */
-  font-size: 1.2rem; /* Define o tamanho da fonte */
+  font-size: 0.9rem; /* Define o tamanho da fonte */
 }
 
 .methodology__project--link .project-link--large {

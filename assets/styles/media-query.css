@@ -142,6 +142,10 @@
     text-decoration: underline 5px solid #ffffff; /* Sublinha o texto com uma borda branca */
   }
 
+  .project-link--large {
+    font-size: 0.6rem; /* Define o tamanho da fonte */
+  }
+
   /* Estilos para a seção de projetos na galeria de cartões */
   .card-gallery__project--section {
     margin-left: 10px; /* Margem esquerda de 10px para telas muito pequenas */
