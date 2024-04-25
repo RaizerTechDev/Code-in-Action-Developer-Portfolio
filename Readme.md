@@ -7,7 +7,7 @@
  <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45"> 
 
-[ ( Clique aqui e venha conhecer ```PORTFOLIO-RAFARZ76DEV!!!```) ](https://portfoliotech-rafarz76dev.netlify.app/)
+[ ( Clique aqui e venha conhecer ```PORTFOLIO-RAFARZ76DEV!!!```) ](https://rafarz76dev-portfoliotech.netlify.app/)
 
 <br>
 
@@ -82,7 +82,7 @@ Open With Live Server
 
 - Ou pelo `Deplopy Netlify`:
   
-[ ( Clique aqui e venha conhecer ```PORTFOLIO-RAFARZ76DEV!!!```) ](https://portfoliotech-rafarz76dev.netlify.app/)
+[ ( Clique aqui e venha conhecer ```PORTFOLIO-RAFARZ76DEV!!!```) ](https://rafarz76dev-portfoliotech.netlify.app/)
     
 <br>
 

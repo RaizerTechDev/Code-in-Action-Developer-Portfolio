@@ -13,9 +13,9 @@
   // Aqui são definidos os endereços relevantes para a API e para as páginas de erro e sucesso.
   const adresses = {
     api: "https://api.sheetmonkey.io/form/3aoUixTgNMNQr9ZVWiDmSC",
-    errorPage: "https://portfoliotech-rafarz76dev.netlify.app/error_page.html",
+    errorPage: "https://rafarz76dev-portfoliotech.netlify.app//error_page.html",
     successPage:
-      "https://portfoliotech-rafarz76dev.netlify.app//success_page.html",
+      "https://rafarz76dev-portfoliotech.netlify.app///success_page.html",
   };
 
   // Aqui são definidos objetos que representam o botão de envio do formulário, tanto em forma de imagem de carregamento como de mensagem.
