@@ -117,7 +117,7 @@
 
 /* Estilos de projetos de metodologia */
 .methodology-project--rifle {
-  margin-top: 180px; /* Define a margem superior */
+  margin-top: 130px; /* Define a margem superior */
   margin-left: 200px; /* Define a margem esquerda */
   display: flex; /* Usa o modelo de layout flexível */
   justify-content: space-between; /* Distribui os elementos igualmente ao longo do eixo principal */
