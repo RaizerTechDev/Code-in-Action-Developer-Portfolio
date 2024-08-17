@@ -115,6 +115,14 @@
   font-size: 30px; /* Define o tamanho da fonte */
 }
 
+.block__divider--two {
+  border: none; /* Remove a borda padrão */
+  border-top: 2px solid white; /* Define a linha branca e "negrito" com 4px de espessura */
+  width: 70%; /* Ajuste a largura da linha conforme a necessidade */
+  margin: 20px auto; /* Centraliza a linha e adiciona espaço ao redor */
+  opacity: 0.8; /* Ajuste a opacidade se desejar um efeito sutil */
+}
+
 /* Estilos de projetos de metodologia */
 .methodology-project--rifle {
   margin-top: 130px; /* Define a margem superior */
@@ -169,14 +177,20 @@
 
 .methodology-project__card {
   background: url("../../assets/images/fundo-redes-sociais.jpg") no-repeat; /* Define a imagem de fundo sem repetição */
-  width: 20rem; /* Define a largura do cartão */
+  width: 30rem; /* Define a largura do cartão */
   margin-bottom: 20px; /* Adiciona margem inferior entre os cartões */
   border: 1px solid #ccc; /* Adiciona uma borda para separar os cartões */
   border-radius: 5px; /* Adiciona cantos arredondados */
 }
 
+.methodology-project__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza todos os cards no container */
+}
+
 .section__image {
-  width: 19.8rem; /* Assegura que a imagem preencha completamente o espaço do cartão */
+  width: 29.8rem; /* Assegura que a imagem preencha completamente o espaço do cartão */
   height: 18rem; /* Define a altura da imagem */
   border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior esquerda */
   border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior direita */

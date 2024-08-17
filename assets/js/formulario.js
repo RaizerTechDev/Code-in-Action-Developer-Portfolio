@@ -87,3 +87,29 @@
   // Adiciona um ouvinte de evento de envio ao formulário para chamar a função handleSubmit quando o formulário for enviado.
   htmlElements.formElement.addEventListener("submit", handleSubmit);
 })();
+
+(function () {
+  const MAX_VISIBLE_CARDS = 6;
+  const cards = document.querySelectorAll(".card");
+
+  const updateVisibleCards = () => {
+    const width = window.innerWidth;
+    const isMobile = width <= 768; // Ajuste o valor conforme necessário
+
+    cards.forEach((card, index) => {
+      if (isMobile) {
+        if (index >= MAX_VISIBLE_CARDS) {
+          card.style.display = "none";
+        } else {
+          card.style.display = "block";
+        }
+      } else {
+        card.style.display = "block"; // Exibe todos os cards em telas maiores
+      }
+    });
+  };
+
+  // Chama a função ao carregar a página e ao redimensionar a tela
+  window.addEventListener("load", updateVisibleCards);
+  window.addEventListener("resize", updateVisibleCards);
+})();

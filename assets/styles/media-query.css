@@ -2,12 +2,11 @@
 @media screen and (max-width: 579px) {
   /* Ajustes para o cabeçalho */
   header {
-    display: flex; /* Usa flexbox para layout flexível */
-    flex-direction: column; /* Empilha os elementos verticalmente */
-    align-items: center; /* Centraliza os itens ao longo do eixo transversal */
-    justify-content: space-between; /* Distribui o espaço entre os itens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
-
   /* Estilos para o título do cabeçalho */
   .name-header__title {
     margin-top: 2rem; /* Margem superior de 2rem */
@@ -21,8 +20,13 @@
     margin: 0 auto; /* Centraliza o elemento horizontalmente */
   }
 
+  .text__box {
+    margin-top: -70px;
+  }
+
   /* Estilos para o subtítulo da caixa de texto */
   .text-box__subtitle {
+ 
     font-weight: 500; /* Define o peso da fonte como 500 */
     display: block; /* Mostra o elemento como bloco */
     margin-bottom: 10rem; /* Margem inferior de 10rem */
@@ -84,6 +88,15 @@
     text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde */
   }
 
+  /* hr */
+.block__divider--one {
+  margin-top: 4rem; /* Define a margem superior como 8rem */
+}
+
+.methodology {
+  margin-top: -50px; /* Margem superior de 2rem */
+}
+
   /* Estilos para a seção de habilidades na metodologia */
   .methodology__skills {
     margin-top: 2rem; /* Margem superior de 2rem */
@@ -101,12 +114,16 @@
 
   /* Estilos para h2 dentro da metodologia */
   .methodology h2 {
-    font-size: 3.7rem; /* Tamanho da fonte de 3.7rem */
+    font-size: 2.3rem; /* Tamanho da fonte de 3.7rem */
+  }
+
+  .skill__title{
+    font-size: 30px;
   }
 
   /* Estilos para o projeto na metodologia */
   .methodology-project--rifle {
-    margin-top: 4rem; /* Margem superior de 4rem */
+    margin-top: 40px; /* Margem superior de 4rem */
     margin-left: 10px; /* Margem esquerda de 10px para telas muito pequenas */
     margin-right: 10px; /* Margem direita de 10px para telas muito pequenas */
     flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
@@ -115,7 +132,7 @@
 
   /* Estilos para o título do projeto na metodologia */
   .methodology-project--title {
-    font-size: 3.7rem; /* Tamanho da fonte de 3.7rem */
+    font-size: 2.3rem; /* Tamanho da fonte de 3.7rem */
   }
 
   /* Estilos para o subtitulo do projeto na metodologia */
@@ -131,7 +148,7 @@
     text-align: center; /* Centraliza o texto */
     margin: 20px auto; /* Margens automáticas */
     width: 80%; /* Largura de 80% */
-    font-size: 1.4rem; /* Tamanho da fonte de 1.4rem */
+    font-size: 1.2rem; /* Tamanho da fonte de 1.4rem */
     text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde */
     border-bottom: none; /* Remove a borda inferior */
   }
@@ -153,11 +170,11 @@
   }
 
   /* Estilos para o card do projeto na galeria de cartões */
-  .methodology-project__card {
-    width: calc(100% - 20px); /* Largura de cada card de 100% - 20px */
+  .methodology-project__card:nth-of-type(n+6) {
+    display: none;
+    width: 30rem; /* Define a largura do cartão */
     margin-top: 10px; /* Margem superior de 10px */
-    margin-left: 10px; /* Margem esquerda de 10px */
-    margin-right: 10px; /* Margem direita de 10px */
+   text-align: center;
   }
 
   /* Estilos para a imagem da seção */
@@ -174,11 +191,15 @@
     gap: 0.7rem; /* Espaçamento de 0.7rem entre os elementos do grid */
   }
 
+  .footer__content {
+    margin-top: -2rem; /* Margem superior de -2rem */
+  }
+
   /* Estilos para informações de contato no rodapé */
   .footer__contact--info {
     margin-top: -2rem; /* Margem superior de -2rem */
     margin-left: 45px; /* Margem esquerda de 45px para telas muito pequenas */
-    font-size: 2.7rem; /* Tamanho da fonte de 2.7rem */
+    font-size: 2.3rem; /* Tamanho da fonte de 2.7rem */
     flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
     align-items: center; /* Centraliza os elementos horizontalmente */
   }
@@ -190,21 +211,21 @@
     padding-right: 2.5rem; /* Preenchimento à direita de 2.5rem */
     letter-spacing: 0rem; /* Espaçamento entre letras de 0rem */
     font-size: 1rem; /* Tamanho da fonte de 1rem */
-    margin-left: 45px; /* Margem esquerda de 45px para telas muito pequenas */
+    margin-left: 0px; /* Margem esquerda de 45px para telas muito pequenas */
   }
 
   /* Estilos para o título h2 */
   .top__page__footer h2 {
     width: 100%; /* Largura de 100% */
-    margin-top: 1rem; /* Margem superior de 1rem */
-    margin-left: 0; /* Remove a margem esquerda */
+    margin-top: 4rem; /* Margem superior de 1rem */
+    margin-left: -100px; /* Remove a margem esquerda */
     text-align: center; /* Centraliza o texto */
     font-size: 2rem; /* Tamanho da fonte de 2rem */
   }
 
   /* Estilos para a saudação no rodapé */
   .salut__footer {
-    width: 30%; /* Largura de 30% */
+    width: 25%; /* Largura de 30% */
     margin: 1rem auto; /* Margens automáticas superior e inferior, centraliza horizontalmente */
     margin-left: 5rem; /* Margem esquerda de 5rem para telas muito pequenas */
     display: block; /* Transforma em bloco para centralizar horizontalmente */
@@ -253,6 +274,7 @@
   /* Estilos para o input do formulário de contato */
   .contact-form input {
     width: 100%; /* Largura de 100% */
+    font-size: 16px;
     font-weight: bold; /* Define a fonte como negrito */
     margin-left: 0rem; /* Margem esquerda de 0rem */
   }
@@ -274,7 +296,7 @@
   }
 
   /* Estilos para a linha divisória hr */
-  .block__divider--two {
+  .block__divider--three {
     width: 90%; /* Largura de 90% */
     margin: 0 auto; /* Margens automáticas nos lados esquerdo e direito */
     border-bottom: 1px solid hsl(0, 0%, 13%); /* Borda inferior de 1px sólida em tom de cinza */
@@ -290,418 +312,535 @@
     color: #8c8c8c; /* Cor do texto em cinza escuro no hover */
   }
 }
-
-/* Estilos para dispositivos entre 580px e 768px de largura de tela */
+  /* Estilos para dispositivos entre 580px e 768px de largura de tela */
 @media screen and (min-width: 580px) and (max-width: 768px) {
   /* Estilos para a seção principal */
   main {
-    max-width: 95%; /* Define a largura máxima para 95% da largura da tela */
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .profiles{
+    margin-top: 30px;
+  }
+
+  .text__box {
+    margin-top: -30px;
   }
 
   /* Estilos para o subtítulo da caixa de texto */
   .text-box__subtitle {
-    font-size: 5rem; /* Tamanho da fonte de 5rem */
-    padding-right: 20rem; /* Preenchimento à direita de 20rem */
-    letter-spacing: -0.2rem; /* Espaçamento entre letras de -0.2rem */
-    margin-left: 1rem; /* Margem à esquerda de 1rem */
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5rem;
+    line-height: 3rem;
+  }
+
+  /* Estilos específicos para h2 do subtítulo da caixa de texto */
+  h2.text-box__subtitle {
+    font-size: 2.7rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
   }
 
   /* Estilos para o desenvolvedor na caixa de texto */
   .text-box__developer {
-    padding-right: 15rem; /* Preenchimento à direita de 15rem */
-    font-size: 1.2rem; /* Tamanho da fonte de 1.2rem */
-    color: #3b3; /* Cor verde escuro */
-    margin-left: 1rem; /* Margem à esquerda de 1rem */
+    font-size: 1.5rem;
+    margin-top: -60px;
+    letter-spacing: 0.5rem;
+    margin-bottom: -15rem;
+    color: rgb(253, 253, 253);
+    line-height: 1.9rem;
+    text-align: center;
+    font-weight: bold;
   }
 
   /* Estilos para a foto na caixa de texto */
   .text-box__photo {
-    margin-top: -45rem; /* Margem superior de -45rem */
-    margin-right: -2rem; /* Margem direita de -2rem */
-    bottom: 3rem; /* Espaçamento inferior de 3rem */
+    margin-top: -480px;
+    margin-right: -30px;
+    margin-bottom: 2rem;   
   }
 
-  /* Estilos para o círculo na caixa de texto (oculto) */
-  .text-box__circle {
-    display: none; /* Oculta o elemento */
-  }
-
-  /* Estilos para a espiral na caixa de texto (oculta) */
-  .text-box__spiral {
-    display: none; /* Oculta o elemento */
+  .text-box__circle{
+    margin-top: 100px;
   }
 
   /* Estilos para o contato na caixa de texto */
   .text-box__contact {
-    margin-top: 32px; /* Margem superior de 32px */
+    display: block;
+    text-align: center;
+    margin-left: -180px;  
+    margin-top: 20rem;
+    width: 80%;
+    font-size: 1.2rem;
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+    text-decoration: underline 5px solid #3b3;
   }
 
   /* Efeito de hover para o contato na caixa de texto */
   .text-box__contact:hover {
-    color: #fff; /* Cor do texto branca no hover */
-    border-bottom: 2px solid #3b3; /* Borda inferior de 2px sólida verde no hover */
+    color: #fff;
+    text-decoration: underline 5px solid #3b3;
   }
 
-  /* Estilos para a linha divisória hr */
   .block__divider--one {
-    margin-top: 5rem; /* Margem superior de 5rem */
+    margin-top: 4rem;
   }
 
   /* Estilos para a seção de habilidades na metodologia */
-  .methodology__skills > div {
-    width: calc(100% - 50px); /* Largura de cada elemento filho - 50px */
-    margin-left: 0; /* Remove a margem esquerda */
-    margin-right: 0; /* Remove a margem direita */
+  .methodology__skills {
+    margin-top: 4rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
   }
 
-  /* Alinha o texto à esquerda na seção de habilidades */
-  .methodology__skills > div > div {
-    text-align: left; /* Alinha o texto à esquerda */
-  }
-
-  /* Estilos para o título da habilidade */
   .skill__title {
-    font-size: 40px; /* Tamanho da fonte de 40px */
+    margin-bottom: 10px; /* Define a margem inferior */
+    color: #fff; /* Define a cor do texto */
+    font-size: 30px; /* Define o tamanho da fonte */
   }
 
-  /* Estilos para a experiência da habilidade */
-  .skill__experience {
-    font-size: 20px; /* Tamanho da fonte de 20px */
+  .block__divider--two {  
+    width: 90%; /* Ajuste a largura da linha conforme a necessidade */   
   }
 
-  /* Estilos para o ícone da habilidade */
-  .skill__icon {
-    font-size: 30px; /* Tamanho da fonte de 30px */
+  /* Estilos para h2 dentro da metodologia */
+  .methodology h2 {
+    font-size: 3rem;
   }
 
-  /* Estilos para o projeto na metodologia */
   .methodology-project--rifle {
-    margin-top: 8rem; /* Margem superior de 8rem */
-    margin-left: 10px; /* Margem esquerda de 10px para telas pequenas */
-    margin-right: 10px; /* Margem direita de 10px para telas pequenas */
-    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
-    align-items: center; /* Centraliza os elementos horizontalmente */
+    margin-top: 4rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* Estilos para o título do projeto na metodologia */
   .methodology-project--title {
-    font-size: 3.7rem; /* Tamanho da fonte de 3.7rem */
+    font-size: 3rem;
+  }
+
+  .methodology-project--subtitle {
+    border-bottom: 0.25rem solid #4de29f;
+    color: #f7f7f7;
+    font-weight: bold;
   }
 
   /* Estilos para o contato na metodologia */
   .methodology-contact {
-    display: block; /* Transforma o link em bloco para ocupar toda a largura disponível */
-    text-align: center; /* Centraliza o texto */
-    margin: 20px auto; /* Define margens superior e inferior como 20px e margens laterais automáticas */
-    width: 80%; /* Largura de 80% */
-    font-size: 1.8rem; /* Tamanho da fonte de 1.8rem */
-    text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde de 5px */
-    border-bottom: none; /* Remove a borda inferior */
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    font-size: 1.4rem;
+    text-decoration: underline 5px solid #3b3;
+    border-bottom: none;
   }
 
-  /* Efeito de hover para o contato na metodologia */
   .methodology-contact:hover {
-    color: #3b3; /* Cor do texto verde escuro no hover */
-    text-decoration: underline 5px solid #ffffff; /* Sublinha o texto com uma borda branca de 5px */
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff;
   }
 
-  /* Estilos para a seção de projetos na galeria de cartões */
+  .project-link--large {
+    font-size: 0.8rem;
+  }
+
   .card-gallery__project--section {
-    display: flex; /* Usa flexbox para layout flexível */
-    flex-wrap: wrap; /* Permite a quebra de linha para os cartões */
-    justify-content: center; /* Centraliza os cartões */
-    margin-left: 10px; /* Margem esquerda de 10px para telas pequenas */
-    margin-right: 10px; /* Margem direita de 10px para telas pequenas */
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
-  /* Estilos para o cartão do projeto na galeria de cartões */
-  .methodology-project__card {
-    width: calc(90% - 20px); /* Largura de 90% com margem de 20px */
-    margin-bottom: 20px; /* Espaçamento inferior de 20px entre os cartões */
+  .methodology-project__card:nth-of-type(n+7) {
+    display: none;
+    width: 30rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
-  /* Estilos para a imagem da seção */
   .section__image {
-    width: 100%; /* Largura de 100% */
-    height: auto; /* Altura automática para manter a proporção original da imagem */
-    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior esquerda */
-    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior direita */
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 
   /* Estilos para o conteúdo do rodapé */
   .footer__content {
-    grid-template-columns: 1fr; /* Uma coluna no layout de grade */
-    gap: 0.7rem; /* Espaçamento entre os elementos de 0.7rem */
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-top: -2rem;
   }
 
-  /* Estilos para o texto no rodapé */
-  .footer__text {
-    margin-top: 1.55rem; /* Margem superior de 1.55rem */
-    margin-right: 150px; /* Margem direita de 150px para telas pequenas */
-  }
-
-  /* Estilos para as informações de contato no rodapé */
+  /* Estilos para informações de contato no rodapé */
   .footer__contact--info {
-    margin-top: -2rem; /* Margem superior de -2rem */
-    margin-left: 80px; /* Margem esquerda de 80px para telas pequenas */
-    text-align: center; /* Centraliza o texto */
-    font-size: 3.5rem; /* Tamanho da fonte de 3.5rem */
-    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
-    align-items: center; /* Centraliza os elementos horizontalmente */
+    margin-top: -2rem;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* Estilos para a descrição no rodapé */
   .footer__description {
-    margin-top: 2rem; /* Margem superior de 2rem */
-    margin-bottom: 1rem; /* Margem inferior de 1rem */
-    padding-right: 2.5rem; /* Preenchimento à direita de 2.5rem */
-    letter-spacing: 0.2rem; /* Espaçamento entre letras de 0.2rem */
-    font-size: 1.2rem; /* Tamanho da fonte de 1.2rem */
-    font-weight: bold; /* Peso da fonte em negrito */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    letter-spacing: 0;
+    font-size: 1.2rem;
+    margin-left: 40px;
   }
 
-  /* Estilos para o título na parte superior do rodapé */
+  /* Estilos para o título h2 */
   .top__page__footer h2 {
-    width: 60%; /* Largura de 60% para ocupar toda a largura do contêiner pai */
-    margin-top: 80px; /* Margem superior de 80px */
-    margin-left: 180px; /* Margem esquerda de 180px para telas pequenas */
-    font-size: 2.7rem; /* Tamanho da fonte de 2.7rem */
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0;
+    text-align: center;
+    font-size: 2.5rem;
   }
 
-  /* Estilos para a saudação no rodapé */
   .salut__footer {
-    width: 20%; /* Largura de 20% para ajustar ao contêiner pai */
-    margin: 1rem auto; /* Centraliza horizontalmente e adiciona margem superior e inferior */
-    margin-left: 15rem; /* Margem esquerda de 15rem para telas pequenas */
-    display: block; /* Transforma em bloco para centralizar horizontalmente */
+    width: 23%;
+    margin: 1rem auto;
+    margin-top: -5px;
+    margin-left: 8rem;
+    display: block;
   }
 
-  /* Estilos para o botão de envio no rodapé */
-  .footer__submit--button {
-    font-size: 1.1rem; /* Tamanho da fonte de 1.1rem */
-    font-weight: bold; /* Peso da fonte em negrito */
-    text-decoration: underline 5px solid #3b3; /* Sublinha o texto com uma borda verde de 5px */
+  .footer-text {
+    margin-top: 1.5rem;
   }
 
-  /* Efeito de hover para o botão de envio no rodapé */
-  .footer__submit--button:hover {
-    color: #3381f3; /* Cor do texto azul no hover */
-  }
-
-  /* Estilos para a animação do botão no rodapé */
-  .footer__button--animation {
-    width: 60px; /* Largura de 60px */
-  }
-
-  /* Estilos para o input do formulário de contato */
-  .contact-form input {
-    width: 100%; /* Largura de 100% */
-    margin-left: 0rem; /* Margem esquerda de 0rem */
-    border-bottom: 0.2rem solid hsl(0, 0%, 13%); /* Borda inferior de 0.2rem sólida em tom de cinza */
-    font-weight: bold; /* Peso da fonte em negrito */
-  }
-
-  /* Estilos para o perfil social */
   .social-profile {
-    width: 90%; /* Largura de 90% */
-    display: flex; /* Usa flexbox para layout flexível */
-    justify-content: space-between; /* Distribui o espaço uniformemente entre os elementos */
-    align-items: center; /* Centraliza os elementos verticalmente */
-    font-weight: bold; /* Peso da fonte em negrito */
-    margin-left: -30px; /* Margem esquerda de -30px para telas pequenas */
-    margin-top: -30px; /* Margem superior de -30px para telas pequenas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+    font-weight: bold;
+    margin-left: -20px;
+    margin-top: -20px;
   }
 
-  /* Estilos para a navegação no perfil social */
   .social-profile nav {
-    margin-top: 1.5rem; /* Margem superior de 1.5rem */
-    margin-right: -60px; /* Margem esquerda de -60px */
+    margin-top: 0.5rem;
+    margin-left: 4px;
   }
 
-  /* Estilos para a divisão entre elementos no perfil social */
   .social-profile div {
-    margin-top: 2rem; /* Margem superior de 2rem */
+    margin-top: 1.5rem;
   }
 
-  /* Estilos para o título do nome no perfil social */
   .profile-name__title {
-    margin-top: -2rem; /* Margem superior de -2rem */
-    margin-left: 50px; /* Margem esquerda de 50px */
+    margin-left: 4px;
   }
 
-  /* Estilos para o subtítulo do nome no perfil social (sem borda inferior) */
   .profile-name__subtitle {
-    border-bottom: none; /* Remove a borda inferior */
+    border-bottom: none;
     color: rgb(26, 68, 26);
     font-weight: bold;
   }
 
-  /* Estilos para a linha divisória hr */
-  .block__divider--two {
-    width: 90%; /* Largura de 90% */
-    margin: 0 auto; /* Margens*/
+  .contact-form input {
+    width: 100%;
+    font-weight: bold;
+    margin-left: 0;
+  }
+
+  .footer__submit--button {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .footer__submit--button:hover {
+    color: #3381f3;
+  }
+
+  .footer__button--animation {
+    width: 60px;
+  }
+
+  .block__divider--three {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid hsl(0, 100%, 100%);
+  }
+
+  .icons a {
+    color: rgb(26, 68, 26);
+  }
+
+  .icons a:hover {
+    color: #8c8c8c;
   }
 }
 
-/* Estilos para dispositivos entre 992px e 1024px de largura de tela */
-@media screen and (min-width: 992px) and (max-width: 1024px) {
+/* Estilos para dispositivos entre 769px e 1200px de largura de tela */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   /* Estilos para a seção principal */
   main {
-    max-width: 95%; /* Define a largura máxima para 95% da largura da tela */
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  .text__box {
+    margin-top: 0;
   }
 
   /* Estilos para o subtítulo da caixa de texto */
-  .text-subtitle {
-    font-size: 5rem; /* Tamanho da fonte de 5rem */
-    padding-right: 20rem; /* Preenchimento à direita de 20rem */
-    letter-spacing: -0.2rem; /* Espaçamento entre letras de -0.2rem */
-    margin-left: 1rem; /* Margem à esquerda de 1rem */
+  .text-box__subtitle {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 3rem;
+    line-height: 3rem;
+  }
+
+  /* Estilos específicos para h2 do subtítulo da caixa de texto */
+  h2.text-box__subtitle {
+    font-size: 2.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
   }
 
   /* Estilos para o desenvolvedor na caixa de texto */
-  .text_developer {
-    padding-right: 15rem; /* Preenchimento à direita de 15rem */
-    font-size: 1.2rem; /* Tamanho da fonte de 1.2rem */
-    color: #3b3; /* Cor verde escuro */
-    margin-left: 1rem; /* Margem à esquerda de 1rem */
+  .text-box__developer {
+    font-size: 1.3rem;
+    letter-spacing: 0.9rem;
+    margin-bottom: -10rem;
+    color: rgb(248, 248, 248);
+    line-height: 1.8rem;
+    text-align: center;
+    font-weight: bold;
   }
 
   /* Estilos para a foto na caixa de texto */
-  .photo {
-    margin-top: -45rem; /* Margem superior de -45rem */
-    margin-right: -2rem; /* Margem direita de -2rem */
-    bottom: 3rem; /* Espaçamento inferior de 3rem */
+  .text-box__photo {
+    margin-top: -500px;
+    margin-right: -50px;
+    margin-bottom: 2rem;    
   }
 
-  /* Estilos para o círculo na caixa de texto (oculto) */
-  .circle {
-    display: none; /* Oculta o elemento */
+  .text-box__circle{
+    margin-top: 80px;
   }
 
-  /* Estilos para a linha divisória hr */
+  /* Estilos para o contato na caixa de texto */
+  .text-box__contact {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 15rem;
+    width: 80%;
+    font-size: 1rem;
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+    text-decoration: underline 5px solid #3b3;
+  }
+
+  /* Efeito de hover para o contato na caixa de texto */
+  .text-box__contact:hover {
+    color: #fff;
+    text-decoration: underline 5px solid #3b3;
+  }
+
   .block__divider--one {
-    margin-top: 5rem; /* Margem superior de 5rem */
+    margin-top: 8rem;
   }
 
   /* Estilos para a seção de habilidades na metodologia */
-  .methodology__skills > div {
-    width: calc(50% - 50px); /* Largura de cada elemento filho - 50px */
-    margin-left: 0; /* Remove a margem esquerda */
-    margin-right: 0; /* Remove a margem direita */
+  .methodology__skills {
+    margin-top: 5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
   }
 
-  /* Alinha o texto à esquerda na seção de habilidades */
-  .methodology__skills > div > div {
-    text-align: left; /* Alinha o texto à esquerda */
+  /* Estilos para h2 dentro da metodologia */
+  .methodology h2 {
+    font-size: 3rem;
   }
 
-  /* Estilos para a seção de projetos na galeria de cartões */
+  /* Estilos de habilidades */
+.skill__title {
+  margin-bottom: 10px; /* Define a margem inferior */
+  color: #fff; /* Define a cor do texto */
+  font-size: 30px; /* Define o tamanho da fonte */
+}
+
+  .methodology-project--rifle {
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Estilos para o título do projeto na metodologia */
+  .methodology-project--title {
+    font-size: 3rem;
+  }
+
+  .methodology-project--subtitle {
+    border-bottom: 0.25rem solid #4de29f;
+    color: #f7f7f7;
+    font-weight: bold;
+  }
+
+  /* Estilos para o contato na metodologia */
+  .methodology-contact {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    font-size: 1.4rem;
+    text-decoration: underline 5px solid #3b3;
+    border-bottom: none;
+  }
+
+  .methodology-contact:hover {
+    color: #3b3;
+    text-decoration: underline 5px solid #ffffff;
+  }
+
+  .project-link--large {
+    font-size: 1rem;
+  }
+
   .card-gallery__project--section {
-    display: flex; /* Usa flexbox para layout flexível */
-    flex-wrap: wrap; /* Permite a quebra de linha para os cartões */
-    justify-content: center; /* Centraliza os cards */
-    margin-left: 10px; /* Reduzir a margem esquerda */
-    margin-right: 10px; /* Reduzir a margem direita */
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  /* Estilos para os cards do projeto na metodologia */
-  .methodology-project__card {
-    width: calc(90% - 20px); /* Largura do card - 20px */
-    margin-bottom: 20px; /* Espaçamento entre os cards */
+  .methodology-project__card:nth-of-type(n+7) {
+    display: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  /* Estilos para a imagem na seção */
   .section__image {
-    width: 100%; /* Define a largura da imagem como 100% */
-    height: auto; /* Mantém a proporção original da imagem */
-    border-top-left-radius: 5px; /* Cantos arredondados apenas na parte superior */
-    border-top-right-radius: 5px; /* Cantos arredondados apenas na parte superior */
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 
   /* Estilos para o conteúdo do rodapé */
   .footer__content {
-    grid-template-columns: 1fr; /* Uma coluna na grade */
-    gap: 7rem; /* Espaçamento entre as colunas */
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-top: -2rem;
   }
 
-  /* Estilos para o texto do rodapé */
-  .footer-text {
-    margin-top: 1.55rem; /* Margem superior de 1.55rem */
-  }
-
-  /* Estilos para as informações de contato no rodapé */
+  /* Estilos para informações de contato no rodapé */
   .footer__contact--info {
-    margin-top: -2rem; /* Margem superior de -2rem */
-    margin-left: 0px; /* Ajuste a margem lateral para telas muito pequenas */
-    text-align: center; /* Centraliza o texto */
-    font-size: 4.7rem; /* Tamanho da fonte de 4.7rem */
-    flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
-    align-items: center; /* Centralize os elementos horizontalmente */
+    margin-top: -2rem;
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* Estilos para a descrição no rodapé */
   .footer__description {
-    margin-top: 1rem; /* Margem superior de 1rem */
-    margin-bottom: 1rem; /* Margem inferior de 1rem */
-    padding-right: 2.5rem; /* Preenchimento à direita de 2.5rem */
-    letter-spacing: 0.2rem; /* Espaçamento entre letras de 0.2rem */
-    font-size: 4.5rem; /* Tamanho da fonte de 4.5rem */
-    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
-    text-align: center; /* Centraliza o texto */
-    font-weight: bold; /* Peso da fonte em negrito */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    letter-spacing: 0;
+    font-size: 1.2rem;
+    margin-left: 40px;
   }
 
-  /* Estilos para o título h2 no topo do rodapé */
+  /* Estilos para o título h2 */
   .top__page__footer h2 {
-    width: 60%; /* Largura de 60% para ocupar toda a largura do contêiner pai */
-    margin-top: 80px; /* Margem superior de 80px */
-    margin-left: 150px; /* Remove a margem esquerda */
-    font-size: 2.7rem; /* Tamanho da fonte de 2.7rem */
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 2.3rem;
   }
 
-  /* Estilos para a saudação no rodapé */
   .salut__footer {
-    width: 20%; /* Largura de 20% para ajustar ao contêiner pai */
-    margin: 1rem auto; /* Centralize horizontalmente e adicione margem superior e inferior */
-    margin-left: 15rem; /* Remove a margem esquerda */
-    display: block; /* Transforma em bloco para centralizar horizontalmente */
+    width: 28%;
+    margin: 1rem auto;
+    display: block;
   }
 
-  /* Estilos para o input no formulário de contato */
-  .contact-form input {
-    width: 100%; /* Largura de 100% */
-    margin-top: -25rem; /* Margem superior de -25rem */
-    margin-left: 0rem; /* Margem esquerda de 0rem */
-    border-bottom: 0.2rem solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior sólida */
-    font-weight: bold; /* Peso da fonte em negrito */
+  .footer-text {
+    margin-top: 1.5rem;
   }
 
-  /* Estilos para o botão de envio no formulário */
-  .button-submit {
-    font-size: 1.1rem; /* Tamanho da fonte de 1.1rem */
-    font-weight: bold; /* Peso da fonte em negrito */
-    text-decoration: underline 5px solid #3b3; /* Esta linha sublinha o texto com uma borda verde */
-  }
-
-  /* Estilos para o perfil social */
   .social-profile {
-    width: 100%; /* Largura de 100% */
-    display: flex; /* Usa flexbox para layout flexível */
-    justify-content: space-between; /* Distribui o espaço uniformemente entre os elementos */
-    align-items: center; /* Centraliza os elementos verticalmente */
-    margin-left: 20px; /* Ajuste a margem lateral para telas muito pequenas */
-    font-weight: bold; /* Peso da fonte em negrito */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+    font-weight: bold;
+    margin-left: -20px;
+    margin-top: -20px;
   }
 
-  /* Estilos para os elementos dentro do perfil social */
+  .social-profile nav {
+    margin-top: 0.5rem;
+    margin-left: 4px;
+  }
+
   .social-profile div {
-    margin-top: 2rem; /* Margem superior de 2rem */
+    margin-top: 1.5rem;
   }
 
-  /* Estilos para a segunda linha divisória hr */
+  .profile-name__title {
+    margin-left: 4px;
+  }
+
+  .profile-name__subtitle {
+    border-bottom: none;
+    color: rgb(26, 68, 26);
+    font-weight: bold;
+  }
+
+  .contact-form input {
+    width: 100%;
+    font-weight: bold;
+    margin-left: 0;
+  }
+
+  .footer__submit--button {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .footer__submit--button:hover {
+    color: #3381f3;
+  }
+
+  .footer__button--animation {
+    width: 60px;
+  }
+
   .block__divider--two {
-    width: 90%; /* Largura de 90% */
-    margin: 0 auto; /* Margens automáticas nos lados esquerdo e direito */
-    border-bottom: 1px solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior sólida */
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid hsl(0, 0%, 13%);
+  }
+
+  .icons a {
+    color: rgb(26, 68, 26);
+  }
+
+  .icons a:hover {
+    color: #8c8c8c;
   }
 }

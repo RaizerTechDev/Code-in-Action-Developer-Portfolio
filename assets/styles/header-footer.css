@@ -57,7 +57,9 @@ main {
 
 /* hr */
 .block__divider--one {
-  margin-top: 8rem; /* Define a margem superior como 8rem */
+  margin-top: 8rem; /* Define a margem superior como 8rem */  
+  border: none; /* Remove a borda padrão */
+  border-top: 2px solid white; /* Define a linha branca e "negrito" com 4px de espessura */
 }
 
 /* Footer Styles */
@@ -229,8 +231,8 @@ a.linkedln-profile {
 }
 
 /* Estilo hr */
-.block__divider--two {
+.block__divider--three {
   width: 135%; /* Define a largura como 135% */
-  border-bottom: 1px solid hsl(0, 0%, 13%); /* Adiciona uma borda inferior de 1 pixel sólido na cor hsl(0, 0%, 13%) */
+  border-bottom: 2px solid hsl(0, 0%, 100%); /* Adiciona uma borda inferior de 1 pixel sólido na cor hsl(0, 0%, 13%) */
   margin-left: 620px; /* Adiciona margem esquerda de 420 pixels */
 }
