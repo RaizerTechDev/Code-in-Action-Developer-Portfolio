@@ -198,7 +198,7 @@
   /* Estilos para informações de contato no rodapé */
   .footer__contact--info {
     margin-top: -2rem; /* Margem superior de -2rem */
-    margin-left: 45px; /* Margem esquerda de 45px para telas muito pequenas */
+    margin-left:60px; /* Margem esquerda de 45px para telas muito pequenas */
     font-size: 2.3rem; /* Tamanho da fonte de 2.7rem */
     flex-direction: column; /* Altera a direção do flexbox para empilhar os elementos verticalmente */
     align-items: center; /* Centraliza os elementos horizontalmente */
@@ -211,14 +211,14 @@
     padding-right: 2.5rem; /* Preenchimento à direita de 2.5rem */
     letter-spacing: 0rem; /* Espaçamento entre letras de 0rem */
     font-size: 1rem; /* Tamanho da fonte de 1rem */
-    margin-left: 0px; /* Margem esquerda de 45px para telas muito pequenas */
+    margin-left: 40px; /* Margem esquerda de 45px para telas muito pequenas */
   }
 
   /* Estilos para o título h2 */
   .top__page__footer h2 {
     width: 100%; /* Largura de 100% */
     margin-top: 4rem; /* Margem superior de 1rem */
-    margin-left: -100px; /* Remove a margem esquerda */
+    margin-left: -10px; /* Remove a margem esquerda */
     text-align: center; /* Centraliza o texto */
     font-size: 2rem; /* Tamanho da fonte de 2rem */
   }
@@ -338,9 +338,9 @@
 
   /* Estilos específicos para h2 do subtítulo da caixa de texto */
   h2.text-box__subtitle {
-    font-size: 2.7rem;
+    font-size: 3.7rem;
     letter-spacing: 0.05rem;
-    font-weight: 500;
+    font-weight:500;
     margin-bottom: 5rem;
   }
 
@@ -584,7 +584,7 @@
 }
 
 /* Estilos para dispositivos entre 769px e 1200px de largura de tela */
-@media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1285px) {
   /* Estilos para a seção principal */
   main {
     max-width: 85%;
