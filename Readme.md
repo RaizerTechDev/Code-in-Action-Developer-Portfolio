@@ -47,6 +47,9 @@
   - [x] Aplicado metodologia BEM CSS;
   - [x] Adicionado controle de envio dos dados com JS;
 
+### Preenchimento do Formulário:
+- O preenchimento do formulário funcionará da seguinte maneira: após o usuário completar e enviar o formulário, ele será redirecionado para o WhatsApp, onde uma mensagem pré-formatada com informações como nome, e-mail e a mensagem será exibida..
+
 ## Tecnologias
 
 <img src="https://media.giphy.com/media/iT138SodaACo9LImgi/giphy.gif" align="center" height="75" width="75"> Tecnologias utilizadas no projeto:

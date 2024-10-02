@@ -170,7 +170,7 @@
   }
 
   /* Estilos para o card do projeto na galeria de cartões */
-  .methodology-project__card:nth-of-type(n+6) {
+  .methodology-project__card:nth-of-type(n+7) {
     display: none;
     width: 30rem; /* Define a largura do cartão */
     margin-top: 10px; /* Margem superior de 10px */
@@ -272,7 +272,7 @@
   }
 
   /* Estilos para o input do formulário de contato */
-  .contact-form input {
+  #contactForm input {
     width: 100%; /* Largura de 100% */
     font-size: 16px;
     font-weight: bold; /* Define a fonte como negrito */
@@ -549,7 +549,7 @@
     font-weight: bold;
   }
 
-  .contact-form input {
+  #contactForm input, textarea {
     width: 100%;
     font-weight: bold;
     margin-left: 0;
@@ -584,7 +584,7 @@
 }
 
 /* Estilos para dispositivos entre 769px e 1200px de largura de tela */
-@media screen and (min-width: 769px) and (max-width: 1285px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   /* Estilos para a seção principal */
   main {
     max-width: 85%;
@@ -811,7 +811,7 @@
     font-weight: bold;
   }
 
-  .contact-form input {
+  #contactForm input {
     width: 100%;
     font-weight: bold;
     margin-left: 0;
@@ -842,5 +842,36 @@
 
   .icons a:hover {
     color: #8c8c8c;
+  }
+}
+
+/* Para telas médias (como MacBooks) */
+@media (min-width: 1280px) and (max-width: 1440px) {
+
+  .section__image {
+    width: 19.8rem; /* Assegura que a imagem preencha completamente o espaço do cartão */  
+  }
+  
+  .methodology-project__card {
+      margin: 10px 5px; /* Aproxima os cards, ajustando a margem */
+      background-color: #f9f9f9; /* Opção: adicione uma cor de fundo para distinguir os cards */
+      border-radius: 8px; /* Opção: adicione bordas arredondadas para um efeito estético */
+  }
+
+  .card-gallery__project--section {
+      display: flex;
+      flex-wrap: wrap; /* Permite que os cards se movam para a próxima linha se necessário */
+      justify-content: space-around; /* Distribui os cards uniformemente com espaço ao redor */
+  }
+
+  .methodology-project__card {
+      width: calc(30% - 10px); /* Ajusta a largura dos cards para ficarem mais próximos, 3 cards por linha */
+  } 
+}
+
+/* Para telas menores que 1280px */
+@media (max-width: 1279px) {
+  .methodology-project__card {
+      width: calc(45% - 10px); /* Para telas menores, dois cards por linha */
   }
 }

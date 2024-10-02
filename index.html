@@ -344,11 +344,7 @@
 	
 	<!-- Início da seção de rodapé -->
 	<footer class="footer-contact">
-		</div>
-
-		<!-- Início do Formulário de contato -->
-		<form class="footer__form">
-			<form autocomplete="off">
+		<div>	
 				<!-- Início do conteúdo do rodapé -->
 				<footer class="footer__content">
 					<!-- Texto informativo do rodapé -->
@@ -370,35 +366,18 @@
 						</a>
 					</div>
 
-					<!-- Campos do formulário -->
-					<div class="contact-form">
-						<input class="form__contact" type="text" name="name" id="name" placeholder="NAME" js_data_name
-							required />
-						<br />
-						<input class="form__contact" type="email" name="email" id="email" placeholder="EMAIL"
-							js_data_email required />
-						<br />
-						<input class="form__contact" type="text" name="message" id="message" placeholder="MESSAGE"
-							js_data_message required />
-						<br><br>
+				<section id="contact">
+                <form id="contactForm" autocomplete="off">
+                  
+                    <input class="form__contact" type="text" id="name" placeholder="NAME" name="name" required>
+              
+                    <input class="form__contact" type="email" id="email" placeholder="EMAIL" name="email" required>
+                    
+                    <input class="form__contact" id="message" placeholder="MESSAGE" name="message" required>
 
-						<!-- <input type="text" id="data" name="data" readonly>
-						<br/><br>
-  
-						<label for="hora">Hora:</label>
-						<input type="text" id="hora" name="hora" readonly><br><br>
-
-						<input type="datetime-local" id="datetime" name="date/time" js_data_datetime required />					
-						<br /><br /> -->
-
-						<!-- Botão de envio do formulário -->
-						<button class="footer__submit--button" type="submit" title="Click to send message"
-							js_data_form_button>
-							SEND MESSAGE
-						</button>
-			</form>
-
-			</div>
+                    <button class="footer__submit--button" type="submit" data_form_button title="Click to send message"  >SEND MESSAGE</button>
+                </form>
+            </section>
 
 			<div>
 				<!-- Linha divisória -->
@@ -414,7 +393,8 @@
 
 				<!-- TAGS ANCORA-->
 				<!-- Links para redes sociais -->
-				<nav class="icons">
+				 <div>
+					<nav class="icons">
 					<a class="git-profile" href="https://github.com/RafaRz76Dev/portfolio-rafarz76dev" target="_blank"
 						title="GitHub"><i class="fa-brands fa-github fa-lg"></i></a>
 
@@ -429,12 +409,9 @@
 						<i class="fa-brands fa-whatsapp fa-lg"></i>
 					</a>
 				</nav> <!-- Fim dos links de redes sociais -->
+			</div>				
 			</div>
-
-		</form> <!-- Fim do formulário -->
-		</form> <!-- Fim do formulário de contato -->
 	</footer> <!-- Fim da seção de rodapé -->
 
 </body>
-
 </html>
