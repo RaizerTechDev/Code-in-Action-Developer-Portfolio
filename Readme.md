@@ -60,7 +60,7 @@
 - Github               (Plataforma para hospedagem de código-fonte)
 - Visual Studio Code   (Editor de código-fonte)
 - Navegador web        (Interação com documentos HTML)
-
+- JavaScript (JS)      (Linguagem de Programação do Navegador")
 
 <br>
 
