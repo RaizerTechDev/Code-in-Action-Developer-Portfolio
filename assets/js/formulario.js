@@ -23,8 +23,10 @@ document
     };
 
     // Criar a URL do WhatsApp com os dados do formulário
-    const urlStr = `https://wa.me/5547999327137?text=Olá, estou retornando o Portfolio \n Meu Nome é: ${name} \n Meu E-mail: ${email}.
-    Mensagem: ${message}!`;
+    const urlStr = `https://wa.me/5547999327137?text=Olá, estou retornando o Portfolio:%0A
+        Meu Nome: ${name}%0A
+        E-mail: ${email}%0A
+        Mensagem: ${message}!`;
 
     // Adiciona o spinner ao botão
     addLoad();
@@ -35,7 +37,7 @@ document
       removedLoad();
 
       // Redirecionar o usuário para o link do WhatsApp
-      window.location.href = urlStr;
+     window.open(urlStr, "_blank");
     }, 2000); // 2 segundos de delay antes de redirecionar
   });
 
