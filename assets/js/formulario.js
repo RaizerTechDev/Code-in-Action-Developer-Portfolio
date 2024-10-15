@@ -71,4 +71,3 @@ const renderButton = {
   window.addEventListener("load", updateVisibleCards);
   window.addEventListener("resize", updateVisibleCards);
 })();
-
