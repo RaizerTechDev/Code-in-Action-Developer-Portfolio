@@ -23,7 +23,7 @@ document
     };
 
     // Criar a URL do WhatsApp com os dados do formulário
-    const urlStr = `https://wa.me/5547999327137?text=Olá, meu nome é ${name} e meu email é ${email}.
+    const urlStr = `https://wa.me/5547999327137?text=Olá, estou retornando o Portfolio \n Meu Nome é: ${name} \n Meu E-mail: ${email}.
     Mensagem: ${message}!`;
 
     // Adiciona o spinner ao botão
