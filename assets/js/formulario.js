@@ -31,14 +31,17 @@ document
     // Adiciona o spinner ao botão
     addLoad();
 
-    // Simula um delay para redirecionamento (apenas para fins visuais, você pode remover se não precisar)
     setTimeout(() => {
       // Remove o spinner e volta ao texto original
-      removedLoad();
-
-      // Redirecionar o usuário para o link do WhatsApp
-     window.open(urlStr, "_blank");
-    }, 2000); // 2 segundos de delay antes de redirecionar
+      buttonForm.innerHTML = renderButton.message;
+      if (window.innerWidth > 768) {
+        // Para telas maiores que 768px, abrir em uma nova aba
+        window.open(urlStr, "_blank");
+      } else {
+        // Para telas menores, abrir na mesma aba
+        window.open(urlStr, "_self");
+      }
+    }, 2000); 
   });
 
 // Renderização do botão de envio com a animação de carregamento
