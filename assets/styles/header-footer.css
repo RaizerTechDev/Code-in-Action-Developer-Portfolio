@@ -95,14 +95,13 @@ main {
 }
 
 .footer__description {
-  margin-top: 3rem; /* Adiciona margem superior de 3 vezes a altura da fonte atual */
-  margin-left: 180px; /* Adiciona margem esquerda de 180 pixels */
-  margin-bottom: 3rem; /* Adiciona margem inferior de 3 vezes a altura da fonte atual */
-  padding-right: 4rem; /* Adiciona preenchimento à direita de 4 vezes a altura da fonte atual */
-  letter-spacing: 0.55rem; /* Adiciona espaçamento entre caracteres de 0.55 vezes a altura da fonte atual */
-  line-height: 2; /* Define a altura da linha como o dobro da altura da fonte atual */
+  margin-top: 3rem; 
+  margin-left: 180px; 
+  margin-bottom: 3rem;
+  font-size: 28px;
   font-weight: bold; /* Define a espessura da fonte como negrito */
 }
+
 
 .top__page__footer h2 {
   width: 80%; /* Define a largura como 80% */

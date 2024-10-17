@@ -22,6 +22,8 @@
   margin-bottom: 3rem; /* Define a margem inferior */
   margin-left: 3rem; /* Define a margem esquerda */
   padding-right: 40rem; /* Define o preenchimento à direita */
+  font-size: 22px;
+  font-weight: bold; /* Define a espessura da fonte como negrito */
   letter-spacing: 0.4rem; /* Define o espaçamento entre as letras */
   line-height: 1.5; /* Define a altura da linha */
   color: #3b3; /* Define a cor do texto */

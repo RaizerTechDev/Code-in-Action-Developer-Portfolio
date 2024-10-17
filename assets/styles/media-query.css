@@ -25,8 +25,7 @@
   }
 
   /* Estilos para o subtítulo da caixa de texto */
-  .text-box__subtitle {
- 
+  .text-box__subtitle {     
     font-weight: 500; /* Define o peso da fonte como 500 */
     display: block; /* Mostra o elemento como bloco */
     margin-bottom: 10rem; /* Margem inferior de 10rem */
@@ -38,18 +37,17 @@
     font-size: 3rem; /* Tamanho da fonte de 3rem */
     letter-spacing: 0.05rem; /* Espaçamento entre as letras de 0.05rem */
     font-weight: 500; /* Define o peso da fonte como 500 */
-    margin-bottom: 21rem; /* Margem inferior de 21rem */
+    margin-bottom: 25rem; /* Margem inferior de 21rem */
   }
 
   /* Estilos para o desenvolvedor na caixa de texto */
   .text-box__developer {
-    padding-right: 1rem; /* Preenchimento à direita de 1rem */
-    font-size: 0.8rem; /* Tamanho da fonte de 0.8rem */
+    padding-right: 1rem; /* Preenchimento à direita de 1rem */    
+    font-size: 0.9;  
     letter-spacing: 0.2rem; /* Espaçamento entre as letras de 0.2rem */
-    margin-bottom: -15rem; /* Margem inferior de -15rem (pode ser ajustado) */
+    margin-bottom: -14rem; /* Margem inferior de -15rem (pode ser ajustado) */
     color: #3b3; /* Cor do texto verde escuro */
-    line-height: 0.7rem; /* Altura da linha de 0.7rem */
-    margin-top: 2rem; /* Margem superior de 2rem */
+    
   }
 
   /* /* Estilos para o círculo e o espiral na caixa de texto (oculto) */
@@ -60,11 +58,10 @@
 
   /* Estilos para a foto na caixa de texto */
   .text-box__photo {
-    margin-top: -6rem; /* Margem superior de -6rem (pode ser ajustado) */
-    margin-right: 50px; /* Margem direita de 50px */
-    margin-bottom: 2rem; /* Margem inferior de 2rem */
-    bottom: 2rem; /* Posiciona o elemento 2rem a partir da parte inferior */
-    width: 70%; /* Largura de 70% */
+    margin-top: -310px; /* Margem superior de -6rem (pode ser ajustado) */
+    margin-right: 30px; /* Margem direita de 50px */
+  
+    width: 80%; /* Largura de 70% */
     height: 100%; /* Altura de 100% */
   }
 
@@ -490,18 +487,17 @@
 
   /* Estilos para a descrição no rodapé */
   .footer__description {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-right: 2rem;
-    letter-spacing: 0;
-    font-size: 1.2rem;
-    margin-left: 40px;
-  }
+    margin-top: 3rem; 
+    margin-left: 40px; 
+    margin-bottom: 3rem;
+    font-size: 28px;
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+  } 
 
   /* Estilos para o título h2 */
   .top__page__footer h2 {
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 25px;
     margin-left: 0;
     text-align: center;
     font-size: 2.5rem;
@@ -553,11 +549,13 @@
     width: 100%;
     font-weight: bold;
     margin-left: 0;
+    font-size: 1.5rem;
   }
 
   .footer__submit--button {
     font-size: 1rem;
     font-weight: bold;
+    font-size: 1.5rem;
   }
 
   .footer__submit--button:hover {
@@ -752,15 +750,13 @@
     align-items: center;
   }
 
-  /* Estilos para a descrição no rodapé */
   .footer__description {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-right: 2rem;
-    letter-spacing: 0;
-    font-size: 1.2rem;
-    margin-left: 40px;
-  }
+    margin-top: 3rem; 
+    margin-left: 40px; 
+    margin-bottom: 3rem;
+    font-size: 28px;
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+  } 
 
   /* Estilos para o título h2 */
   .top__page__footer h2 {
@@ -815,10 +811,11 @@
     width: 100%;
     font-weight: bold;
     margin-left: 0;
+    font-size: 1.5rem;
   }
 
   .footer__submit--button {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
 
@@ -867,6 +864,21 @@
   .methodology-project__card {
       width: calc(30% - 10px); /* Ajusta a largura dos cards para ficarem mais próximos, 3 cards por linha */
   } 
+
+  .text-box__developer {
+    font-size: 1.5rem;
+  }
+  #contactForm input {
+    width: 100%;
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+
+  .footer__submit--button {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
 }
 
 /* Para telas menores que 1280px */
