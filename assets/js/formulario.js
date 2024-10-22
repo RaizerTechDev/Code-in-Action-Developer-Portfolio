@@ -23,10 +23,10 @@ document
     };
 
     // Criar a URL do WhatsApp com os dados do formulário
-    const urlStr = `https://wa.me/5547999327137?text=Olá, estou retornando o Portfolio:%0A
-        Meu Nome: ${name}%0A
-        E-mail: ${email}%0A
-        Mensagem: ${message}!`;
+    const urlStr = `https://wa.me/5547999327137?text=${encodeURIComponent(`Olá, estou retornando a API-Produtos:\n
+      Meu Nome: ${name}\n
+      E-mail: ${email}\n
+      Mensagem: ${message}!`)}`;
 
     // Adiciona o spinner ao botão
     addLoad();
@@ -41,7 +41,7 @@ document
         // Para telas menores, abrir na mesma aba
         window.open(urlStr, "_self");
       }
-    }, 2000); 
+    }, 2000);
   });
 
 // Renderização do botão de envio com a animação de carregamento
