@@ -881,7 +881,7 @@
   }
 }
 
-/* Para telas menores que 1280px */
+/* Para telas menores que 1279px */
 @media (max-width: 1279px) {
   .methodology-project__card {
       width: calc(45% - 10px); /* Para telas menores, dois cards por linha */
