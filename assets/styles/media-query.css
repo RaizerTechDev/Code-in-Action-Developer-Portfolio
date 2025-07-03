@@ -128,15 +128,21 @@
   }
 
   /* Estilos para o título do projeto na metodologia */
-  .methodology-project--title {
-    font-size: 2.3rem; /* Tamanho da fonte de 3.7rem */
+  .methodology--project_title {
+    font-size: 1.0rem; /* Tamanho da fonte de 3.7rem */
+    font-weight: bold;
   }
 
   /* Estilos para o subtitulo do projeto na metodologia */
-  .methodology-project--subtitle {
+  .methodology--project--subtitle {
     border-bottom: 0.25rem solid #4de29f; /* Borda inferior de 0.25rem sólida em verde */
     color: #f7f7f7; /* Cor do texto branca */
     font-weight: bold; /* Define a fonte como negrito */
+  }
+
+  .methodology--project_skills {
+    font-size: 0.8rem; /* Tamanho da fonte de 3.7rem */
+    font-weight: bold;
   }
 
   /* Estilos para o contato na metodologia */

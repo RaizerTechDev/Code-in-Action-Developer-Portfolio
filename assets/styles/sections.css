@@ -229,7 +229,7 @@
 
 .project-link--large {
   border-bottom: 2px solid hsl(153, 71%, 59%); /* Define uma borda na parte inferior */
-  font-size: 0.9rem; /* Define o tamanho da fonte */
+  font-size: 0.2rem; /* Define o tamanho da fonte */
 }
 
 .methodology__project--link .project-link--large {

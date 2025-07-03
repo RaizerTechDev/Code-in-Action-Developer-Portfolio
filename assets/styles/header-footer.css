@@ -6,12 +6,17 @@
 }
 
 /* Estilos globais para o corpo da página */
+
 body {
-  background-color: #0f1232; /* Define a cor de fundo */
-  margin: 0; /* Zera a margem */
-  padding: 0; /* Zera o preenchimento */
-  font-family: "DM Sans", sans-serif; /* Define a família de fontes */
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  background: linear-gradient(135deg, #141E30, #243B55, #141E30);
+
+  min-height: 100vh; /* Garante que o gradiente cubra toda a altura da tela */
 }
+
+
 
 /* Estilos principais para a seção principal da página */
 main {
